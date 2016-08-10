@@ -1,0 +1,143 @@
+body{
+    background: url("images/reach-the-sun.jpg") no-repeat center  fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+
+.navbar-inverse{
+    background-color: #1b6d85;
+    opacity: 0.9;
+    border: none;
+}
+
+.navbar .nav > li > a {
+
+    color:white;
+}
+
+.navbar {min-height:28px !important;}
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:6px !important;
+    padding-bottom:0 !important;
+    height: 32px;
+
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: white;
+}
+
+
+    @media (min-width: 768px) {
+        .navbar > .container .navbar-brand,
+        .navbar > .container-fluid .navbar-brand {
+            margin-left: -15px;
+        }
+    }
+    .navbar-toggle {
+        position: relative;
+        float: right;
+
+        margin-top: 8px;
+        margin-right: 15px;
+
+        background-color: transparent;
+        background-image: none;
+        border: 1px solid transparent;
+
+    }
+    .navbar-toggle:focus {
+        outline: 0;
+    }
+    .navbar-toggle .icon-bar {
+        display: block;
+        width: 15px;
+        height: 1px;
+
+    }
+
+    .uniqueIframe{
+
+
+        border: 1px solid black;
+
+
+
+    }
+
+    @media (max-width: 768px) {
+        .uniqueIframe{
+            display: none;
+        }
+        .iphone{
+            display: none;
+        }
+    }
+
+
+.navbar{
+    margin-bottom: 0px;
+
+    border-radius: 0px;
+
+}
+div{
+    text-align: center;
+}
+
+.logo {
+
+    width:90px;
+    height: 17px;
+    margin-top: 3px;
+}
+
+.borderTest{
+    border: 1px solid black;
+}
+
+.borderTestRed{
+    border: 1px solid red;
+}
+
+.iframeGrid{
+margin-top: 30px;
+}
+
+.iphone{
+    width: 150px;
+    height:270px;
+}
+
+.phoneDiv{
+    display: inline-block;
+    width:  200px;
+    max-height:270px;
+    position: relative;
+    z-index : 1;
+}
+
+.phoneDiv iframe{
+    position: absolute;
+    left: 45px;
+    top: 40px;
+    width:119px;
+    height:192px ;
+    z-index:2;
+}
+
+
+.weCreate{
+    margin-top: 8%;
+
+    font-weight: bold;
+    color: #1b6d85;
+    opacity: 0.9;
+}
+
+
+
