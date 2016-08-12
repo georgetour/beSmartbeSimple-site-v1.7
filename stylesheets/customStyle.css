@@ -5,7 +5,12 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     overflow-x:hidden;
+
+
 }
+
+
+
 
 .navbar-inverse{
     background-color: #1b6d85;
@@ -77,12 +82,13 @@ body{
 .futureWebSites{
 
     font-weight: bold;
-
+    color: #1b6d85;
     opacity: 0.9;
 }
 
 .textColor{
     color: #1b6d85;
+
 }
 
 .pictures{
@@ -114,8 +120,46 @@ body{
     margin-top: 50px;
 }
 
-.phonePortfolio {
+.aboutMain{
 
+    margin-top: 10px;
+    background-color:white;
+    padding:10px;
+    border-radius: 4%;
+    background-color: rgba(255,255,255, 0.88);
+}
+
+
+
+.aboutImg{
+    display: block;
+    margin: 0 auto;
+    width:180px;
+    margin-top: 10px;
+    border-radius: 4%;
+
+}
+
+.submitButton{
+
+    width:120px;
+    margin-top: 10px;
+    border-radius: 4%;
+    background-color: white;
+
+}
+
+
+
+@media (min-width:1200px ) {
+    .aboutMain{
+
+
+    }
+}
+
+
+.phonePortfolio {
     height:250px;
 }
 
@@ -148,6 +192,8 @@ body{
 .alignCenter{
     text-align: center;
 }
+
+
 
 
 
