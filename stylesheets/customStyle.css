@@ -120,6 +120,10 @@ body{
     margin-top: 50px;
 }
 
+.servicesRow{
+    margin-bottom: 120px;
+}
+
 .aboutMain{
 
     margin-top: 10px;
@@ -149,14 +153,6 @@ body{
 
 }
 
-
-
-@media (min-width:1200px ) {
-    .aboutMain{
-
-
-    }
-}
 
 
 .phonePortfolio {
@@ -192,10 +188,6 @@ body{
 .alignCenter{
     text-align: center;
 }
-
-
-
-
 
 
 .navbar-nav > li > a, .navbar-brand {
@@ -263,8 +255,85 @@ body{
     }
 
 
+.footerContainer{
+    position: absolute;
+    height:  20px;
+    bottom: 0;
+    border-top: 1px solid white;
+    width: 100%;
+    font-size: small;
+    opacity: 0.7;
+
+}
 
 
+
+.footerStatic{
+    position: static;
+    max-height:  20px;
+    bottom: 0;
+    border-top: 1px solid white;
+    font-size: small;
+    opacity: 0.7;
+    width: 100%;
+}
+
+
+.signature>a{
+
+    color: white;
+    text-decoration: none;
+}
+
+.signatureLogo{
+    width: 100px;
+    height:12px;
+    margin:0px 3px 0px 3px;
+}
+
+
+footer{
+
+    display: block;
+
+}
+.footerContact , .footerAbout{
+    cursor: pointer;
+}
+
+.copyrights, .copyrights >div{
+    display: inline-block;
+    text-align: right;
+    color: white;
+    font-size: 10px;
+
+}
+
+@media (max-width: 768px) {
+
+    .copyrights, .copyrights >div{
+        text-align: center;
+
+    }
+
+    .footerContainer{
+        margin-bottom: 14px;
+        text-align: center;
+
+    }
+
+    .footerStatic{
+        margin-bottom: 14px;
+        text-align: center;
+    }
+
+    .phonePortfolio{
+        display: none;
+    }
+
+
+
+}
 
 
 

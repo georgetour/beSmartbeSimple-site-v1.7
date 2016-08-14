@@ -22,6 +22,7 @@ $(document).ready(function () {
     $('#showAbout').hide(0);
     $('#showContactUs').hide(0);
 
+
     //Let's create a variable that will store the path with the
     //# symbol, including the # symbol
     var request = window.location.hash;
@@ -40,6 +41,7 @@ $(document).ready(function () {
         case '#contactUs':
             showOnly('#showContactUs','#showMainPage');
             break;
+        
 
         default:
             showOnly('#showMainPage');
@@ -51,8 +53,8 @@ $(document).ready(function () {
     //We are saying in first parameter  show the ID we want
     // and make hidden all others with second parameter
     function showHideAnimation(show,hide) {
-        $(show).animate({left: '0px'},350).show(500);
-        $(hide).animate({right: '250px'},450).hide(650);
+        $(show).show(400);
+        $(hide).hide(450);
     }
 
     //What we want to be shown when someones visits the link
@@ -67,10 +69,12 @@ $(document).ready(function () {
     $(services).on('click',function () {
         showHideAnimation('#showServices',onlyServices);
 
+
     });
 
     $(portfolio).on('click',function () {
         showHideAnimation('#showPortfolio',onlyPortfolio);
+
     });
 
     $(about).on('click',function () {
@@ -89,17 +93,14 @@ $(document).ready(function () {
 
     });
 
+    $('.footerAbout').on('click',function () {
+        $(about).click();
 
+    });
 
-
-
-
-
-
-
-
-
-
+    $('.footerContact').on('click',function () {
+        $(contactUs).click();
+    });
 
 
 //Hiding from html the error message
@@ -145,8 +146,6 @@ $(document).ready(function () {
             $('#error').fadeOut(3000);
             flag = 2;
         }
-
-
 
 
         else if(flag==0){

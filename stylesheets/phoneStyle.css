@@ -4,7 +4,7 @@ body{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-
+    overflow-x: hidden;
 }
 
 .navbar-inverse{
@@ -80,6 +80,12 @@ body{
     margin-left: -70px;
 }
 
+.pictures{
+    height: 210px;
+}
+
+
+
 @media (max-width: 768px) {
     .uniqueIframe{
         display: none;
@@ -98,7 +104,7 @@ body{
 
 .logo {
     margin: 6px 0px 0px 2px;
-    width:58px;
+    width:52px;
     height: 14px;
 
 }
