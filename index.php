@@ -4,10 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>beSmartbeSimple - We create smart and simple websites. </title>
+    <title>I create the future websites. </title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="javascript/bootstrap.min.js"></script>
-    <link type="text/css" rel="stylesheet" href="bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">   </script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="stylesheets/customStyle.css">
@@ -96,14 +94,14 @@
     <div class="container-fluid alignCenter ">
         <!--Column 1-->
         <div   class=" pictures everything col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
-            <p>Your site will look awesome in all devices.</p>
+            <p>Your site will look awesome in all devices and browsers.</p>
             <br>
             <div class=" "><img class="img-responsive picturesIcons" src="images/Responsive-Web-Design.png"></div>
         </div>
 
         <!--Column 2-->
         <div class="pictures col-lg-6  col-md-6 col-sm-12 col-xs-12  everything ">
-            <p>It will be ultra fast since we use Cloud Private Servers.</p>
+            <p>It will be ultra fast since I use Cloud Private Servers.</p>
             <br>
             <div ><img class="img-responsive picturesIcons" src="images/Cloud_computing.png"></div>
 
@@ -143,7 +141,7 @@
     <div class="container-fluid alignCenter ">
         <!--Column 1-->
         <div   class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
-            <p>Your visitors don't like complicated things.They want to know what your site does
+            <p class="imagesShadows">Your visitors don't like complicated things.They want to know what your site does
                 and find it easily.
             </p>
 
@@ -159,8 +157,8 @@
 
         </div>
         <!--Column 3-->
-        <div class=" col-lg-3 col-md-3 col-sm-12 col-xs-12  ">
-            <p>We keep everything simple as possible and with minor clicks people will navigate
+        <div class="imagesShadows col-lg-3 col-md-3 col-sm-12 col-xs-12  ">
+            <p>I keep everything simple as possible and with minor clicks people will navigate
                 and enjoy your site.
 
             </p>
@@ -295,7 +293,7 @@
             </p>
             <p>
                 I'am a web developer with many years
-                of experience in IT industry.
+                of experience in IT industry and I love making sites.
             </p>
 
             <p>
@@ -318,7 +316,7 @@
         <div   class="everything col-lg-3 col-md-3 col-sm-12 col-xs-12  "></div>
     </div>
     </div>
-    <?php include "footer.php" ?>
+    <?php include "footerStatic.php" ?>
 </div><!--End about container fluid-->
 
 
@@ -360,7 +358,7 @@
     </form>
 
     </div>
-    <?php include "footer.php" ?>
+    <?php include "footerStatic.php" ?>
 
 </div><!--End contact  container -->
 
