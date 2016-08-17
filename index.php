@@ -242,7 +242,7 @@
             <h4 class="bold">Wikipedia Project</h4>
             <p>A project for wikipedia that uses some special techniques
                 which make the site fast even with high quality images without reloading the page.
-                <a href="#">Find it here</a>
+                <a href="wikipediaProject/wikipediaProject.php">Find it here</a>
             </p>
             <img class="img-responsive imagesShadows phonePortfolio" src="images/portfolio/wikiTrimmed2.png">
         </div>
@@ -262,7 +262,7 @@
             <p>A blog for oldTimesClassic games .It contains unique games from all genres
                 that everyone should play  and people can suggest games.
 
-                <a href="#">Find it here</a>
+                <a href="http://www.oldtimesclassic.com">Find it here</a>
             </p>
             <img class="img-responsive imagesShadows phonePortfolio" src="images/portfolio/blogTrimmed2.png">
         </div>
@@ -276,11 +276,11 @@
         </div>
 
         <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   everything ">
-            <h4 class="bold">Dungeon and Dragons characters in campaign application</h4>
+            <h4 class="bold">Dungeons and Dragons characters in campaign application</h4>
             <p> This is an application for Dungeons and Dragons
                 that shows live characters in campaign with info.
                 Adding some features and soon will be published.
-
+            <a href="https://github.com/georgetour/D-and-D-characters-in-campaign">Source Code Here</a>
 
             </p>
             <img class="img-responsive imagesShadows phonePortfolio" src="images/portfolio/d_and_app_trimmed.png">
