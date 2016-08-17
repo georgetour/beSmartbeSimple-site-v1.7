@@ -152,6 +152,12 @@ body{
     background-color: white;
 
 }
+.awards{
+    box-shadow:-4px 15px 15px  black;
+    border-radius: 30px;
+    background-color: black;
+    background-color: rgba(0,0,0, 0.9);
+}
 
 
 

@@ -6,19 +6,22 @@ $(document).ready(function () {
     var portfolio = $('#portfolio');
     var about = $('#about');
     var contactUs = $('#contactUs');
+    var awards =$('#awards');
 
     //Storing to variables the ids that gonna be removed
     //show only what we want to appear
-    var onlyMainPage = '#showServices,#showPortfolio,#showAbout,#showContactUs';
-    var onlyServices = '#showMainPage,#showPortfolio,#showAbout,#showContactUs';
-    var onlyPortfolio = '#showMainPage,#showServices,#showAbout,#showContactUs';
-    var onlyAbout = '#showMainPage,#showPortfolio,#showServices,#showContactUs';
-    var onlyContactUs = '#showMainPage,#showPortfolio,#showAbout,#showServices';
+    var onlyMainPage = '#showServices,#showPortfolio,#showAwards,#showAbout,#showContactUs';
+    var onlyServices = '#showMainPage,#showPortfolio,#showAwards,#showAbout,#showContactUs';
+    var onlyPortfolio = '#showMainPage,#showServices,#showAwards,#showAbout,#showContactUs';
+    var onlyAbout = '#showMainPage,#showPortfolio,#showAwards,#showServices,#showContactUs';
+    var onlyContactUs = '#showMainPage,#showPortfolio,#showAwards,#showAbout,#showServices';
+    var onlyAwards = '#showMainPage,#showServices,#showPortfolio,#showAbout,#showContactUs';
 
 
     //Hide staff for starting page
     $('#showServices').hide(0);
     $('#showPortfolio').hide(0);
+    $('#showAwards').hide(0);
     $('#showAbout').hide(0);
     $('#showContactUs').hide(0);
 
@@ -27,13 +30,16 @@ $(document).ready(function () {
     //# symbol, including the # symbol
     var request = window.location.hash;
 
-    //According to path we will show only the path
+    //According to path we will show only the first parameter and hide the second one
     switch(request){
         case '#services':
             showOnly('#showServices','#showMainPage');
             break;
         case '#portfolio':
             showOnly('#showPortfolio','#showMainPage');
+            break;
+        case '#awards':
+            showOnly('#showAwards','#showMainPage');
             break;
         case '#about':
             showOnly('#showAbout','#showMainPage');
@@ -76,6 +82,12 @@ $(document).ready(function () {
         showHideAnimation('#showPortfolio',onlyPortfolio);
 
     });
+
+    $(awards).on('click',function () {
+        showHideAnimation('#showAwards',onlyAwards);
+
+    });
+
 
     $(about).on('click',function () {
         showHideAnimation('#showAbout',onlyAbout)

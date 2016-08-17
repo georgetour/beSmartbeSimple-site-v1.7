@@ -31,6 +31,7 @@
             <ul class=" nav navbar-nav">
                 <li><a id="services" href="#services">Services</a></li>
                 <li><a id="portfolio" href="#portfolio">Portfolio</a></li>
+                <li><a id="awards" href="#awards">Awards</a></li>
                 <li><a id="about" href="#about">About</a></li>
                 <li><a id="contactUs" href="#contactUs">Contact</a></li>
             </ul>
