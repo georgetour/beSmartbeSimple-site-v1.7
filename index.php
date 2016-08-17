@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>I create the future websites. </title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">   </script>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">   </script>
+    <link  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="stylesheets/customStyle.css">
     <script src="javascript/indexJS.js" ></script>
 </head>
@@ -32,6 +32,7 @@
             <ul class=" nav navbar-nav">
                     <li><a id="services" href="#services">Services</a></li>
                     <li><a id="portfolio" href="#portfolio">Portfolio</a></li>
+                    <li><a id="portfolio" href="#awards">Awards</a></li>
                     <li><a id="about" href="#about">About</a></li>
                     <li><a id="contactUs" href="#contactUs">Contact</a></li>
                 </ul>
@@ -96,7 +97,7 @@
         <div   class=" pictures everything col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
             <p>Your site will look awesome in all devices and browsers.</p>
             <br>
-            <div class=" "><img class="img-responsive picturesIcons" src="images/Responsive-Web-Design.png"></div>
+            <div class=" "><img class="img-responsive picturesIcons" src="images/Responsive-Web-Design-compressor.png"></div>
         </div>
 
         <!--Column 2-->
@@ -111,7 +112,7 @@
             <p>Search engines will find it.<br>
                 People will find it.
             </p>
-            <div ><img class="img-responsive picturesIcons2" src="images/Search_engine_optimization_copy.png"></div>
+            <div ><img class="img-responsive picturesIcons2" src="images/Search_engine_optimization_copy-compressor.png"></div>
         </div>
     </div>
     <!--End second row-->
@@ -197,7 +198,7 @@
     <!--Second row-->
     <div class="row alignCenter ">
         <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12  ">
-            <img class="img-responsive borderPortfolio" src="images/portfolio/wikiProject.jpg">
+            <img class="img-responsive borderPortfolio" src="images/portfolio/wikiProject-compressor.jpg">
         </div>
 
         <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12  ">
@@ -216,7 +217,7 @@
     <!--Third Row -->
     <div  class="imageRow row alignCenter ">
         <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   everything ">
-            <img class="img-responsive borderPortfolio" src="images/portfolio/blogProject.jpg">
+            <img class="img-responsive borderPortfolio" src="images/portfolio/blogProject-compressor.jpg">
         </div>
 
         <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   everything ">
@@ -234,7 +235,7 @@
     <!--Forth Row-->
     <div style="margin-bottom:10px " class="imageRow row alignCenter ">
         <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   everything ">
-            <img class="img-responsive borderPortfolio" src="images/portfolio/d_and_d_characters_in_campaign.jpg">
+            <img class="img-responsive borderPortfolio" src="images/portfolio/d_and_d_characters_in_campaign-compressor.jpg">
         </div>
 
         <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   everything ">
@@ -280,14 +281,14 @@
     <div class="container-fluid aboutMain alignCenter">
         <div   class=" col-lg-3 col-md-3 col-sm-12 col-xs-12  ">
             <figure class="aboutImg">
-                <img class="aboutImg img-responsive alignCenter" src="images/about/me_smiling.jpg" alt="George Tourtsinakis developer">
+                <img class="aboutImg img-responsive alignCenter" src="images/about/me_smiling-compressor.jpg" alt="George Tourtsinakis developer">
                 <figcaption class="  alignCenter">George Tourtsinakis
                     <br>
                     Developer
                 </figcaption>
             </figure>
         </div>
-        <div style="margin-top: 10px" class="col-lg-6  col-md-6 col-sm-12 col-xs-12   everything ">
+        <div style="margin-top: 10px" class="col-lg-6  col-md-6 col-sm-12 col-xs-12 ">
             <p>
                 Hi,I'm George Tourtsinakis .
             </p>
