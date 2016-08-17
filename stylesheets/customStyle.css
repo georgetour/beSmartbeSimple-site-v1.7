@@ -276,8 +276,19 @@ body{
     font-size: small;
     opacity: 0.7;
     width: 100%;
+    margin-top: 10px;
 }
 
+.footerPortfolio{
+    position: static;
+    max-height:  20px;
+    bottom: 0;
+    border-top: 1px solid white;
+    font-size: small;
+    opacity: 0.7;
+    width: 100%;
+    margin-top: 10px;
+}
 
 .signature>a{
 
@@ -335,6 +346,17 @@ footer{
 
 }
 
+@media (min-width: 768px){
+    .footerStatic{
+        position: absolute;
+        max-height:  20px;
+        bottom: 0;
+        border-top: 1px solid white;
+        font-size: small;
+        opacity: 0.7;
+        width: 100%;
+    }
+}
 
 
 
