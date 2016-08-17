@@ -168,7 +168,7 @@
     <!--End second row-->
     </div>
     <!--footer-->
-    <?php include "footerStatic.php" ?>
+    <?php include "footerPortfolio.php" ?>
 
 </div><!--End services page -->
 
