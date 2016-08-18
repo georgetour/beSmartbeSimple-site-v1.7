@@ -2,10 +2,10 @@
 
     <div class="col-lg-12 col-md-12 col-xs-12  col-sm-12 ">
         <div class="col-lg-3 col-md-3 col-xs-12  col-sm-12   ">
-            <div class="signature col-lg-3 col-md-3 col-xs-6 col-sm-6 ">
+            <div class="signature col-lg-3 col-md-3 col-xs-6 col-sm-6 alignCenter">
                 <a href="#about" id="footerAbout" class="footerAbout ">About</a>
             </div>
-            <div class="signature col-lg-3 col-md-3  col-xs-6 col-sm-6 ">
+            <div class="signature col-lg-3 col-md-3  col-xs-6 col-sm-6 alignCenter">
                 <a href="#contactUs" id="footerContact" class="footerContact">Contact</a>
             </div>
 
