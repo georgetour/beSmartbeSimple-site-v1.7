@@ -395,7 +395,7 @@
     </form>
 
     </div>
-    <?php include "footerStatic.php" ?>
+    <?php include "footerAboutMe.php" ?>
 
 </div><!--End contact  container -->
 
