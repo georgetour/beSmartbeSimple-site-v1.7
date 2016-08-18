@@ -353,7 +353,7 @@
         <div   class="everything col-lg-3 col-md-3 col-sm-12 col-xs-12  "></div>
     </div>
     </div>
-    <?php include "footerStatic.php" ?>
+    <?php include "footerAboutMe.php" ?>
 </div><!--End about container fluid-->
 
 
