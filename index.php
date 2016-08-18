@@ -29,7 +29,7 @@
        </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class=" nav navbar-nav">
+            <ul class=" nav navbar-nav ">
                     <li><a id="services" href="#services">Services</a></li>
                     <li><a id="portfolio" href="#portfolio">Portfolio</a></li>
                     <li><a id="awards" href="#awards">Awards</a></li>
@@ -96,7 +96,7 @@
         <!--Column 1-->
         <div   class=" pictures everything col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
             <p>Your site will look awesome in all devices and browsers.</p>
-            <br>
+
             <div class=" "><img class="img-responsive picturesIcons" src="images/Responsive-Web-Design-compressor.png"></div>
         </div>
 
@@ -141,28 +141,27 @@
     <!--Second row-->
     <div class="container-fluid alignCenter ">
         <!--Column 1-->
-        <div   class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
-            <p class="imagesShadows">Your visitors don't like complicated things.They want to know what your site does
-                and find it easily.
-            </p>
+        <div   class="col-lg-2 col-md-2 col-sm-12 col-xs-12 ">
 
         </div>
 
         <!--Column 2-->
-        <div class=" col-lg-6  col-md-6 col-sm-12 col-xs-12   ">
-            <h2 class="bold">Simple means Beautiful</h2>
-            <h2 class="bold">Simple means Powerful</h2>
-            <h2 class="bold">Simple means fast</h2>
+        <div class=" col-lg-8  col-md-8 col-sm-12 col-xs-12   ">
+            <h2 class="bold">Simple means Beautiful,Powerful and Fast.</h2>
+            <p class="imagesShadows servicesSimple col-lg-6  col-md-6 col-sm-12 col-xs-12">Your visitors don't like complicated things.They want to know what your site does
+                and find it easily.
+            </p>
+            <p class=" servicesSimple imagesShadows col-lg-6  col-md-6 col-sm-12 col-xs-12 ">I keep everything simple as possible and with minor clicks people will navigate
+                and enjoy your site.
+
+            </p>
             <br>
 
 
         </div>
         <!--Column 3-->
-        <div class="imagesShadows col-lg-3 col-md-3 col-sm-12 col-xs-12  ">
-            <p>I keep everything simple as possible and with minor clicks people will navigate
-                and enjoy your site.
+        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12  ">
 
-            </p>
         </div>
     </div>
     <!--End second row-->
@@ -331,13 +330,13 @@
             </p>
             <p>
                 I'am a web developer with many years
-                of experience in IT industry and I love making sites.
+                of experience in IT industry.
             </p>
 
             <p>
                 I believe internet sites must be smart and simple.That's why I have chosen
                 this domain name.Smart means that sites must look nice in all devices,
-                easily customizable ,scalable and finally
+                easily customizable,scalable and finally
                 search engine optimized.
 
             </p>
@@ -372,7 +371,7 @@
 
         <div >
             <label  class=" ">Subject : </label>
-            <input id="gameTitle" class="form-control" pattern=".{5,}" placeholder="Your sites rock(min 5 chars)" type="text" name="emailSubject"maxlength="25" required>
+            <input id="gameTitle" class="form-control" pattern=".{5,}" placeholder="Minimum 5 characters" type="text" name="emailSubject"maxlength="25" required>
         </div>
 
         <div class=" formRow  ">

@@ -114,6 +114,11 @@ $(document).ready(function () {
         $(contactUs).click();
     });
 
+    //Let's collapse the bootstrap navbar in mobile when we click a link
+   $('.nav a').click(function(){
+        $('.navbar-collapse').collapse('hide');
+   });
+
 
 //Hiding from html the error message
     $('#error').hide();

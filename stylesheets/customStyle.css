@@ -1,10 +1,18 @@
+html{
+    height:100%;
+    min-height:100%;
+}
+
+
 body{
-    background: url("../images/reach-the-sun-compressor.jpg") no-repeat center  fixed;
+
+    background: url("../images/reach-the-sun-compressor.jpg") no-repeat center center  fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     overflow-x:hidden;
+
 
 
 }
@@ -91,9 +99,11 @@ body{
 
 }
 
-.pictures{
-    height: 250px;
+.servicesSimple{
+    height:70px;
 }
+
+
 
 .zeroPadding{
     padding:0;
@@ -256,7 +266,9 @@ body{
             height: 17px;
 
         }
-
+        .servicesSimple{
+            height:100px;
+        }
 
     }
 
@@ -277,7 +289,6 @@ body{
 .footerStatic{
     position: static;
     max-height:  20px;
-    bottom: 0;
     border-top: 1px solid white;
     font-size: small;
     opacity: 0.7;
@@ -289,12 +300,12 @@ body{
 .footerPortfolio{
     position: static;
     max-height:  20px;
-    bottom: 0;
     border-top: 1px solid white;
     font-size: small;
     opacity: 0.7;
     width: 100%;
     margin-top: 10px;
+    line-height: 1;
 }
 
 .signature>a{
