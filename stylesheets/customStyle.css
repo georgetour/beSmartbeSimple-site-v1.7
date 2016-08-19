@@ -134,6 +134,8 @@ body{
     margin-bottom: 120px;
 }
 
+
+
 .aboutMain{
 
     margin-top: 10px;
@@ -268,6 +270,9 @@ body{
         }
         .servicesSimple{
             height:100px;
+        }
+        .awardsTitle{
+            font-size: 20px;
         }
 
     }

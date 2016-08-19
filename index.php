@@ -183,7 +183,7 @@
 
             <!--Column 2-->
             <div class="col-lg-6  col-md-6 col-sm-12 col-xs-12 alignCenter ">
-                <h2 class="bold">Best Photoshop editing by IEK AKMI</h2>
+                <h2 class="bold awardsTitle">Best Photoshop editing by IEK AKMI</h2>
 
             </div>
             <!--Column 3-->
@@ -286,6 +286,29 @@
         </div>
 
     </div><!--Forth Row End-->
+    <!--Forth Row-->
+    <div style="margin-bottom:10px " class="imageRow row alignCenter ">
+        <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   everything ">
+            <img class="img-responsive borderPortfolio" src="images/portfolio/cinemagic.jpg">
+        </div>
+
+        <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   everything ">
+            <h4 class="bold">www.cinemagic.gr</h4>
+            <p> This was an older project for a Greek company that sold and made smart home installations
+                or home theaters.
+            </p>
+            <p>
+                It had more than 1000 unique visitors per month and high security transactions
+                through a Paypal verified system.
+            </p>
+
+        </div>
+
+    </div><!--Forth Row End-->
+
+
+
+
 </div>
     <?php include "footerPortfolio.php" ?>
 
