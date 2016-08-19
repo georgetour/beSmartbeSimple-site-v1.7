@@ -310,7 +310,7 @@
     or clicking the linking below at footer.
     </div>
 
-    <?php include "footerStatic.php" ?>
+    <?php include "footerPortfolio.php" ?>
 
 </div><!--End container portfolio page -->
 
@@ -381,7 +381,7 @@
 
 <!--Contact Page-->
 <div id="showContactUs" class=" textColor">
-    <div class="container-fluid">
+    <div class="container-fluid contactMe">
     <h2>Contact Me</h2>
     <p >
         If you would like to contact me for a project or anything I can do for you send me an email at <cite>george@besmartbesimple.com</cite>
@@ -401,19 +401,15 @@
             <input id="email" class="form-control"  placeholder="Your email" type="email" name="email" required>
         </div>
 
-
-
         <div class="formRow">
             <label  class="des ">Message :</label>
             <textarea id="description"  class="form-control "   type="text" rows="5" name="description" required></textarea>
 
         </div>
 
-
         <div class="alignCenter"><input name="makeContact" class="submitButton" type="submit" value="Send message!"></div>
         <div id="error">Error to display</div>
-
-
+        
     </form>
 
     </div>
