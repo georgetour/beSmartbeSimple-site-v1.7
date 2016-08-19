@@ -139,7 +139,7 @@
     <!--End first row-->
 
     <!--Second row-->
-    <div class="container-fluid alignCenter ">
+    <div class="container-fluid alignCenter servicesRow ">
         <!--Column 1-->
         <div   class="col-lg-2 col-md-2 col-sm-12 col-xs-12 ">
 
@@ -167,7 +167,7 @@
     <!--End second row-->
     </div>
     <!--footer-->
-    <?php include "footerPortfolio.php" ?>
+    <?php include "footerStatic.php" ?>
 
 </div><!--End services page -->
 
@@ -305,13 +305,12 @@
         </div>
 
     </div><!--Forth Row End-->
+</div><!--End portfolio container main-->
+    <div style="color: white" class="alignCenter">Also you can check source code and projects <a href="https://github.com/georgetour">here in Github </a>
+    or clicking the linking below at footer.
+    </div>
 
-
-
-
-</div>
     <?php include "footerPortfolio.php" ?>
-
 
 </div><!--End container portfolio page -->
 
