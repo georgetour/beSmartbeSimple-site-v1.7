@@ -169,6 +169,7 @@ body{
     border-radius: 30px;
     background-color: black;
     background-color: rgba(0,0,0, 0.9);
+    margin-bottom: 300px;
 }
 
 
@@ -275,6 +276,7 @@ body{
             font-size: 20px;
         }
 
+
     }
 
 
@@ -313,6 +315,18 @@ body{
     margin-top: 10px;
     line-height: 1;
 }
+
+.footerAwards{
+    position: static;
+    max-height:  20px;
+    border-top: 1px solid white;
+    font-size: small;
+    opacity: 0.7;
+    width: 100%;
+    margin-top: 10px;
+    line-height: 1;
+}
+
 
 .footerAboutMe{
     position: absolute;
@@ -407,3 +421,15 @@ footer{
     }
 }
 
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .footerStatic{
+        position: absolute;
+        max-height:  20px;
+        bottom: 0;
+        border-top: 1px solid white;
+        font-size: small;
+        opacity: 0.7;
+        width: 100%;
+    }
+}

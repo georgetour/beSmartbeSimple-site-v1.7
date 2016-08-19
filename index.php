@@ -310,7 +310,7 @@
     or clicking the linking below at footer.
     </div>
 
-    <?php include "footerPortfolio.php" ?>
+    <?php include "footerStatic.php" ?>
 
 </div><!--End container portfolio page -->
 
