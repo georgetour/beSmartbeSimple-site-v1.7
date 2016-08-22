@@ -4,12 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>I create the future websites. </title>
+    <title>beSmartbeSimple - Web Design and Development  </title>
+    <meta name="description" content="I built smart websites with beautiful simple design.Contact me for a free quote." >
+    <meta name="keywords" content="web design,web designer,web developer,web page design,web design services,smart website,simple designs,creative web design,affordable web design">
+    <meta name="author" content="George Tourtsinakis">
     <script  src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">   </script>
     <link  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link type="text/css" rel="stylesheet" href="stylesheets/customStyle.css">
-    <script src="javascript/indexJS.js" ></script>
+    <link type="text/css" rel="stylesheet" href="stylesheets/customCSSminified.css">
+    <script src="javascript/indexCompressed.js" ></script>
 </head>
 
 
@@ -33,7 +36,7 @@
                     <li><a id="services" href="#services">Services</a></li>
                     <li><a id="portfolio" href="#portfolio">Portfolio</a></li>
                     <li><a id="awards" href="#awards">Awards</a></li>
-                    <li><a id="about" href="#about">About</a></li>
+                    <li><a id="about" href="#about">About Me</a></li>
                     <li><a id="contactUs" href="#contactUs">Contact</a></li>
                 </ul>
         </div>
@@ -49,11 +52,12 @@
 <div class="iframeGrid alignCenter "><!--Grid for centering the iframe -->
 
     <div   class="everything col-lg-3 col-md-3 col-sm-12 col-xs-12 weCreate alignCenter">
-    <h1  class="weCreate">I create the future web sites.</h1>
+    <h1  class="weCreate">I create smart websites with beautiful simple <br>design .</h1>
+        <h4><a class="learnMore" href="#services"><cite>Learn More </a></h4>
     </div>
     <div class="col-lg-6  col-md-6 col-sm-12  alignCenter everything">
         <div class="phoneDiv ">
-        <img class="iphone" src="images/iphonewithImage2.png">
+        <img class="iphone" src="images/iphoneTrimmed3.png">
 
         </div>
     </div>
@@ -80,7 +84,8 @@
 
         <!--Column 2-->
         <div class="col-lg-6  col-md-6 col-sm-12 col-xs-12  everything ">
-            <h3 class="bold">I create the future web sites.</h3>
+            <h3 class="bold">I can make small to medium websites for you or your company.
+            </h3>
 
             <h4 class=" bold">Smart</h4>
         </div>
@@ -197,7 +202,7 @@
             <div   class=" col-lg-3 col-md-3 col-sm-12 col-xs-12  ">
 
             </div>
-            <div style="margin-top: 10px" class="col-lg-6  col-md-6 col-sm-12 col-xs-12 ">
+            <div style="margin-top: 10px" class="col-lg-6  col-md-6 col-sm-12 col-xs-12 alignCenter">
                <img class="img-responsive" src="images/awards/awardsPhotoshopEditing.jpg">
             </div>
             <div   class="everything col-lg-3 col-md-3 col-sm-12 col-xs-12  "></div>
@@ -289,7 +294,7 @@
     <!--Forth Row-->
     <div style="margin-bottom:10px " class="imageRow row alignCenter ">
         <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   everything ">
-            <img class="img-responsive borderPortfolio" src="images/portfolio/cinemagic.jpg">
+            <img class="img-responsive borderPortfolio" src="images/portfolio/cinemagic-compressor.jpg">
         </div>
 
         <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   everything ">
@@ -326,7 +331,7 @@
 
         <!--Column 2-->
         <div class="col-lg-6  col-md-6 col-sm-12 col-xs-12 alignCenter ">
-            <h2 class="bold">All websites must be smart and simple.</h2>
+            <h3 class="bold">Hi,I'm George Tourtsinakis from Greece.</h3>
 
         </div>
         <!--Column 3-->
@@ -342,21 +347,19 @@
                 <img class="aboutImg img-responsive alignCenter" src="images/about/me_smiling-compressor.jpg" alt="George Tourtsinakis developer">
                 <figcaption class="  alignCenter">George Tourtsinakis
                     <br>
-                    Developer
+                    Wed Designer & Developer
                 </figcaption>
             </figure>
         </div>
         <div style="margin-top: 10px" class="col-lg-6  col-md-6 col-sm-12 col-xs-12 ">
+
             <p>
-                Hi,I'm George Tourtsinakis .
-            </p>
-            <p>
-                I'am a web developer with many years
+                I' am a web designer and developer with many years
                 of experience in IT industry.
             </p>
 
             <p>
-                I believe internet sites must be smart and simple.That's why I have chosen
+                I believe websites must be smart and simple.That's why I have chosen
                 this domain name.Smart means that sites must look nice in all devices,
                 easily customizable,scalable and finally
                 search engine optimized.
