@@ -3,13 +3,13 @@
     <div class="col-lg-12 col-md-12 col-xs-12  col-sm-12 ">
         <div class="col-lg-3 col-md-3 col-xs-12  col-sm-12   ">
             <div class="signature col-lg-3 col-md-3 col-xs-4 col-sm-4 alignCenter">
-                <a href="#about" id="footerAbout" class="footerAbout ">About</a>
+                <a href="about.php" id="footerAbout" class="footerAbout ">About</a>
             </div>
             <div class="signature col-lg-3 col-md-3  col-xs-4 col-sm-4 alignCenter">
-                <a href="#contactUs" id="footerContact" class="footerContact">Contact</a>
+                <a href="contact.php" id="footerContact" class="footerContact">Contact</a>
             </div>
             <div class="signature col-lg-3 col-md-3  col-xs-4 col-sm-4 alignCenter">
-                <a href="https://github.com/georgetour" >Github</a>
+                <a href="https://github.com/georgetour" target="_blank">Github</a>
             </div>
 
 

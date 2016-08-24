@@ -17,13 +17,7 @@ $(document).ready(function () {
     var onlyContactUs = '#showMainPage,#showPortfolio,#showAwards,#showAbout,#showServices';
     var onlyAwards = '#showMainPage,#showServices,#showPortfolio,#showAbout,#showContactUs';
 
-
-    //Hide staff for starting page
-    $('#showServices').hide(0);
-    $('#showPortfolio').hide(0);
-    $('#showAwards').hide(0);
-    $('#showAbout').hide(0);
-    $('#showContactUs').hide(0);
+    
 
 
     //Let's create a variable that will store the path with the

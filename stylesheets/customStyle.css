@@ -12,11 +12,7 @@ body{
     -o-background-size: cover;
     overflow-x:hidden;
 
-
-
 }
-
-
 
 
 .navbar-inverse{
@@ -56,6 +52,68 @@ body{
     margin-top: 30px;
 }
 
+.fadeIn1{
+    -ms-transform:translateZ(0);
+    -webkit-transform:translateZ(0);
+    -moz-transform:translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation-delay:2s;
+    animation:fadein 3s;
+
+
+}
+.fadeIn2{
+    -ms-transform:translateZ(0);
+    -webkit-transform:translateZ(0);
+    -moz-transform:translateZ(0);
+    transform: translateZ(0);
+
+    -webkit-animation-delay:5s;
+    animation:fadein 9s;
+
+
+}
+
+.fadeIn3{
+    -ms-transform:translateZ(0);
+    -webkit-transform:translateZ(0);
+    -moz-transform:translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation-delay:7s;
+    animation:fadein 10s;
+
+}
+
+.fadeIn4{
+    -ms-transform:translateZ(0);
+    -webkit-transform:translateZ(0);
+    -moz-transform:translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation-delay:8s;
+    animation:fadein 12s;
+
+
+}
+
+
+
+@keyframes fadein {
+    from {
+
+        color: white;
+
+    }
+    to {
+
+        color: #1b6d85;
+
+    }
+}
+
+
+
+
+
 .iphone{
     width: 150px;
     height:270px;
@@ -68,6 +126,16 @@ body{
     position: relative;
     z-index : 1;
 }
+
+.centeredPhoneText{
+    position: absolute;
+    display: inline-block;
+    top: 80px;
+    left: 55px;
+    font-size: 11px;
+    width:100px;
+}
+
 
 .phoneDiv iframe{
     position: absolute;
@@ -83,7 +151,7 @@ body{
     margin-top: 8%;
     font-weight: bold;
     color: #1b6d85;
-    opacity: 0.9;
+
 }
 
 .futureWebSites{
@@ -166,7 +234,7 @@ body{
 }
 .awards{
     box-shadow:-4px 15px 15px  black;
-    border-radius: 30px;
+    border-radius: 10px;
     background-color: black;
     background-color: rgba(0,0,0, 0.9);
     margin-bottom: 300px;
@@ -348,6 +416,12 @@ body{
 h4>.learnMore{
     color: #1b6d85;
     text-decoration: none;
+}
+
+div>.learnMore{
+    color: #1b6d85;
+    text-decoration: none;
+    font-size: 8px;
 }
 
 .signatureLogo{
