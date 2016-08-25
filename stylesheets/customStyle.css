@@ -68,8 +68,8 @@ body{
     -moz-transform:translateZ(0);
     transform: translateZ(0);
 
-    -webkit-animation-delay:5s;
-    animation:fadein 9s;
+    -webkit-animation-delay:4s;
+    animation:fadein 6s;
 
 
 }
@@ -79,8 +79,8 @@ body{
     -webkit-transform:translateZ(0);
     -moz-transform:translateZ(0);
     transform: translateZ(0);
-    -webkit-animation-delay:7s;
-    animation:fadein 10s;
+    -webkit-animation-delay:6s;
+    animation:fadein 8s;
 
 }
 
@@ -89,12 +89,21 @@ body{
     -webkit-transform:translateZ(0);
     -moz-transform:translateZ(0);
     transform: translateZ(0);
-    -webkit-animation-delay:8s;
-    animation:fadein 12s;
+    -webkit-animation-delay:6s;
+    animation:fadein 9s;
 
 
 }
 
+#showServices{
+    position: relative;
+    left: 110%;
+
+}
+
+.servicesTags{
+font-size: 25px;
+}
 
 
 @keyframes fadein {
@@ -109,7 +118,6 @@ body{
 
     }
 }
-
 
 
 
@@ -171,7 +179,10 @@ body{
     padding: 3px;
 }
 
-
+.yourSiteWillBe{
+    margin-bottom:10px ;
+    margin-top: 20px;
+}
 
 .zeroPadding{
     padding:0;
@@ -180,7 +191,8 @@ body{
 
 .picturesIcons{
     margin: 0 auto;
-    max-height:170px;
+height: 170px;
+
 }
 
 .picturesIcons2{
@@ -188,6 +200,14 @@ body{
     max-height:150px;
 
 }
+
+.outsideHeight{
+    height: 410px;
+    padding: 10px;
+
+}
+
+
 
 .portfolioPictures{
     max-height:450px;
@@ -198,8 +218,16 @@ body{
     margin-top: 50px;
 }
 
+.imageRowServices{
+    margin-top: 20px;
+    background-color: rgba(255,255,255, 0.70);
+
+
+}
+
 .servicesRow{
     margin-bottom: 100px;
+    height:100%;
 }
 
 
@@ -323,13 +351,20 @@ body{
 
     }
 
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
         .uniqueIframe{
             display: none;
         }
         .iphone{
             display: none;
         }
+        .servicesTags{
+            display: block;
+        }
+        .servicesTags > span{
+            display: none;
+        }
+
 
         .logo {
             margin-top: 10px;
@@ -343,9 +378,11 @@ body{
         .awardsTitle{
             font-size: 20px;
         }
-
-
+    .yourSiteWillBe{
+        margin-bottom:0px ;
     }
+
+}
 
 
 .footerContainer{

@@ -34,11 +34,11 @@
 
             <div class="formRow">
                 <label  class="des ">Message :</label>
-                <textarea id="description"  class="form-control " rows="5" name="description" required></textarea>
+                <textarea id="description" placeholder="ex I have this idea for a site can you create something like that ?" class="form-control " rows="5" name="description" required></textarea>
 
             </div>
 
-            <div class="alignCenter"><input name="makeContact" class="submitButton" type="submit" value="Send message!"></div>
+            <div class="alignCenter"><input name="makeContact" class="submitButton" type="submit" value="Contact Me!"></div>
             <div id="error">Error to display</div>
 
         </form>

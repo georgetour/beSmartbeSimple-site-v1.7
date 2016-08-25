@@ -1,5 +1,10 @@
 $(document).ready(function () {
 
+  //Smooth animation for services pages
+    $("#showServices").animate({left: "0"}, {
+        duration: 1500
+    });
+
     //Let's pass the id we ll use to variables
     var mainPage = $('#mainPage');
     var services = $('#services');
