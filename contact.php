@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>beSmartbeSimple - Web Design and Development  </title>
+    <title>Contact Me  </title>
     <?php include 'head.php' ?>
 </head>
 <body>
@@ -12,7 +12,7 @@
 
 <!--Contact Page-->
 <div id="showContactUs" class=" textColor">
-    <div class="container-fluid contactMe">
+    <div class="container-fluid contactMe showEffect3">
         <h2>Contact Me</h2>
         <p >
             If you would like to contact me for a project or anything I can do for you send me an email at <cite>george@besmartbesimple.com</cite>
@@ -44,7 +44,7 @@
         </form>
 
     </div>
-    <?php include "footerAboutMe.php" ?>
+    <?php include "footerStatic.php" ?>
 
 </div><!--End contact  container -->
 

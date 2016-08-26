@@ -95,11 +95,24 @@ body{
 
 }
 
-#showServices{
-    position: relative;
-    left: 110%;
+div > .servicesTags{
+    color: #1b6d85;
+    text-decoration: none;
 
 }
+
+.showEffect1 , .showEffect2,
+.showEffect3,.showEffect4, .showEffect5,.showEffect6
+{
+    position: relative;
+    left: 110%;
+}
+
+.showEffect7{
+    position: relative;
+    right: 110%;
+}
+
 
 .servicesTags{
 font-size: 25px;
@@ -360,11 +373,16 @@ height: 170px;
         }
         .servicesTags{
             display: block;
+            font-size: 16px;
         }
         .servicesTags > span{
             display: none;
         }
 
+
+        .phoneDiv{
+            display: none;
+        }
 
         .logo {
             margin-top: 10px;
@@ -380,7 +398,28 @@ height: 170px;
         }
     .yourSiteWillBe{
         margin-bottom:0px ;
+
     }
+
+
+    .showEffect1 , .showEffect2,
+    .showEffect3,.showEffect4, .showEffect5,.showEffect6
+    {
+        position: relative;
+        left: 0;
+    }
+
+    .showEffect7{
+        position: relative;
+        right: 0;
+    }
+
+    .outsideHeight{
+        height: 424px;
+        padding: 10px;
+
+    }
+
 
 }
 
@@ -421,16 +460,7 @@ height: 170px;
     line-height: 1;
 }
 
-.footerAwards{
-    position: static;
-    max-height:  20px;
-    border-top: 1px solid white;
-    font-size: small;
-    opacity: 0.7;
-    width: 100%;
-    margin-top: 10px;
-    line-height: 1;
-}
+
 
 
 .footerAboutMe{
@@ -509,6 +539,7 @@ footer{
     }
     .servicesSimple{
         height:85px;
+
     }
     .footerAboutMe {
         position: static;
@@ -524,6 +555,51 @@ footer{
     .contactMe{
         margin-bottom: 140px;
     }
+
+
+    .fadeIn1 ,.fadeIn2, .fadeIn3,.fadeIn4{
+
+        /*CSS transitions*/
+
+        -o-transition-property: none !important;
+
+        -moz-transition-property: none !important;
+
+        -ms-transition-property: none !important;
+
+        -webkit-transition-property: none !important;
+
+        transition-property: none !important;
+
+        /*CSS transforms*/
+
+        -o-transform: none !important;
+
+        -moz-transform: none !important;
+
+        -ms-transform: none !important;
+
+        -webkit-transform: none !important;
+
+        transform: none !important;
+
+        /*CSS animations*/
+
+        -webkit-animation: none !important;
+
+        -moz-animation: none !important;
+
+        -o-animation: none !important;
+
+        -ms-animation: none !important;
+
+        animation: none !important;
+
+
+    }
+
+
+
 }
 
 
@@ -552,9 +628,23 @@ footer{
         opacity: 0.7;
         width: 100%;
     }
+
+    .footerAwards{
+        margin-top: 10%;
+        position: static;
+    }
+
+
 }
 
-@media (min-width: 1600px){
+@media screen and (min-device-width: 400px) and (max-device-width: 767px) {
+    .weCreate{
+    margin-top: 1%;
+    }
+}
+
+
+@media (min-width: 1025px){
     .footerStatic{
         position: absolute;
         max-height:  20px;
@@ -566,4 +656,20 @@ footer{
     }
 
 
+    .footerAwards{
+        position: absolute;
+        max-height:  20px;
+        bottom: 0;
+
+        font-size: small;
+        opacity: 0.7;
+        width: 100%;
 }
+.centerImg{
+    margin: 0 auto;
+    display: block;
+
+}
+
+}
+

@@ -29,7 +29,7 @@
 <div class="iframeGrid alignCenter "><!--Grid for centering the iframe -->
 
     <div   class="everything col-lg-3 col-md-3 col-sm-12 col-xs-12 weCreate alignCenter">
-    <h1   class="weCreate"><span class="fadeIn1 ">I create</span> <span class="fadeIn2 ">smart websites</span>
+    <h1   class=" weCreate "><span class="fadeIn1 ">I create</span> <span class="fadeIn2 ">smart websites</span>
         <span class="fadeIn3 ">with beautiful simple <br>design.</span></h1>
         <h4><a class="learnMore fadeIn4" href="services.php"><cite>Learn More</cite> </a></h4>
     </div>

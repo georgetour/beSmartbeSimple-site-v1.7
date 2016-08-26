@@ -15,7 +15,7 @@
     <div class="container-fluid">
         <!--First row-->
         <!--Column 1-->
-        <div class="row alignCenter">
+        <div class="row alignCenter showEffect1">
             <div   class=" col-lg-3 col-md-3 col-sm-12 col-xs-12  ">
                 <h4 class="bold " >Awards</h4>
             </div>
@@ -32,17 +32,20 @@
         </div>
         <!--End first row-->
 
-        <div class="container-fluid awards alignCenter">
+        <div class="container-fluid awards alignCenter showEffect2">
             <div   class=" col-lg-2 col-md-2 col-sm-12 col-xs-12  ">
 
             </div>
-            <div style="margin-top: 10px" class="col-lg-8  col-md-8 col-sm-12 col-xs-12 alignCenter">
-                <img class="img-responsive" src="images/awards/awardsPhotoshopEditing.jpg">
+            <div style="margin-top: 10px" class="col-lg-8  col-md-8 col-sm-12 col-xs-12 alignCenter ">
             </div>
-            <div   class="everything col-lg-2 col-md-2 col-sm-12 col-xs-12  "></div>
+            <div   class=" col-lg-2 col-md-2 col-sm-12 col-xs-12  "></div>
         </div>
     </div>
-    <?php include "footerStatic.php" ?>
+
+</div>
+
+<div >
+<?php include "footerPortfolio.php" ?>
 </div>
 <!--End awards container fluid-->
 

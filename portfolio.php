@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>beSmartbeSimple - Web Design and Development  </title>
+    <title>My portfolio </title>
     <?php include 'head.php' ?>
 </head>
 <body>
@@ -11,18 +11,16 @@
 <!--Portfolio page-->
 <div id="showPortfolio"  class="textColor">
 
-    
-
     <div class="container-fluid">
         <!--First row-->
         <div class=" alignCenter">
             <!--Column 1-->
-            <div   class="everything col-lg-3 col-md-3 col-sm-12 col-xs-12  ">
+            <div   class="everything col-lg-3 col-md-3 col-sm-12 col-xs-12 showEffect1 ">
                 <h4 class="bold " >Portfolio</h4>
             </div>
 
             <!--Column 2-->
-            <div class=" col-lg-6  col-md-6 col-sm-12 col-xs-12   ">
+            <div class=" col-lg-6  col-md-6 col-sm-12 col-xs-12 showEffect2  ">
                 <h3 class="bold">Some of my projects </h3>
             </div>
             <!--Column 3-->
@@ -34,11 +32,11 @@
 
         <!--Second row-->
         <div class="row alignCenter ">
-            <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12  ">
-                <img class="img-responsive borderPortfolio" src="images/portfolio/wikiProject-compressor.jpg">
+            <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12  showEffect3">
+                <a href="wikipediaProject/wikipediaProject.php">      <img class="img-responsive borderPortfolio" src="images/portfolio/wikiProject-compressor.jpg"></a>
             </div>
 
-            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12  ">
+            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12  showEffect4">
                 <h4 class="bold">Wikipedia Project</h4>
                 <p>A project for wikipedia that uses some special techniques
                     which make the site fast even with high quality images without reloading the page.
@@ -53,11 +51,11 @@
 
         <!--Third Row -->
         <div  class="imageRow row alignCenter ">
-            <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   everything ">
-                <img class="img-responsive borderPortfolio" src="images/portfolio/blogProject-compressor.jpg">
+            <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12 showEffect5   everything ">
+                <a href="http://www.oldtimesclassic.com" target="_blank">   <img class="img-responsive borderPortfolio" src="images/portfolio/blogProject-compressor.jpg"></a>
             </div>
 
-            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   everything ">
+            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12 showEffect6  everything ">
                 <h4 class="bold">www.oldtimesclassic.com</h4>
                 <p>A blog for oldTimesClassic games .It contains unique games from all genres
                     that everyone should play  and people can suggest games.
@@ -71,11 +69,13 @@
 
         <!--Forth Row-->
         <div style="margin-bottom:10px " class="imageRow row alignCenter ">
-            <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   everything ">
+            <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12    showEffect4">
+                <a href="https://github.com/georgetour/D-and-D-characters-in-campaign" target="_blank">
                 <img class="img-responsive borderPortfolio" src="images/portfolio/d_and_d_characters_in_campaign-compressor.jpg">
+                </a>
             </div>
 
-            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   everything ">
+            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12  showEffect5  ">
                 <h4 class="bold">Dungeons and Dragons characters in campaign application</h4>
                 <p> This is an application for Dungeons and Dragons
                     that shows live characters in campaign with info.
@@ -87,13 +87,14 @@
             </div>
 
         </div><!--Forth Row End-->
-        <!--Forth Row-->
+
+        <!--Fifth Row-->
         <div style="margin-bottom:10px " class="imageRow row alignCenter ">
-            <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   everything ">
+            <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   showEffect1 ">
                 <img class="img-responsive borderPortfolio" src="images/portfolio/cinemagic-compressor.jpg">
             </div>
 
-            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   everything ">
+            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect2 ">
                 <h4 class="bold">www.cinemagic.gr</h4>
                 <p> This was an older project for a Greek company that sold and made smart home installations
                     or home theaters.
@@ -105,10 +106,10 @@
 
             </div>
 
-        </div><!--Forth Row End-->
+        </div><!--Fifth Row End-->
     </div><!--End portfolio container main-->
-    <div style="color: white" class="alignCenter">Also you can check source code and projects <a href="https://github.com/georgetour">here in Github </a>
-        or clicking the linking below at footer.
+    <div style="color: white" class="alignCenter">Also you can check source code and projects <a href="https://github.com/georgetour" target="_blank">here in Github</a>
+        or clicking the link below at footer.
     </div>
 
     <?php include "footerPortfolio.php" ?>

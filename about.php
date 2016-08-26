@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>beSmartbeSimple - Web Design and Development  </title>
+    <title>About Me</title>
+    <link type="text/css" rel="stylesheet" href="stylesheets/aboutCSSAnimationMini.css">
     <?php include 'head.php' ?>
 </head>
 <body>
@@ -11,7 +12,7 @@
 
 <!--About-->
 <div id="showAbout"  class=" textColor">
-    <div class="container-fluid">
+    <div class="container-fluid ">
         <!--First row-->
         <!--Column 1-->
         <div class="row alignCenter">
@@ -20,8 +21,8 @@
             </div>
 
             <!--Column 2-->
-            <div class="col-lg-6  col-md-6 col-sm-12 col-xs-12 alignCenter ">
-                <h3 class="bold">Hi,I'm George Tourtsinakis from Greece.</h3>
+            <div class="col-lg-6  col-md-6 col-sm-12 col-xs-12 alignCenter  typeAnimation">
+                <h3 class="bold ">Hi,I'm George Tourtsinakis <span> from Greece.</span> </h3>
 
             </div>
             <!--Column 3-->
@@ -31,7 +32,7 @@
         </div>
         <!--End first row-->
 
-        <div class="container-fluid aboutMain alignCenter">
+        <div class="container-fluid aboutMain alignCenter showEffect6">
             <div   class=" col-lg-3 col-md-3 col-sm-12 col-xs-12  ">
                 <figure class="aboutImg">
                     <img class="aboutImg img-responsive alignCenter" src="images/about/me_smiling-compressor.jpg" alt="George Tourtsinakis developer">
@@ -68,7 +69,7 @@
             <div   class="everything col-lg-3 col-md-3 col-sm-12 col-xs-12  "></div>
         </div>
     </div>
-    <?php include "footerAboutMe.php" ?>
+    <?php include "footerStatic.php" ?>
 </div><!--End about container fluid-->
 
 
