@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About Me</title>
+    <title>George Tourtsinakis - Web Designer & Developer</title>
     <link type="text/css" rel="stylesheet" href="stylesheets/aboutCSSAnimationMini.css">
     <?php include 'head.php' ?>
 </head>
@@ -46,7 +46,9 @@
 
                 <p>
                     I' am a web designer and developer with many years
-                    of experience in IT industry.
+                    of experience in IT industry.<br>I also have degrees in Website Development and
+                    Information Technology.
+
                 </p>
 
                 <p>
