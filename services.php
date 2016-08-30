@@ -52,23 +52,15 @@
                     <div class=""><img alt="Responsive Web Design Picture"  class="img-responsive picturesIcons "  src="images/Responsive-Web-Design-compressor.png">  </div>
                 <h4 class="bold">Using Twitter Bootstrap</h4>
                 <p>One of the most popular tools used by thousands  developers
-                    so it can make responsive websites .As more and more people use internet
+                    so you can make responsive websites .As more and more people use internet
                     from their mobiles your site must work flawlessly  everywhere.
                 </p>
                 </div>
 
                 <!--Middle Column-->
-                    <div class="col-lg-4 col-md-4  col-md-12 col-sm-12 col-xs-12 borderTest outsideHeight">
-                        <h3>High speed with Cloud Private Hosting </h3>
-                        <div class=""><img alt="Cloud Computing"  class="img-responsive picturesIcons " src="images/Cloud_computing.png">  </div>
-                        <h4 class="bold">Cloud Virtual Private Server</h4>
-                        <p>The power of a cloud Virtual Private Server will host your site.
-                            That means that your site will NOT drop or disappoint anyone with its speed and availability.
 
-                        </p></br>
-                    </div>
 
-                <!--Right Column-->
+
                 <div class=" col-lg-4  col-md-4 col-sm-12 col-xs-12  borderTest outsideHeight">
                     <h3>Simple navigation.No need for compass </h3>
                     <div class=""> <img alt="Compass" class="img-responsive picturesIcons " src="images/old_compass2.png">  </div>
@@ -76,11 +68,23 @@
                     <h4 class="bold">User friendly priority</h4>
                     <p>Your visitors don't like complicated things.
                         They want to know what your site does and find it easily.
-                        I keep everything simple as possible and with minor clicks people will explore
+                        I keep everything simple as possible. With minor clicks people will explore
                         and enjoy your site.
                     </p>
 
                 </div>
+                <!--Right Column-->
+                <div class="col-lg-4 col-md-4  col-md-12 col-sm-12 col-xs-12 borderTest outsideHeight">
+                    <h3>High speed with Cloud Private Hosting </h3>
+                    <div class=""><img alt="Cloud Computing"  class="img-responsive picturesIcons " src="images/Cloud_computing.png">  </div>
+                    <h4 class="bold">Cloud Virtual Private Server</h4>
+                    <p>The power of a cloud Virtual Private Server will host your site.
+                        That means that your site will NOT drop or disappoint anyone with its speed and availability.
+
+                    </p></br>
+                </div>
+
+
             </div>
 
         </div><!--End second row-->
