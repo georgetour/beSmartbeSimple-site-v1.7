@@ -78,7 +78,7 @@
     </div>
 
     <div class="container "><!--Skill row 3x3-->
-        <h3 class="alignCenter bold showEffect7">Some of my key skills include :</h3>
+    <h3 class="alignCenter bold showEffect7">Some of my key skills include :</h3>
 
         <!--Left column-->
         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
@@ -86,42 +86,41 @@
         <!--Middle column-->
         <div class=" col-lg-8 col-md-8 col-sm-12 col-xs-12">
 
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <div class=" myProgress ">
-                <div class=" maxedSkill">HTML5/CSS3</div>
-            </div>
-            <div class="myProgress ">
-                <div class="eightyFivePercent">Javascript/jQuery</div>
-            </div>
-            <div class="myProgress ">
-                <div class="eightyPercent">PHP/MySQL</div>
-            </div>
-            </div>
-
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <div class="myProgress ">
-                <div class="maxedSkill ">Responsive Web Design</div>
-            </div>
-            <div class="myProgress ">
-                <div class="ninetyPercent">SEO/Adwords/Analytics</div>
-            </div>
-            <div class="myProgress ">
-                <div class="eightyPercent">Wordpress</div>
-            </div>
-            </div>
+                <div class=" myProgress floatLeft">
+                    <div class=" maxedSkill">HTML5/CSS3</div>
+                </div>
+                <div class="myProgress floatLeft">
+                    <div class="eightyPercent">Javascript/jQuery</div>
+                </div>
+                <div class="myProgress floatLeft">
+                    <div class="eightyPercent">PHP/MySQL</div>
+                </div>
 
 
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <div class="myProgress ">
-                <div class="eightyPercent">Adobe Photoshop</div>
-            </div>
-            <div class="myProgress ">
-                <div class="seventyPercent">C#</div>
-            </div>
-            <div class="myProgress ">
-                <div class="eightyPercent">Meteor js</div>
-            </div>
-            </div>
+
+                <div class="myProgress floatLeft">
+                    <div class="maxedSkill ">Responsive Web Design</div>
+                </div>
+                <div class="myProgress floatLeft">
+                    <div class="eightyPercent">SEO/Adwords/Analytics</div>
+                </div>
+                <div class="myProgress floatLeft">
+                    <div class="seventyPercent">Wordpress</div>
+                </div>
+
+
+
+
+                <div class="myProgress floatLeft">
+                    <div class="eightyPercent">Adobe Photoshop</div>
+                </div>
+                <div class="myProgress floatLeft">
+                    <div class="seventyPercent">C#</div>
+                </div>
+                <div class="myProgress floatLeft">
+                    <div class="eightyPercent">Meteor js</div>
+                </div>
+
         </div>
 
         <!--Right column-->
@@ -130,35 +129,65 @@
 
     </div>
 
-    <div class="container "><!--Skill row 2x1-->
+    <div class="container alignCenter"><!--Skill row 2x1-->
         <!--Left column-->
-        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <div class="myProgress floatLeft" >
+            <div class="ninetyPercent">Git</div>
+        </div>
 
+
+        <div class="myProgress floatLeft">
+            <div class="maxedSkill">Sass</div>
+        </div>
+        </div>
         <!--Middle column-->
-        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+        <div class="container-fluid col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
-            <div class=" col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <div class="myProgress " >
+
+                <div class="myProgress floatLeft" >
                 <div class="ninetyPercent">Git</div>
-            </div>
+                </div>
+
+
+                <div class="myProgress floatLeft">
+                    <div class="maxedSkill">Sass</div>
+                </div>
+
+
+
         </div>
 
-        <div class=" col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <div class="myProgress ">
-                <div class="maxedSkill ninetyPercent">Sass</div>
-            </div>
-        </div>
-            <div class=" col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
-        </div>
         <!--Right column-->
-        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
-
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
 
     </div><!--Skill row 2x1 End -->
 
     <?php include "footerStatic.php" ?>
 </div><!--End about container fluid-->
+
+<script>
+    function move() {
+        var elem = document.getElementById("myBar");
+        var width = 0.8;
+        var id = setInterval(frame, 10);
+        function frame() {
+            if (width >= 100) {
+                clearInterval(id);
+            } else {
+
+            }
+        }
+    }
+
+    move();
+
+    $('#myBar').animate({width: "90%"}, {queue: false, duration: 3000});
+
+
+
+
+</script>
 
 
 </body>

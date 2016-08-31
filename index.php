@@ -25,34 +25,42 @@
 <?php include_once 'navbar.php'?>
 
 
-<div   >
+<div class="container-fluid">
 <div class="iframeGrid alignCenter "><!--Grid for centering the iframe -->
 
-    <div   class="everything col-lg-3 col-md-3 col-sm-12 col-xs-12 weCreate alignCenter">
-    <h1   class=" weCreate "><span class="fadeIn1 ">I create</span> <span class="fadeIn2 ">smart websites</span>
+    <div   class="col-lg-3 col-md-3 col-sm-12 col-xs-12 weCreate alignCenter ">
+        <div class="mainHeader">
+        <h1   class=" weCreate "><span class="fadeIn1 ">I create</span> <span class="fadeIn2 ">smart websites</span>
         <span class="fadeIn3 ">with beautiful simple <br>design.</span></h1>
-        <h4><a class="learnMore fadeIn4" href="services.php"><cite>Learn More</cite> </a></h4>
+        </div>
     </div>
-    <div class="col-lg-6  col-md-6 col-sm-12  alignCenter everything">
+    <div class="col-lg-6  col-md-6 col-sm-12 col-xs-12  alignCenter everything">
         <div class="phoneDiv">
         <img class="iphone" src="images/iphoneTrimmedNoText.png">
             <div class="centeredPhoneText bold col-sm12">
                 <div class="weCreate"><span class="fadeIn1 ">I create</span> <span class="fadeIn2 ">smart websites</span>
                     <span class="fadeIn3 ">with beautiful simple design.</span></div>
-                <div><a class="learnMore fadeIn4" href="#services"><cite>Learn More</cite> </a></div>
             </div>
         </div>
+
     </div>
 
-    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 "></div>
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
+        <div class=" buttonsRow">
+            <button onclick="location.href='contact.php';" class="buttonsMain">Get quote in some minutes >>>></button>
+        </div>
+
+
+
+    </div>
 
 
 </div><!--End Grid for centering the iframe -->
 
     <!--footer-->
-    <?php include "footer.php" ?>
-</div><!--End mainPage container fluid-->
 
+</div><!--End mainPage container fluid-->
+<?php include "footer.php" ?>
 
 
 

@@ -74,14 +74,14 @@
 
                 </div>
                 <!--Right Column-->
-                <div class="col-lg-4 col-md-4  col-md-12 col-sm-12 col-xs-12 borderTest outsideHeight">
-                    <h3>High speed with Cloud Private Hosting </h3>
-                    <div class=""><img alt="Cloud Computing"  class="img-responsive picturesIcons " src="images/Cloud_computing.png">  </div>
-                    <h4 class="bold">Cloud Virtual Private Server</h4>
-                    <p>The power of a cloud Virtual Private Server will host your site.
-                        That means that your site will NOT drop or disappoint anyone with its speed and availability.
-
-                    </p></br>
+                <div class="col-lg-4  col-md-4 col-sm-12 col-xs-12  borderTest outsideHeight">
+                    <h3>Google will find it, people will find it.</h3>
+                    <div class=""><img alt="Search Engine Optimization"  class="img-responsive picturesIcons "  src="images/Search_engine_optimization_copy-compressor.png">  </div>
+                    <h4 class="bold">SEO</h4>
+                    <p>If you want your website to rank as  high as possible to search engines for future visitors or customers,
+                        then you need Search Engine Optimization.A lot of factors take place
+                        and we will have really good results .
+                    </p>
                 </div>
 
 
@@ -93,16 +93,17 @@
                 <div class="row imageRowServices alignCenter ">
 
                     <!--Left column-->
-                    <div class="col-lg-6  col-md-6 col-sm-12 col-xs-12  borderTest outsideHeight">
-                        <h3>Google will find it, people will find it.</h3>
-                        <div class=""><img alt="Search Engine Optimization"  class="img-responsive picturesIcons "  src="images/Search_engine_optimization_copy-compressor.png">  </div>
-                        <h4 class="bold">SEO</h4>
-                        <p>If you want your website to rank as  high as possible to search engines for future visitors or customers,
-                             then you need Search Engine Optimization.A lot of factors take place
-                            and we will have really good results .
-                        </p>
+                    <div class="col-lg-6 col-md-6  col-md-12 col-sm-12 col-xs-12 borderTest outsideHeight">
+                        <h3>High speed with Cloud Private Hosting </h3>
+                        <div class=""><img alt="Cloud Computing"  class="img-responsive picturesIcons " src="images/Cloud_computing.png">  </div>
+                        <h4 class="bold">Cloud Virtual Private Server</h4>
+                        <p>The power of a cloud Virtual Private Server will host your site.
+                            That means that your site will NOT drop or disappoint anyone with its speed and availability.
+
+                        </p></br>
                     </div>
 
+                    
                     <!--Right Column-->
                     <div class="col-lg-6 col-md-6  col-md-12 col-sm-12 col-xs-12 borderTest outsideHeight ">
                         <h3>Customizable by You </h3>
