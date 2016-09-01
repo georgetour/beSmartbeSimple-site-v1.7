@@ -70,6 +70,7 @@
         <div style="margin-bottom:10px " class="imageRow row alignCenter ">
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12    showEffect4">
                 <a href="https://github.com/georgetour/Meteor-image_share" target="_blank">
+                <img class="img-responsive borderPortfolio" src="images/portfolio/image-share-with-fork-me-compressor.jpg" alt="Image share application">
                 </a>
             </div>
 
@@ -119,6 +120,8 @@
                 </p>
 
             </div>
+
+        </div><!--Sixth Row End-->
 
 
     </div><!--End portfolio container main-->
