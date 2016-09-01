@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>George Tourtsinakis - Web Designer & Developer</title>
     <link type="text/css" rel="stylesheet" href="stylesheets/aboutCSSAnimationMini.css">
-    <link type="text/css" rel="stylesheet" href="stylesheets/customStyle.css">
 
-    <?php include 'head.php' ?>
+
+    <?php include 'head.php'?>
 
     <script src="javascript/progressBar.js"></script>
 
@@ -88,7 +88,7 @@
 
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <div class=" myProgress ">
-                <div class=" maxedSkill">HTML5/CSS3</div>
+                <div  class=" maxedSkill">HTML5/CSS3</div>
             </div>
             <div class="myProgress ">
                 <div class="eightyFivePercent">Javascript/jQuery</div>
@@ -106,15 +106,15 @@
                 <div class="ninetyPercent">SEO/Adwords/Analytics</div>
             </div>
             <div class="myProgress ">
-                <div class="eightyPercent">Wordpress</div>
+                <div class="workingSkill">Wordpress(mastering skill)</div>
             </div>
             </div>
 
 
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <div class="myProgress ">
-                <div class="eightyPercent">Adobe Photoshop</div>
-            </div>
+                <div class="myProgress">
+                    <div class="ninetyPercent ">Adobe&nbsp;Photoshop</div>
+                </div>
             <div class="myProgress ">
                 <div class="seventyPercent">C#</div>
             </div>
@@ -140,13 +140,13 @@
             <div class=" col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <div class="myProgress " >
-                <div class="ninetyPercent">Git</div>
+                <div class="eightyFivePercent">Git</div>
             </div>
         </div>
 
         <div class=" col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <div class="myProgress ">
-                <div class="maxedSkill ninetyPercent">Sass</div>
+                <div class="workingSkill">Sass(mastering skill)</div>
             </div>
         </div>
             <div class=" col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
@@ -157,7 +157,15 @@
 
     </div><!--Skill row 2x1 End -->
 
+    <div style="margin-top: 10px" class="container-fluid">
+    <div class="findMeAlso alignCenter">Find me also at
+        <a style="margin-right: 10px" href="https://www.linkedin.com/" target="_blank"><img src="images/about/linked-in-icon2.png"></a>
+        <a  href="https://github.com/georgetour" target="_blank"><img src="images/about/GitHub-Mark.png"></a>
+    </div>
+    </div>
+
     <?php include "footerStatic.php" ?>
+
 </div><!--End about container fluid-->
 
 

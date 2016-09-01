@@ -1,19 +1,17 @@
 $(document).ready(function () {
 
 
-    //THe code that animates the progress bars in about 
-    //Needs some tweaking
-    $('.seventyPercent').animate({width: "70%"}, {queue: false, duration: 2000});
-    
-    $('.eightyPercent').animate({width: "80%"}, {queue: false, duration: 2000});
+    //Starting functions with percentages for the progress bar
+    progressBar('.seventyPercent',"70%");
+    progressBar('.eightyPercent',"80%");
+    progressBar('.eightyFivePercent',"85%");
+    progressBar('.ninetyPercent',"90%");
+    progressBar('.maxedSkill',"100%");
 
-    $('.eightyFivePercent').animate({width: "85%"}, {queue: false, duration: 2000});
-
-    $('.ninetyPercent').animate({width: "90%"}, {queue: false, duration: 2000});
-    
-    $('.maxedSkill').animate({width: "100%"}, {queue: false, duration: 2000});
-
-    $('.maxedSkill').animate({width: "100%"}, {queue: false, duration: 2000});
+    //THe code that animates the progress bars in about page
+    function progressBar(where,percentage) {
+        $(where).animate({width: percentage}, {queue: false, duration: 2000});
+    }
 
 });
 

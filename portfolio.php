@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My portfolio </title>
+    <title>George Tourtsinakis portfolio </title>
     <?php include 'head.php' ?>
 </head>
 <body>
@@ -33,16 +33,15 @@
         <!--Second row-->
         <div class="row alignCenter ">
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12  showEffect3">
-                <a href="wikipediaProject/wikipediaProject.php">      <img class="img-responsive borderPortfolio" src="images/portfolio/wikiProject-compressor.jpg"></a>
+                <a href="wikipediaProject/wikipediaProject.php">      <img class="img-responsive borderPortfolio" src="images/portfolio/wikiProject-compressor.jpg" alt="Wikipedia Project"></a>
             </div>
 
             <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12  showEffect4">
-                <h4 class="bold">Wikipedia Project</h4>
+                <h4 class="bold"><a href="wikipediaProject/wikipediaProject.php">Wikipedia Project</a></h4>
                 <p>A project for wikipedia that uses some special techniques
                     which make the site fast even with high quality images without reloading the page.
-                    <a href="wikipediaProject/wikipediaProject.php">Find it here</a>
                 </p>
-                <img class="img-responsive imagesShadows phonePortfolio" src="images/portfolio/wikiTrimmed2.png">
+                <img class="img-responsive imagesShadows phonePortfolio" src="images/portfolio/wikiTrimmed2.png" alt="Wipipedia Project at mobile">
             </div>
 
 
@@ -52,17 +51,17 @@
         <!--Third Row -->
         <div  class="imageRow row alignCenter ">
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12 showEffect5   everything ">
-                <a href="http://www.oldtimesclassic.com" target="_blank">   <img class="img-responsive borderPortfolio" src="images/portfolio/blogProject-compressor.jpg"></a>
+                <a href="http://www.oldtimesclassic.com" target="_blank">   <img class="img-responsive borderPortfolio" src="images/portfolio/blogProject-compressor.jpg" alt="Old Times Classic blog"></a>
             </div>
 
             <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12 showEffect6  everything ">
-                <h4 class="bold">www.oldtimesclassic.com</h4>
+                <h4 class="bold"><a href="http://www.oldtimesclassic.com">www.oldtimesclassic.com</a></h4>
                 <p>A blog for oldTimesClassic games .It contains unique games from all genres
                     that everyone should play  and people can suggest games.
 
-                    <a href="http://www.oldtimesclassic.com">Find it here</a>
+
                 </p>
-                <img class="img-responsive imagesShadows phonePortfolio" src="images/portfolio/blogTrimmed2.png">
+                <img class="img-responsive imagesShadows phonePortfolio" src="images/portfolio/blogTrimmed2.png" alt="Old Times Classic blog at mobile">
             </div>
 
         </div><!--Third Row End-->
@@ -70,20 +69,19 @@
         <!--Forth Row-->
         <div style="margin-bottom:10px " class="imageRow row alignCenter ">
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12    showEffect4">
-                <a href="https://github.com/georgetour/D-and-D-characters-in-campaign" target="_blank">
-                <img class="img-responsive borderPortfolio" src="images/portfolio/d_and_d_characters_in_campaign-compressor.jpg">
+                <a href="https://github.com/georgetour/Meteor-image_share" target="_blank">
                 </a>
             </div>
 
             <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12  showEffect5  ">
-                <h4 class="bold">Dungeons and Dragons characters in campaign application</h4>
-                <p> This is an application for Dungeons and Dragons
-                    that shows live characters in campaign with info.
-                    Adding some features and soon will be published.
-                    <a href="https://github.com/georgetour/D-and-D-characters-in-campaign">Source Code Here</a>
+                <h4 class="bold">Image share application</h4>
+                <p> This is an application made with meteor.js that people register, upload and rate images.
+
+
+                    <a href="https://github.com/georgetour/Meteor-image_share">Source Code Here</a>
 
                 </p>
-                <img class="img-responsive imagesShadows phonePortfolio" src="images/portfolio/d_and_app_trimmed.png">
+                <img class="img-responsive imagesShadows phonePortfolio" src="images/portfolio/imageshare-trimmed.png" alt="Image share application at mobile">
             </div>
 
         </div><!--Forth Row End-->
@@ -91,7 +89,7 @@
         <!--Fifth Row-->
         <div style="margin-bottom:10px " class="imageRow row alignCenter ">
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   showEffect1 ">
-                <img class="img-responsive borderPortfolio" src="images/portfolio/cinemagic-compressor.jpg">
+                <img class="img-responsive borderPortfolio" src="images/portfolio/cinemagic-compressor.jpg" alt="Cinemagic.gr">
             </div>
 
             <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect2 ">
@@ -106,7 +104,23 @@
 
             </div>
 
-        </div><!--Fifth Row End-->
+        </div>
+        <!--
+        <!--Sixth Row -->
+        <div style="margin-bottom:10px " class="imageRow row alignCenter ">
+            <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   showEffect2 ">
+                <img class="img-responsive borderPortfolio" src="images/portfolio/farma-main-4-compressor.jpg" alt="Farmaparnassou.gr">
+            </div>
+
+            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect4 ">
+                <h4 class="bold"> <a href="http://www.farmaparnassou.gr" target="_blank">www.farmaparnassou.gr</a> </h4>
+                <p> Currently UNDER CONSTRUCTION page for a local shop with high quality
+                    Greek products like meat, wine and many more...
+                </p>
+
+            </div>
+
+
     </div><!--End portfolio container main-->
     <div style="color: white" class="alignCenter">Also you can check source code and projects <a href="https://github.com/georgetour" target="_blank">here in Github</a>
         or clicking the link below at footer.

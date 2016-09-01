@@ -273,6 +273,16 @@ height: 170px;
     background-color: rgba(255,255,255, 0.88);
 }
 
+.findMeAlso{
+
+
+    padding:10px;
+    border-radius: 4%;
+    background-color: white;
+    width:150px;
+    margin: 0 auto;
+}
+
 
 
 .aboutImg{
@@ -366,14 +376,26 @@ div> .myProgress{
 }
 
 .maxedSkill, .eightyPercent, .ninetyPercent , .seventyPercent
-,.eightyFivePercent
+, .eightyFivePercent
 {
     background-color: white;
     position: absolute;
     height: 100%;
 
-
 }
+
+.workingSkill{
+    background: linear-gradient(
+            to right,
+            white 0%,
+            white 60%,
+            grey 60%,
+            grey 100%
+    );
+    height: 100%;
+}
+
+
 
 
 
@@ -748,7 +770,7 @@ footer{
     }
 
     .footerStatic{
-        position: absolute;
+        position: static;
         max-height:  20px;
         border-top: 1px solid white;
         font-size: small;
