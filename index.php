@@ -13,8 +13,26 @@
     <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">   </script>
     <link  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!--<link type="text/css" rel="stylesheet" href="stylesheets/customStyle.css">-->
-
     <link type="text/css" rel="stylesheet" href="stylesheets/customCSSmini.css">
+
+    <style>
+        @media (max-width:732px ){
+            h1{
+                font-size: 23px;
+                margin-top:-2%;!important;
+            }
+            .buttonsMain{
+                font-size: 13px;
+                height: 40px;
+                width: 160px;
+            }
+            .weCreate{
+                margin-top: 0.8%;
+            }
+        }
+
+    </style>
+
     <!--<script src="javascript/indexCompressed.js" ></script>-->
 </head>
 
@@ -36,7 +54,7 @@
     </div>
     <div class="col-lg-6  col-md-6 col-sm-12 col-xs-12  alignCenter everything">
         <div class="phoneDiv">
-        <img class="iphone" src="images/iphoneTrimmedNoText.png">
+        <img class="iphone" src="images/iphoneTrimmedNoText.png" alt="Holding responsive mobile">
             <div class="centeredPhoneText bold col-sm12">
                 <div class="weCreate"><span class="fadeIn1 ">I create</span> <span class="fadeIn2 ">smart websites</span>
                     <span class="fadeIn3 ">with beautiful simple design.</span></div>

@@ -52,7 +52,7 @@
                 <p>
                     I' am a web designer and developer with many years
                     of experience in IT industry.<br>I also have degrees in Website Development and
-                    Information Technology.
+                    Software Engineering.
 
                 </p>
 
@@ -159,7 +159,7 @@
 
     <div style="margin-top: 10px" class="container-fluid">
     <div class="findMeAlso alignCenter">Find me also at
-        <a style="margin-right: 10px" href="https://www.linkedin.com/" target="_blank"><img src="images/about/linked-in-icon2.png"></a>
+        <a style="margin-right: 10px" href="https://gr.linkedin.com/in/george-tourtsinakis" target="_blank"><img src="images/about/linked-in-icon2.png"></a>
         <a  href="https://github.com/georgetour" target="_blank"><img src="images/about/GitHub-Mark.png"></a>
     </div>
     </div>

@@ -8,7 +8,7 @@
             <span class="icon-bar"></span>
         </button>
         <div class="navbar-header">
-            <a id="mainPage" class="navbar-brand" href=index.php><img class="logo" src="images/whitelogo.png"></a>
+            <a id="mainPage" class="navbar-brand" href=index.php><img class="logo" src="images/whitelogo.png" alt="beSmartbeSimple logo"></a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
