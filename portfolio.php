@@ -8,10 +8,9 @@
     <meta name="keywords" content="web developer portfolio, developer portfolio, designer portfolio,george tourtsinakis portfolio,responsive web design portfolio,fast sites,responsive,easy to navigate,responsive web design,responsive web development,personal portfolio">
     <meta name="author" content="George Tourtsinakis">
 
-
-
-
     <?php include 'head.php' ?>
+
+    <?php include_once("analyticstracking.php") ?>
 </head>
 <body>
 <?php include 'navbar.php'?>

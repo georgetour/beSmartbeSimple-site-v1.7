@@ -11,6 +11,9 @@
         <meta name="author" content="George Tourtsinakis">
         <?php include 'head.php' ?>
 
+        <?php include_once("analyticstracking.php") ?>
+        
+    </head>
 <body>
 
   <?php include 'navbar.php'?>

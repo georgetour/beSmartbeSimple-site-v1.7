@@ -7,7 +7,10 @@
     <meta name="description" content="George Tourtsinakis awards" >
     <meta name="keywords" content=" best photoshop editing, george tourtsinakis awards,web designer photoshop,photoshop award">
     <meta name="author" content="George Tourtsinakis">
+
     <?php include 'head.php' ?>
+
+    <?php include_once("analyticstracking.php") ?>
 </head>
 <body>
 

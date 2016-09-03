@@ -15,8 +15,8 @@
 
     <?php include 'head.php'?>
 
-    <script src="javascript/progressBar.js"></script>
-
+    <script async src="javascript/progressBar.js"></script>
+    <?php include_once("analyticstracking.php") ?>
 </head>
 <body>
 <?php include 'navbar.php'?>

@@ -7,7 +7,12 @@
     <meta name="description" content="Get website quote or contact George Tourtsinakis for anything" >
     <meta name="keywords" content="contact george tourtsinakis,get web design quote,get website quote,get a website quote online,get a free website quote">
     <meta name="author" content="George Tourtsinakis">
+    
     <?php include 'head.php' ?>
+
+    <?php include_once("analyticstracking.php") ?>
+
+
 </head>
 <body>
 

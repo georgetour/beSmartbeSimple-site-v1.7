@@ -32,7 +32,7 @@
         }
 
     </style>
-
+    <?php include_once("analyticstracking.php") ?>
     <!--<script src="javascript/indexCompressed.js" ></script>-->
 </head>
 
