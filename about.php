@@ -75,7 +75,7 @@
                     The visitor must understand what your site does and find it easily.
                 </p>
                 <p>
-                    Simple = Beautiful,Powerful and Fast.
+                    Simple == Beautiful,Powerful and Fast.
                 </p>
 
             </div>
