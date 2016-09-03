@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>George Tourtsinakis portfolio </title>
+    <meta name="description" content="Web developer portfolio" >
+    <meta name="keywords" content="web developer portfolio, developer portfolio, designer portfolio,george tourtsinakis portfolio,responsive web design portfolio,fast sites,responsive,easy to navigate,responsive web design,responsive web development,personal portfolio">
+    <meta name="author" content="George Tourtsinakis">
+
+
+
+
     <?php include 'head.php' ?>
 </head>
 <body>

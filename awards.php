@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>beSmartbeSimple - Web Design and Development  </title>
+    <title>beSmartbeSimple - Awards </title>
+    <meta name="description" content="George Tourtsinakis awards" >
+    <meta name="keywords" content=" best photoshop editing, george tourtsinakis awards,web designer photoshop,photoshop award">
+    <meta name="author" content="George Tourtsinakis">
     <?php include 'head.php' ?>
 </head>
 <body>

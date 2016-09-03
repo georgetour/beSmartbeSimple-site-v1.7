@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contact Me  </title>
+    <title>Get website quote fast </title>
+    <meta name="description" content="Get website quote or contact George Tourtsinakis for anything" >
+    <meta name="keywords" content="contact george tourtsinakis,get web design quote,get website quote,get a website quote online,get a free website quote">
+    <meta name="author" content="George Tourtsinakis">
     <?php include 'head.php' ?>
 </head>
 <body>

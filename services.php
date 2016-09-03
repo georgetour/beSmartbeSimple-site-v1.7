@@ -5,6 +5,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>beSmartbeSimple - Web Design and Development  </title>
+        <meta name="description" content="I built smart websites with beautiful simple design.Contact me for a free quote." >
+        <meta name="keywords" content="besmarbesimple,be smart be simple,web design,web designer,web developer,web page design,web design services,smart website,simple designs,creative web design,affordable web design,
+        search engine optimizaion,user friendly sites,wordpress websites,fast site,responsive,easy to navigate,responsive web design,responsive web development,simple website">
+        <meta name="author" content="George Tourtsinakis">
         <?php include 'head.php' ?>
 
 <body>

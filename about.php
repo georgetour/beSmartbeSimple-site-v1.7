@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>George Tourtsinakis - Web Designer & Developer</title>
+    <meta name="description" content="George Tourtsinakis" >
+    <meta name="keywords" content=" developer skills,web developer key skills,george tourtsinakis, designer skills,george tourtsinakis skills,responsive web design,fast sites,responsive,easy to navigate,responsive web design,responsive web developement,front end developer,full stack developer,front end skills,front end key skills,">
+    <meta name="author" content="George Tourtsinakis">
+
+
+
     <link type="text/css" rel="stylesheet" href="stylesheets/aboutCSSAnimationMini.css">
 
 
@@ -69,7 +75,7 @@
                     The visitor must understand what your site does and find it easily.
                 </p>
                 <p>
-                    Making a site simple means it will be Beautiful,Powerful and Fast.
+                    Simple = Beautiful,Powerful and Fast.
                 </p>
 
             </div>
