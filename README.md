@@ -1,5 +1,5 @@
-# beSmartbeSimple-site-v1.4.4
+# beSmartbeSimple-site-v1.4.5
 Personal responsive website with portfolio <br>
-- The technologies used are HTML5, CSS3, Javascript,jQuery and Bootstrap for front-end.
+- The technologies used are HTML5, CSS3, Javascript, jQuery and Bootstrap for front-end.
 - For back end we have PHP.
 - Updates take place almost daily.
