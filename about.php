@@ -33,7 +33,7 @@
 
             <!--Column 2-->
             <div class="col-lg-6  col-md-6 col-sm-12 col-xs-12 alignCenter  typeAnimation">
-                <h3 class="bold ">Hi,I'm George Tourtsinakis <span> from Greece.</span> </h3>
+                <h3 class="bold ">Hi, I'm George Tourtsinakis <span> from Greece.</span> </h3>
 
             </div>
             <!--Column 3-->
@@ -63,19 +63,17 @@
                 </p>
 
                 <p>
-                    I believe websites must be smart and simple.That's why I have chosen
-                    this domain name.Smart means that sites must look nice in all devices,
-                    easily customizable,scalable and finally
+                    I believe websites must be smart and simple. That's why I have chosen
+                    this domain name. Smart means that sites must look nice in all devices, easily customizable,scalable and finally
                     search engine optimized.
 
                 </p>
 
                 <p>
-                    Users don't like complicated things neither do I.
-                    The visitor must understand what your site does and find it easily.
+                    Users don't like complicated things, neither do I. The visitor must understand what your site does and find it easily.
                 </p>
                 <p>
-                    Simple == Beautiful,Powerful and Fast.
+                    Simple == Beautiful, Powerful and Fast.
                 </p>
 
             </div>
