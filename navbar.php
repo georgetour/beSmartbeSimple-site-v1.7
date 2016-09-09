@@ -1,5 +1,5 @@
 <!--Top menu bar-->
-<div class="navbar navbar-inverse alignCenter">
+<nav class="navbar navbar-inverse alignCenter">
     <div class="container">
         <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -23,4 +23,4 @@
 
     </div>
 
-</div><!--End Top menu bar-->
+</nav><!--End Top menu bar-->

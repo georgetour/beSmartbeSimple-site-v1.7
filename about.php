@@ -7,11 +7,7 @@
     <meta name="description" content="George Tourtsinakis" >
     <meta name="keywords" content=" developer skills,web developer key skills,george tourtsinakis, designer skills,george tourtsinakis skills,responsive web design,fast sites,responsive,easy to navigate,responsive web design,responsive web developement,front end developer,full stack developer,front end skills,front end key skills,">
     <meta name="author" content="George Tourtsinakis">
-
-
-
     <link type="text/css" rel="stylesheet" href="stylesheets/aboutCSSAnimationMini.css">
-
 
     <?php include 'head.php'?>
 
@@ -150,7 +146,7 @@
 
         <div class=" col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <div class="myProgress ">
-                <div class="workingSkill">Sass(mastering skill)</div>
+                <div class="ninetyPercent">Sass</div>
             </div>
         </div>
             <div class=" col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>

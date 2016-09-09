@@ -65,9 +65,6 @@
                 </div>
 
                 <!--Middle Column-->
-
-
-
                 <div class=" col-lg-4  col-md-4 col-sm-12 col-xs-12  borderTest outsideHeight">
                     <h3>Simple navigation.No need for compass </h3>
                     <div class=""> <img alt="Compass" class="img-responsive picturesIcons " src="images/old_compass2.png">  </div>
@@ -80,6 +77,7 @@
                     </p>
 
                 </div>
+                
                 <!--Right Column-->
                 <div class="col-lg-4  col-md-4 col-sm-12 col-xs-12  borderTest outsideHeight">
                     <h3>Google will find it, people will find it.</h3>
@@ -129,13 +127,10 @@
             </div>
        
 </div>
-    <?php include "footerPortfolio.php" ?>
 
     <!--footer-->
-
-
-
-
+    <?php include "footerPortfolio.php" ?>
+    
 
 </body>
 </html>

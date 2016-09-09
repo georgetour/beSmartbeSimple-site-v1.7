@@ -1,6 +1,5 @@
 $(document).ready(function () {
 
-
     //Starting functions with percentages for the progress bar
     progressBar('.seventyPercent',"70%");
     progressBar('.eightyPercent',"80%");

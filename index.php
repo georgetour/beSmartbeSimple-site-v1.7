@@ -13,7 +13,7 @@
     <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">   </script>
     <link  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!--<link type="text/css" rel="stylesheet" href="stylesheets/customStyle.css">-->
-    <link type="text/css" rel="stylesheet" href="stylesheets/customCSSmini.css">
+    <link type="text/css" rel="stylesheet" href="stylesheets/customStyle.min.css">
 
     <style>
         @media (max-width:732px ){
@@ -35,8 +35,6 @@
     <?php include_once("analyticstracking.php") ?>
     <!--<script src="javascript/indexCompressed.js" ></script>-->
 </head>
-
-
 <body>
 
 
@@ -44,7 +42,7 @@
 
 
 <div class="container-fluid">
-<div class="iframeGrid alignCenter "><!--Grid for centering the iframe -->
+ <div class="iframeGrid alignCenter "><!--Grid for centering the iframe -->
 
     <div   class="col-lg-3 col-md-3 col-sm-12 col-xs-12 weCreate alignCenter ">
         <div class="mainHeader">
@@ -67,17 +65,13 @@
         <div class=" buttonsRow">
             <button onclick="location.href='contact.php';" class="buttonsMain">Get quote in some minutes >>>></button>
         </div>
-
-
-
     </div>
 
 
-</div><!--End Grid for centering the iframe -->
-
-    <!--footer-->
-
+ </div><!--End Grid for centering the iphone -->
 </div><!--End mainPage container fluid-->
+
+<!--Footer-->
 <?php include "footer.php" ?>
 
 

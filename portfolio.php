@@ -24,7 +24,6 @@
             <div   class="everything col-lg-3 col-md-3 col-sm-12 col-xs-12 showEffect1 ">
                 <h4 class="bold " >Portfolio</h4>
             </div>
-
             <!--Column 2-->
             <div class=" col-lg-6  col-md-6 col-sm-12 col-xs-12 showEffect2  ">
                 <h3 class="bold">Some of my projects </h3>
@@ -49,56 +48,52 @@
                 </p>
                 <img class="img-responsive imagesShadows phonePortfolio" src="images/portfolio/wikiTrimmed2.png" alt="Wipipedia Project at mobile">
             </div>
-
-
         </div>
         <!--End second row-->
 
         <!--Third Row -->
         <div  class="imageRow row alignCenter ">
+            <!--Left column-->
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12 showEffect5   everything ">
                 <a href="http://www.oldtimesclassic.com" target="_blank">   <img class="img-responsive borderPortfolio" src="images/portfolio/blogProject-compressor.jpg" alt="Old Times Classic blog"></a>
             </div>
-
+            <!--Right Column-->
             <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12 showEffect6  everything ">
                 <h4 class="bold"><a href="http://www.oldtimesclassic.com">www.oldtimesclassic.com</a></h4>
                 <p>A blog for oldTimesClassic games .It contains unique games from all genres
                     that everyone should play  and people can suggest games.
-
-
                 </p>
                 <img class="img-responsive imagesShadows phonePortfolio" src="images/portfolio/blogTrimmed2.png" alt="Old Times Classic blog at mobile">
             </div>
 
         </div><!--Third Row End-->
 
-        <!--Forth Row-->
+        <!--Fourth Row-->
         <div style="margin-bottom:10px " class="imageRow row alignCenter ">
+            <!--Left column-->
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12    showEffect4">
                 <a href="https://github.com/georgetour/Meteor-image_share" target="_blank">
                 <img class="img-responsive borderPortfolio" src="images/portfolio/image-share-with-fork-me-compressor.jpg" alt="Image share application">
                 </a>
             </div>
-
+            <!--Right Column-->
             <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12  showEffect5  ">
                 <h4 class="bold">Image share application</h4>
                 <p> This is an application made with meteor.js that people register, upload and rate images.
-
-
                     <a href="https://github.com/georgetour/Meteor-image_share">Source Code Here</a>
-
                 </p>
                 <img class="img-responsive imagesShadows phonePortfolio" src="images/portfolio/imageshare-trimmed.png" alt="Image share application at mobile">
             </div>
 
-        </div><!--Forth Row End-->
+        </div><!--Fourth Row End-->
 
         <!--Fifth Row-->
         <div style="margin-bottom:10px " class="imageRow row alignCenter ">
+            <!--Left column-->
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   showEffect1 ">
                 <img class="img-responsive borderPortfolio" src="images/portfolio/cinemagic-compressor.jpg" alt="Cinemagic.gr">
             </div>
-
+            <!--Right Column-->
             <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect2 ">
                 <h4 class="bold">www.cinemagic.gr</h4>
                 <p> This was an older project for a Greek company that sold and made smart home installations
@@ -112,13 +107,15 @@
             </div>
 
         </div>
-        <!--
+        <!--Fifth row end-->
+
         <!--Sixth Row -->
         <div style="margin-bottom:10px " class="imageRow row alignCenter ">
+            <!--Left column-->
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   showEffect2 ">
                 <img class="img-responsive borderPortfolio" src="images/portfolio/farma-main-4-compressor.jpg" alt="Farmaparnassou.gr">
             </div>
-
+            <!--Right Column-->
             <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect4 ">
                 <h4 class="bold"> <a href="http://www.farmaparnassou.gr" target="_blank">www.farmaparnassou.gr</a> </h4>
                 <p> Currently UNDER CONSTRUCTION page for a local shop with high quality
@@ -135,6 +132,7 @@
         or clicking the link below at footer.
     </div>
 
+    <!--Footer-->
     <?php include "footerPortfolio.php" ?>
 
 </div><!--End container portfolio page -->

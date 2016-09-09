@@ -70,7 +70,6 @@ body{
     -webkit-transform:translateZ(0);
     -moz-transform:translateZ(0);
     transform: translateZ(0);
-
     -webkit-animation-delay:4s;
     animation:fadein 6s;
 
@@ -124,19 +123,12 @@ font-size: 25px;
 
 @keyframes fadein {
     from {
-
         color: white;
-
     }
     to {
-
         color: #1b6d85;
-
     }
 }
-
-
-
 
 .iphone{
     width: 180px;
@@ -149,10 +141,6 @@ font-size: 25px;
     background-color:  #1b6d85;
     color: white;
     border-radius: 8px;
-
-}
-
-.buttonsRow{
 
 }
 
@@ -192,10 +180,7 @@ font-size: 25px;
 
 }
 
-
-
 .futureWebSites{
-
     font-weight: bold;
     color: #1b6d85;
     opacity: 0.9;
@@ -239,8 +224,6 @@ height: 170px;
 
 }
 
-
-
 .portfolioPictures{
     max-height:450px;
     margin: 0 auto;
@@ -262,10 +245,7 @@ height: 170px;
     height:100%;
 }
 
-
-
 .aboutMain{
-
     margin-top: 10px;
     background-color:white;
     padding:10px;
@@ -274,8 +254,6 @@ height: 170px;
 }
 
 .findMeAlso{
-
-
     padding:10px;
     border-radius: 4%;
     background-color: white;
@@ -295,7 +273,6 @@ height: 170px;
 }
 
 .submitButton{
-
     width:195px;
     margin-top: 10px;
     border-radius: 4%;
@@ -339,12 +316,10 @@ height: 170px;
 }
 
 .navbar{
-
     margin-bottom: 0px;
     border-radius: 0px;
 
 }
-
 
 
 .alignCenter{
@@ -354,8 +329,6 @@ height: 170px;
 
 .navbar-nav > li > a {
     font-size: 16px;
-
-
 }
 
 .navbar-inverse .navbar-toggle {
@@ -396,10 +369,6 @@ div> .myProgress{
 }
 
 
-
-
-
-
 .maxedSkill > span{
     width: 210px;
 }
@@ -407,7 +376,6 @@ div> .myProgress{
 .floatLeft {
     float: left;
 }
-
 
 
 #myBar {
@@ -420,42 +388,40 @@ div> .myProgress{
 
 
 
-
 @media (min-width: 768px) {
         .navbar > .container .navbar-brand,
         .navbar > .container-fluid .navbar-brand {
             margin-left: -15px;
         }
+}
 
+.navbar-toggle {
+   position: relative;
+   float: right;
+
+   margin-top: 8px;
+   margin-right: 15px;
+
+   background-color: transparent;
+   background-image: none;
+   border: 1px solid transparent;
 
 }
-    .navbar-toggle {
-        position: relative;
-        float: right;
+.navbar-toggle:focus {
+   outline: 0;
 
-        margin-top: 8px;
-        margin-right: 15px;
+}
 
-        background-color: transparent;
-        background-image: none;
-        border: 1px solid transparent;
+.navbar-toggle .icon-bar {
+   display: block;
+   width: 15px;
+   height: 2px;
 
-    }
-    .navbar-toggle:focus {
-        outline: 0;
-    }
-    .navbar-toggle .icon-bar {
-        display: block;
-        width: 15px;
-        height: 2px;
+}
 
-    }
-
-    .uniqueIframe{
-
-        border: 1px solid black;
-
-    }
+.uniqueIframe{
+    border: 1px solid black;
+}
 
 @media (max-width: 768px) {
         .uniqueIframe{
@@ -495,7 +461,6 @@ div> .myProgress{
         margin-bottom:0px ;
 
     }
-
 
     .showEffect1 , .showEffect2,
     .showEffect3,.showEffect4, .showEffect5,.showEffect6
@@ -557,7 +522,6 @@ div> .myProgress{
 
 
 
-
 .footerAboutMe{
     position: absolute;
     max-height:  20px;
@@ -611,14 +575,10 @@ footer{
 }
 
 @media (max-width: 768px) {
-
-
-
     .copyrights, .copyrights >div{
         text-align: center;
 
     }
-
     .footerContainer{
         margin-bottom: 14px;
         text-align: center;
@@ -655,7 +615,7 @@ footer{
 
 
     .fadeIn1 ,.fadeIn2, .fadeIn3,.fadeIn4{
-
+        /*Remove animation on smaller devics for smoother user experience*/
         /*CSS transitions*/
 
         -o-transition-property: none !important;
@@ -695,10 +655,7 @@ footer{
 
     }
 
-
-
 }
-
 
 
 
@@ -724,8 +681,6 @@ footer{
         display: none;
     }
 
-
-
     .footerAboutMe{
         position: absolute;
         max-height:  20px;
@@ -736,8 +691,6 @@ footer{
         width: 100%;
         margin-top: 30px;
     }
-
-
 
     .footerStatic{
         position: static;
