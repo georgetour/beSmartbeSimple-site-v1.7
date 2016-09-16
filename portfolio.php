@@ -35,10 +35,12 @@
         </div>
         <!--End first row-->
 
-        <!--Second row-->
+        <!--Wikipedia project row-->
         <div class="row alignCenter ">
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12  showEffect3">
-                <a href="wikipediaProject/wikipediaProject.php">      <img class="img-responsive borderPortfolio" src="images/portfolio/wikiProject-compressor.jpg" alt="Wikipedia Project"></a>
+                <a href="wikipediaProject/wikipediaProject.php">
+                    <img class="img-responsive borderPortfolio" src="images/portfolio/wikiProject-compressor.jpg" alt="Wikipedia Project">
+                </a>
             </div>
 
             <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12  showEffect4">
@@ -49,9 +51,9 @@
                 <img class="img-responsive imagesShadows phonePortfolio" src="images/portfolio/wikiTrimmed2.png" alt="Wipipedia Project at mobile">
             </div>
         </div>
-        <!--End second row-->
+        <!--Wikipedia project row-->
 
-        <!--Third Row -->
+        <!--OldTimesClassic Row -->
         <div  class="imageRow row alignCenter ">
             <!--Left column-->
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12 showEffect5   everything ">
@@ -66,9 +68,31 @@
                 <img class="img-responsive imagesShadows phonePortfolio" src="images/portfolio/blogTrimmed2.png" alt="Old Times Classic blog at mobile">
             </div>
 
-        </div><!--Third Row End-->
+        </div><!--OldTimesClassic Row End-->
 
-        <!--Fourth Row-->
+        <!--Mastering SASS Row -->
+        <div style="margin-bottom:10px " class="imageRow row alignCenter ">
+            <!--Left column-->
+            <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   showEffect2 ">
+                <a href="Sass/mastering-sass.html" target="_blank">
+                    <img class="img-responsive borderPortfolio" src="images/portfolio/mastering-sass-compressor.jpg" alt="Mastering SASS">
+                </a>
+            </div>
+            <!--Right Column-->
+            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect4 ">
+                <h4 class="bold"> <a href="Sass/mastering-sass.html" target="_blank">Mastering SASS</a> </h4>
+                <p> A single page guide, so from beginner to SASS you will be able to understand more advanced topics
+                    and master it.
+
+                </p>
+                <p>It has everything you want from simple explanation, installation and basic to advanced categories.</p>
+
+            </div>
+
+        </div><!--Mastering SASS Row End-->
+
+
+        <!--Image share Row-->
         <div style="margin-bottom:10px " class="imageRow row alignCenter ">
             <!--Left column-->
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12    showEffect4">
@@ -85,9 +109,9 @@
                 <img class="img-responsive imagesShadows phonePortfolio" src="images/portfolio/imageshare-trimmed.png" alt="Image share application at mobile">
             </div>
 
-        </div><!--Fourth Row End-->
+        </div><!--Image share Row-->
 
-        <!--Fifth Row-->
+        <!--Cinemagic Row-->
         <div style="margin-bottom:10px " class="imageRow row alignCenter ">
             <!--Left column-->
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   showEffect1 ">
@@ -107,9 +131,9 @@
             </div>
 
         </div>
-        <!--Fifth row end-->
+        <!--Cinemagic Row end-->
 
-        <!--Sixth Row -->
+        <!--Farmaparnassou Row -->
         <div style="margin-bottom:10px " class="imageRow row alignCenter ">
             <!--Left column-->
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   showEffect2 ">
@@ -124,7 +148,9 @@
 
             </div>
 
-        </div><!--Sixth Row End-->
+        </div><!--Farmaparnassou Row -->
+
+
 
 
     </div><!--End portfolio container main-->

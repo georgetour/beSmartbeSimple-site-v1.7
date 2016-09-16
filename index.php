@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>beSmartbeSimple - Web Design and Development  </title>
     <meta name="description" content="I built smart websites with beautiful simple design.Contact me for a free quote." >
-    <meta name="keywords" content="besmarbesimple,be smart be simple,web design,web designer,web developer,web page design,web design services,smart website,simple designs,creative web design,affordable web design,responsive,responsive web design">
+    <meta name="keywords" content="besmarbesimple,be smart be simple,besmart be simple,web design,web designer,web developer,web page design,web design services,smart website,simple designs,creative web design,affordable web design,responsive,responsive web design">
     <meta name="author" content="George Tourtsinakis">
 
     <script  src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>

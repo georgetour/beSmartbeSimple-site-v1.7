@@ -1,0 +1,22 @@
+//We create functions like mixins by saying @function name
+//and we return value with @return
+@function sum($left,$right){
+  @return $left + $right;
+}
+
+//Here with this function we will have em if we give pixels
+@function em($pixels,$context:16px){
+  @return ($pixels/$context)*1em;
+}
+
+//A function that has default 12 columns 100% page width and 1% gap between the columns
+//and return equally split columns
+@function col-width($columns:12,$page-width:100%,$gap:1%){
+  @return ($page-width - $gap*($columns)) / $columns;
+}
+
+//With the function below we ll get pure number without units
+@function remove-units($value){
+  @return $value / ($value*0+1);
+}
+

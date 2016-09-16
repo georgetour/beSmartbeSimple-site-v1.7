@@ -1,0 +1,281 @@
+/* In SASS we define a variable and then we call normally as we would in a 
+programming language COOL! So if the variable value changes it changes everywhere.
+No need for repeating */
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+.textsize-1 {
+  font-size: 5px; }
+
+.textsize-2 {
+  font-size: 10px; }
+
+.textsize-3 {
+  font-size: 15px; }
+
+.textsize-4 {
+  font-size: 20px; }
+
+.textsize-5 {
+  font-size: 25px; }
+
+.textsize-6 {
+  font-size: 30px; }
+
+.cat-animal {
+  background-image: url("../images/cat.png"); }
+
+.dog-animal {
+  background-image: url("../images/dog.png"); }
+
+.bird-animal {
+  background-image: url("../images/bird.png"); }
+
+.article {
+  color: #0052cc; }
+
+.picture-2 {
+  width: 20%; }
+
+.picture-4 {
+  width: 40%; }
+
+.picture-6 {
+  width: 60%; }
+
+.picture-8 {
+  width: 80%; }
+
+.picture-10 {
+  width: 100%; }
+
+.dark-blue {
+  color: #0052cc; }
+
+.normal-blue {
+  color: #1a75ff; }
+
+.light-blue {
+  color: #b3d1ff; }
+
+.garage {
+  color: blue; }
+
+.house {
+  color: red; }
+
+.cellar {
+  color: green; }
+
+a {
+  font-style: italic;
+  text-decoration: none; }
+
+* html body {
+  color: #000088; }
+
+.forkMe {
+  position: fixed;
+  right: 1px;
+  z-index: 1031; }
+
+.warning-button {
+  background-color: orange;
+  color: white; }
+  .warning-button:hover {
+    background-color: #ffdb99; }
+
+.darkButton {
+  background-color: black;
+  color: white;
+  margin: 5px; }
+
+.lightButton {
+  background-color: #53c653;
+  color: white;
+  margin: 5px; }
+
+.defaultButton {
+  background-color: white;
+  color: black;
+  margin: 5px; }
+
+.error, .critical-error {
+  color: red; }
+
+.critical-error {
+  border: 1px solid red;
+  font-weight: bold; }
+
+.sub-title {
+  font-style: italic; }
+
+.cta-button {
+  background-color: orange;
+  color: white;
+  border-radius: 6px; }
+  .cta-button:hover {
+    background-color: #ffdb99; }
+
+.darkTheme {
+  background-color: #272822;
+  color: white; }
+  .darkTheme #navbar {
+    background-color: black;
+    border-radius: 6px;
+    border: 2px solid grey;
+    box-shadow: 10px 10px 5px #888888, -5px 5px 3px black;
+    -moz-box-shadow: 10px 10px 5px #888888, -5px 5px 3px black;
+    -webkit-box-shadow: 10px 10px 5px #888888, -5px 5px 3px black; }
+  .darkTheme .dropdown-menu {
+    background-color: black; }
+  .darkTheme #footer {
+    background-color: black; }
+
+.lightTheme {
+  background-color: white;
+  color: black; }
+  .lightTheme #navbar {
+    background-color: #53c653;
+    border-radius: 6px;
+    border: 1px solid #005580;
+    box-shadow: 6px 6px 5px #cccccc, -3px 3px 3px #ccffeb;
+    -moz-box-shadow: 6px 6px 5px #cccccc, -3px 3px 3px #ccffeb;
+    -webkit-box-shadow: 6px 6px 5px #cccccc, -3px 3px 3px #ccffeb; }
+  .lightTheme .dropdown-menu {
+    background-color: #53c653; }
+  .lightTheme #footer {
+    background-color: #53c653;
+    color: white; }
+
+.defaultTheme {
+  background-color: white;
+  color: black; }
+  .defaultTheme #navbar {
+    background-color: #1a1aff;
+    border-radius: 6px;
+    border: 1px solid #005580;
+    box-shadow: 7px 7px 7px #888888, -5px 5px 3px #1a1aff;
+    -moz-box-shadow: 7px 7px 7px #888888, -5px 5px 3px #1a1aff;
+    -webkit-box-shadow: 7px 7px 7px #888888, -5px 5px 3px #1a1aff; }
+  .defaultTheme .dropdown-menu {
+    background-color: #1a1aff; }
+  .defaultTheme #footer {
+    background-color: #1a1aff;
+    color: white; }
+
+pre {
+  line-height: 20px; }
+
+body {
+  font-family: "Alegreya Sans", Arial, sans-serif;
+  font-size: 1.875em; }
+  @media only screen and (max-width: 960px) {
+    body {
+      font-size: 120%; } }
+
+.featureBorder {
+  border: 1px solid black;
+  position: relative;
+  margin-top: 20px;
+  padding: 10px; }
+
+.installation {
+  position: relative;
+  margin-top: 20px;
+  padding: 10px; }
+
+.anchor {
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  top: -95px;
+  left: 0;
+  visibility: hidden; }
+
+.anchor:target {
+  padding-top: 95px; }
+
+span {
+  color: #7b66dc; }
+
+.sublimeColor {
+  background-color: #272822;
+  color: white; }
+
+h1, h2, h3, h4 {
+  font-family: "Titillium Web", Georgia, serif; }
+
+h1 {
+  font-size: 40px;
+  font-weight: bold; }
+
+a:hover {
+  color: #003d9a; }
+
+.navbar {
+  line-height: 60px;
+  min-height: 60px; }
+
+#navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030; }
+  #navbar .navbar-nav li {
+    display: inline-block; }
+    #navbar .navbar-nav li .topLinks {
+      padding: 10px;
+      line-height: 50px; }
+    #navbar .navbar-nav li .menuExtraList {
+      display: block; }
+      #navbar .navbar-nav li .menuExtraList a:hover {
+        color: black; }
+  #navbar .navbar-nav a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid rgba(254, 254, 254, 0);
+    transition: border-bottom 0.5s;
+    transition-timing-function: ease-in-out; }
+    #navbar .navbar-nav a:hover {
+      border-bottom: 1px solid #fefefe; }
+
+#main {
+  padding-top: 60px;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto; }
+  @media only screen and (max-width: 960px) {
+    #main {
+      width: auto;
+      max-width: 960px; } }
+  #main #content {
+    display: inline-block; }
+  #main .sidebar {
+    display: inline-block;
+    width: 14.66667%;
+    background-color: lightgray; }
+  #main ul {
+    margin: 0;
+    padding: 0; }
+  #main li {
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0; }
+    #main li:hover {
+      background-color: #efefef; }
+
+.alignCenter {
+  text-align: center; }
+
+#footer {
+  padding: 5px;
+  margin-top: 20px;
+  height: 60px; }
+  #footer div a {
+    color: white; }
+
+/*# sourceMappingURL=main.css.map */
