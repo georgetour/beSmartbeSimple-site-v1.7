@@ -23,7 +23,7 @@
   <![endif]-->
 
   <link  href="css/main.min.css" rel="stylesheet" type="text/css" >
-   <?php include_once("analyticstracking.php") ?>
+   <?php include_once("../analyticstracking.php") ?>
 </head>
 
 <body class="defaultTheme">

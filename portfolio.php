@@ -74,13 +74,13 @@
         <div style="margin-bottom:10px " class="imageRow row alignCenter ">
             <!--Left column-->
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   showEffect2 ">
-                <a href="Sass/mastering-sass.html" target="_blank">
+                <a href="Sass/mastering-sass.php" target="_blank">
                     <img class="img-responsive borderPortfolio" src="images/portfolio/mastering-sass-compressor.jpg" alt="Mastering SASS">
                 </a>
             </div>
             <!--Right Column-->
             <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect4 ">
-                <h4 class="bold"> <a href="Sass/mastering-sass.html" target="_blank">Mastering SASS</a> </h4>
+                <h4 class="bold"> <a href="Sass/mastering-sass.php" target="_blank">Mastering SASS</a> </h4>
                 <p> A single page guide, so from beginner to SASS you will be able to understand more advanced topics
                     and master it.
 
