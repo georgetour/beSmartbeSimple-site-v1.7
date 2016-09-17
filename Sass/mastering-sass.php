@@ -56,7 +56,7 @@
 			  </li>
 
 
-		  <li class="topLinks"><a target="_blank" class=" topLinks" href="http://www.besmartbesimple.com">Back to beSmartbeSimple.com</a></li>
+		  <li class="topLinks"><a class=" topLinks" href="http://www.besmartbesimple.com">Back to beSmartbeSimple.com</a></li>
 	  </ul>
 	</nav>
 
