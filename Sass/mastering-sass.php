@@ -11,9 +11,10 @@
 
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="css/prism.css" rel="stylesheet" type="text/css">
-  <script defer src="javascript/jquery-2.2.4.min.js"></script>
+  <link  href="css/main.min.css" rel="stylesheet" type="text/css" >
+   <script defer src="javascript/jquery-2.2.4.min.js"></script>
   <script defer src="javascript/jquery.scrollTo.min.js"></script>
-  <script defer  src="javascript/main.js"></script>
+  <script defer  src="javascript/main.min.js"></script>
   <script defer src="javascript/bootstrap.min.js"></script>
   <script defer src="javascript/prism.js"></script>
 
@@ -22,7 +23,6 @@
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
-  <link  href="css/main.min.css" rel="stylesheet" type="text/css" >
    <?php include_once("../analyticstracking.php") ?>
 </head>
 
@@ -105,13 +105,10 @@
       <div class="installation">
           <span id="installation" class="anchor"></span>
           <h3 >Installing SASS for sublime text</h3>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/NID3p0okzYQ"
-                  frameborder="0" allowfullscreen>
-          </iframe>
+          <div id="sublime-install"></div>
           <h3 >Installing SASS for phpstorm with file watchers</h3>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/fe14-21NTGU"
-                  frameborder="0" allowfullscreen>
-          </iframe>
+          <div id="php-storm-install"></div>
+          
       </div>
 
 <!--Variables section-->
