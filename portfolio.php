@@ -91,6 +91,26 @@
 
         </div><!--Mastering SASS Row End-->
 
+        <!--Atypon Assignment Row -->
+        <div style="margin-bottom:10px " class="imageRow row alignCenter ">
+            <!--Left column-->
+            <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   showEffect2 ">
+                <a href="Atypon-project/atypon-project.html" target="_blank">
+                    <img class="img-responsive borderPortfolio" src="Atypon-project/images/atypon-assignment-compress.gif" alt="Mastering SASS">
+                </a>
+            </div>
+            <!--Right Column-->
+            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect4 ">
+                <h4 class="bold"> <a href="Atypon-project/atypon-project.html" target="_blank">An atypon.com project</a> </h4>
+                <p> A prototype project for this great USA company that uses no framework except
+                    jquery with some difficult single page animation.
+
+                </p>
+                <p>It looks really nice in all devices and has accessibility top priority. </p>
+                <img class="img-responsive imagesShadows phonePortfolio" src="Atypon-project/images/atypon-responsive-compressed.gif" alt="Image share application at mobile">
+            </div>
+
+        </div><!--Atypon Row End-->
 
         <!--Image share Row-->
         <div style="margin-bottom:10px " class="imageRow row alignCenter ">
