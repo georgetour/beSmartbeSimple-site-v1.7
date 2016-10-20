@@ -94,23 +94,43 @@
         <!--Atypon Assignment Row -->
         <div style="margin-bottom:10px " class="imageRow row alignCenter ">
             <!--Left column-->
-            <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   showEffect2 ">
+            <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   showEffect4 ">
                 <a href="Atypon-project/atypon-project.html" target="_blank">
-                    <img class="img-responsive borderPortfolio" src="Atypon-project/images/atypon-assignment-compress.gif" alt="Mastering SASS">
+                    <img class="img-responsive borderPortfolio"src="images/portfolio/atypon-compressor.png" alt="Atypon.com project">
                 </a>
             </div>
             <!--Right Column-->
-            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect4 ">
+            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect5 ">
                 <h4 class="bold"> <a href="Atypon-project/atypon-project.html" target="_blank">An atypon.com project</a> </h4>
                 <p> A prototype project for this great USA company that uses no framework except
                     jquery with some difficult single page animation.
 
                 </p>
                 <p>It looks really nice in all devices and has accessibility top priority. </p>
-                <img class="img-responsive imagesShadows phonePortfolio" src="Atypon-project/images/atypon-responsive-compressed.gif" alt="Image share application at mobile">
+                <img class="img-responsive imagesShadows phonePortfolio" src="images/portfolio/atyponTrimmed2-compressor.png" alt="Atypon.com project at mobile">
             </div>
 
         </div><!--Atypon Row End-->
+
+        <!--Test Wordpress Row -->
+        <div style="margin-bottom:10px " class="imageRow row alignCenter ">
+            <!--Left column-->
+            <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   showEffect5 ">
+                <a href="https://github.com/georgetour/TestWordpress" target="_blank">
+                    <img class="img-responsive borderPortfolio"src="images/portfolio/test-wordpress-compressor.png" alt="Test Wordpress">
+                </a>
+            </div>
+            <!--Right Column-->
+            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect6 ">
+                <h4 class="bold"> <a href="https://github.com/georgetour/TestWordpress" target="_blank">Test Wordpress</a> </h4>
+                <p> This is a project under construction that uses Wordpress and Bootstrap custom theme creation.'
+                </p>
+                <p>Customers will be able to see what Wordpress is and how it works.   </p>
+                <img class="img-responsive imagesShadows phonePortfolio" src="images/portfolio/testwordpresstrimmed-compressor.png" alt="Test Wordpress at mobile">
+        </div>
+
+        </div><!--Test Wordpress End-->
+
 
         <!--Image share Row-->
         <div style="margin-bottom:10px " class="imageRow row alignCenter ">
