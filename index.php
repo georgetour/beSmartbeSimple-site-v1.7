@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>beSmartbeSimple - Web Design and Development  </title>
@@ -9,8 +10,6 @@
     <meta name="keywords" content="besmarbesimple,be smart be simple,besmart be simple,web design,web designer,web developer,web page design,web design services,smart website,simple designs,creative web design,affordable web design,responsive,responsive web design">
     <meta name="author" content="George Tourtsinakis">
 
-    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">   </script>
     <link  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!--<link type="text/css" rel="stylesheet" href="stylesheets/customStyle.css">-->
     <link type="text/css" rel="stylesheet" href="stylesheets/customStyle.min.css">
@@ -32,11 +31,11 @@
         }
 
     </style>
+
     <?php include_once("analyticstracking.php") ?>
     <!--<script src="javascript/indexCompressed.js" ></script>-->
 </head>
 <body>
-
 
 <?php include_once 'navbar.php'?>
 
@@ -75,7 +74,8 @@
 <?php include "footer.php" ?>
 
 
-
+<script  src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">   </script>
 
 </body>
 </html>

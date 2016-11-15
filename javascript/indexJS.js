@@ -1,6 +1,6 @@
 $(document).ready(function () {
-
-  //Smooth animation  pages
+    
+    //Smooth animation  pages
     $(".showEffect1").animate({left: "0"}, {
         duration: 1500
     });
