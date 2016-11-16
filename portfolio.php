@@ -39,7 +39,7 @@
         <div class="row alignCenter ">
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12  showEffect3">
                 <a href="wikipediaProject/wikipediaProject.php">
-                    <img class="img-responsive borderPortfolio" src="images/portfolio/wikiProject-compressor.jpg" alt="Wikipedia Project">
+                    <img class="img-responsive borderPortfolio" src="images/portfolio/wikiProject-compressor2.jpg" alt="Wikipedia Project">
                 </a>
             </div>
 
@@ -57,7 +57,7 @@
         <div  class="imageRow row alignCenter ">
             <!--Left column-->
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12 showEffect5   everything ">
-                <a href="http://www.oldtimesclassic.com" target="_blank">   <img class="img-responsive borderPortfolio" src="images/portfolio/blogProject-compressor.jpg" alt="Old Times Classic blog"></a>
+                <a href="http://www.oldtimesclassic.com" target="_blank">   <img class="img-responsive borderPortfolio" src="images/portfolio/blogProject2-compressor.jpg" alt="Old Times Classic blog"></a>
             </div>
             <!--Right Column-->
             <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12 showEffect6  everything ">
@@ -75,7 +75,7 @@
             <!--Left column-->
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   showEffect2 ">
                 <a href="Sass/mastering-sass.php" target="_blank">
-                    <img class="img-responsive borderPortfolio" src="images/portfolio/mastering-sass-compressor.jpg" alt="Mastering SASS">
+                    <img class="img-responsive borderPortfolio" src="images/portfolio/mastering-sass2-compressor.jpg" alt="Mastering SASS">
                 </a>
             </div>
             <!--Right Column-->
@@ -96,7 +96,7 @@
             <!--Left column-->
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   showEffect4 ">
                 <a href="Atypon-project/atypon-project.html" target="_blank">
-                    <img class="img-responsive borderPortfolio"src="images/portfolio/atypon-compressor.png" alt="Atypon.com project">
+                    <img class="img-responsive borderPortfolio"src="images/portfolio/atypon2-compressor(1).png" alt="Atypon.com project">
                 </a>
             </div>
             <!--Right Column-->
@@ -117,7 +117,7 @@
             <!--Left column-->
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   showEffect5 ">
                 <a href="https://github.com/georgetour/TestWordpress" target="_blank">
-                    <img class="img-responsive borderPortfolio"src="images/portfolio/test-wordpress-compressor.png" alt="Test Wordpress">
+                    <img class="img-responsive borderPortfolio"src="images/portfolio/test-wordpress2-compressor.png" alt="Test Wordpress">
                 </a>
             </div>
             <!--Right Column-->
@@ -137,7 +137,7 @@
             <!--Left column-->
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12    showEffect4">
                 <a href="https://github.com/georgetour/Meteor-image_share" target="_blank">
-                <img class="img-responsive borderPortfolio" src="images/portfolio/image-share-with-fork-me-compressor.jpg" alt="Image share application">
+                <img class="img-responsive borderPortfolio" src="images/portfolio/image-share-with-fork-me2-compressor.jpg" alt="Image share application">
                 </a>
             </div>
             <!--Right Column-->
@@ -155,7 +155,7 @@
         <div style="margin-bottom:10px " class="imageRow row alignCenter ">
             <!--Left column-->
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   showEffect1 ">
-                <img class="img-responsive borderPortfolio" src="images/portfolio/cinemagic-compressor.jpg" alt="Cinemagic.gr">
+                <img class="img-responsive borderPortfolio" src="images/portfolio/cinemagic2-compressor.jpg" alt="Cinemagic.gr">
             </div>
             <!--Right Column-->
             <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect2 ">
@@ -177,7 +177,7 @@
         <div style="margin-bottom:10px " class="imageRow row alignCenter ">
             <!--Left column-->
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   showEffect2 ">
-                <img class="img-responsive borderPortfolio" src="images/portfolio/farma-main-4-compressor.jpg" alt="Farmaparnassou.gr">
+                <img class="img-responsive borderPortfolio" src="images/portfolio/farma-parnassou2-compressor.jpg" alt="Farmaparnassou.gr">
             </div>
             <!--Right Column-->
             <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect4 ">
