@@ -106,7 +106,7 @@
                 <div class="ninetyPercent">SEO/Adwords/Analytics</div>
             </div>
             <div class="myProgress ">
-                <div class="ninetyPercent">Wordpress</div>
+                <div class="workingSkill">Wordpress(mastering skill)</div>
             </div>
             </div>
 
