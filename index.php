@@ -14,6 +14,13 @@
     <link  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!--<link type="text/css" rel="stylesheet" href="stylesheets/customStyle.css">-->
     <link type="text/css" rel="stylesheet" href="stylesheets/customStyle.min.css">
+    <script>
+        //Add footer id dynamic so it responds to page
+        $(document).ready(function () {
+
+            $('.footerContainer').attr('id','footerMain');
+        });
+    </script>
 
     <style>
         @media (max-width:732px ){
