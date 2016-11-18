@@ -748,6 +748,10 @@ footer{
     .weCreate{
     margin-top: 1%;
     }
+    #footerAwards{
+        position: relative;
+        margin-top: 50px;
+    }
 }
 
 @media (min-width: 1024px) and (max-width: 1024px){
@@ -816,7 +820,7 @@ footer{
 
 }
 
-@media (min-width: 319px) {
+@media (min-width: 319px) and (max-width: 420px) {
     #footerAwards{
         position: absolute;
         bottom: 0;
@@ -839,7 +843,7 @@ footer{
     }
 
 }
-@media (min-width: 481px){
+@media (min-width: 481px)and (max-width: 719px){
 
     #footerAwards{
         position: relative;
@@ -863,20 +867,19 @@ footer{
         bottom: 0;
 
     }
-    #footerAwards{
-        position: absolute;
-        bottom: 0;
-    }
+
 
 }
 
 
-@media (min-width: 768px){
-    #footerAwards{
+@media (min-width: 768px)and (min-height:1024px) {
+
+    #footerAwards {
         position: absolute;
         bottom: 0;
 
     }
+
     #footerContact{
 
         position: absolute;
@@ -903,16 +906,13 @@ footer{
 @media (min-width: 1025px)and (max-width: 1366px){
     #footerAwards {
         position: relative;
+        margin-top: 400px;
     }
     #footerAbout{
         margin-top: 80px;
 
     }
-    #footerAwards {
-        position: absolute;
-        bottom: 0;
 
-    }
 }
 
 @media (min-width: 1369px){
