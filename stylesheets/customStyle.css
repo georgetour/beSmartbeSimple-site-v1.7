@@ -918,10 +918,14 @@ footer{
     }
 }
 
-@media (min-width: 1200px)and(min-height: 768px){
+@media (min-width: 1280px)and(min-height: 600px){
     #footerAwards{
         position: absolute;
         bottom: 0;
+    }
+    #footerAbout{
+        position: relative;
+        margin-top: 100px;
     }
 }
 @media (min-width: 1025px)and (min-height: 720px)and (max-width: 1365px){
