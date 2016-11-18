@@ -11,6 +11,16 @@
     <?php include 'head.php' ?>
 
     <?php include_once("analyticstracking.php") ?>
+    <script>
+        //Add footer id dynamic so it responds to page
+        $(document).ready(function () {
+
+            $('.footerContainer').attr('id','footerAwards');
+
+        });
+
+
+    </script>
 </head>
 <body>
 
@@ -56,16 +66,7 @@
 </div>
 <!--End awards container fluid-->
 
-<script>
-    //Add footer id dynamic so it responds to page
-    $(document).ready(function () {
 
-        $('.footerContainer').attr('id','footerAwards');
-
-    });
-
-
-</script>
 
 
 </body>

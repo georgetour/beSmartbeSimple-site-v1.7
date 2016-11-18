@@ -289,7 +289,7 @@ height: 170px;
     border-radius: 10px;
     background-color: black;
     background-color: rgba(0,0,0, 0.9);
-    margin-bottom: 300px;
+
 }
 
 
@@ -831,10 +831,7 @@ footer{
 }
 
 @media (min-width: 411px)and (max-width: 480px){
-    #footerAwards{
-        position: relative;
 
-    }
     #footerContact{
         position: relative;
 
@@ -842,6 +839,15 @@ footer{
     }
 
 }
+@media (min-width: 481px){
+
+    #footerAwards{
+        position: relative;
+        margin-top: 80px;
+    }
+
+}
+
 
 @media (min-width:480px)and (max-width: 719px){
     #footerContact{
@@ -857,7 +863,10 @@ footer{
         bottom: 0;
 
     }
-
+    #footerAwards{
+        position: absolute;
+        bottom: 0;
+    }
 
 }
 
@@ -899,7 +908,11 @@ footer{
         margin-top: 80px;
 
     }
+    #footerAwards {
+        position: absolute;
+        bottom: 0;
 
+    }
 }
 
 @media (min-width: 1369px){
