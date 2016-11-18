@@ -13,6 +13,14 @@
 
     <script async src="javascript/progressBar.js"></script>
     <?php include_once("analyticstracking.php") ?>
+    <script>
+        //Add footer id dynamic so it responds to page
+        $(document).ready(function () {
+
+            $('.footerContainer').attr('id','footerAbout');
+
+        });
+    </script>
 </head>
 <body>
 <?php include 'navbar.php'?>
@@ -106,7 +114,7 @@
                 <div class="ninetyPercent">SEO/Adwords/Analytics</div>
             </div>
             <div class="myProgress ">
-                <div class="workingSkill">Wordpress(mastering skill)</div>
+                <div class="ninetyPercent">Wordpress</div>
             </div>
             </div>
 
@@ -164,9 +172,10 @@
     </div>
     </div>
 
-    <?php include "footerStatic.php" ?>
+    <?php include "footer.php" ?>
 
 </div><!--End about container fluid-->
+
 
 
 </body>

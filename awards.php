@@ -52,11 +52,20 @@
 </div>
 
 <div >
-<?php include "footerPortfolio.php" ?>
+<?php include "footer.php" ?>
 </div>
 <!--End awards container fluid-->
 
+<script>
+    //Add footer id dynamic so it responds to page
+    $(document).ready(function () {
 
+        $('.footerContainer').attr('id','footerAwards');
+
+    });
+
+
+</script>
 
 
 </body>

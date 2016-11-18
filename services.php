@@ -14,6 +14,7 @@
         <?php include_once("analyticstracking.php") ?>
         
     </head>
+
 <body>
 
   <?php include 'navbar.php'?>
@@ -44,6 +45,9 @@
         </div>
         <!--End first row-->
 
+
+
+
         <!--Second row-->
         <div class="container  showEffect2  ">
 
@@ -51,8 +55,21 @@
             <div class="text-center"><a class="servicesTags">Search Engine Optimized <span>,</span></a><a class="servicesTags">Easy to Navigate</a></div>
             <div class="text-center"><a class="servicesTags"><a class="servicesTags">Customizable</a></div>
 
+            <!--Speed Row-->
             <div class="row imageRowServices alignCenter ">
 
+                <div class=" col-lg-12  col-md-12  col-sm-12 col-xs-12  borderTest">
+                    <h3>Speed, Speed, Speed ! </h3>
+                    <div class=""> <img alt="Compass" class="img-responsive  " src="images/services/speed-babe-compressor.jpg">  </div>
+                    <h4 class="bold">Numbers don't lie</h4>
+                    <p>You will have  one of the worlds fastest sites. Google wants that, your visitors want that, YOU want that. I use the best
+                        techniques and technologies available to make that possible.
+                    </p>
+
+                </div>
+            </div><!--End speed row-->
+
+            <div class="row imageRowServices alignCenter ">
                 <!--Left column-->
                 <div class="col-lg-4  col-md-4 col-sm-12 col-xs-12  borderTest outsideHeight">
                     <h3>It will look awesome in all devices and browsers</h3>
@@ -88,8 +105,6 @@
                         and we will have really good results .
                     </p>
                 </div>
-
-
             </div>
 
         </div><!--End second row-->
@@ -99,7 +114,7 @@
 
                     <!--Left column-->
                     <div class="col-lg-6 col-md-6  col-md-12 col-sm-12 col-xs-12 borderTest outsideHeight">
-                        <h3>High speed with Cloud Private Hosting </h3>
+                        <h3>High uptime with Cloud Private Hosting </h3>
                         <div class=""><img alt="Cloud Computing"  class="img-responsive picturesIcons " src="images/Cloud_computing.png">  </div>
                         <h4 class="bold">Cloud Virtual Private Server</h4>
                         <p>The power of a cloud Virtual Private Server will host your site.
@@ -129,8 +144,17 @@
 </div>
 
     <!--footer-->
-    <?php include "footerPortfolio.php" ?>
+    <?php include "footer.php" ?>
     
+<script>
+    //Add footer id dynamic so it responds to page
+    $(document).ready(function () {
 
+        $('.footerContainer').attr('id','footerStatic');
+
+    });
+
+
+</script>
 </body>
 </html>

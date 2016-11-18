@@ -12,6 +12,16 @@
 
     <?php include_once("analyticstracking.php") ?>
 
+    <script>
+        //Add footer id dynamic so it responds to page
+        $(document).ready(function () {
+
+            $('.footerContainer').attr('id','footerContact');
+
+        });
+
+
+    </script>
 
 </head>
 <body>
@@ -53,7 +63,7 @@
         </form>
 
     </div>
-    <?php include "footerAboutMe.php" ?>
+    <?php include "footer.php" ?>
 
 </div><!--End contact  container -->
 
