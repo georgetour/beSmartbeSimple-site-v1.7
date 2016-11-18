@@ -1,7 +1,7 @@
-<footer class="footerContainer  ">
+<footer class="footerContainer container">
 
-    <div >
-        <div  class="col-lg-3 col-md-12 col-xs-12  col-sm-12   ">
+    <div class="row">
+        <div  class="col-lg-3 col-md-12 col-xs-12  col-sm-12  ">
             <div class="signature col-lg-3 col-md-4 col-xs-4 col-sm-4 alignCenter">
                 <a href="about.php">About</a>
             </div>
@@ -14,12 +14,12 @@
 
 
         </div>
-        <div class="col-lg-6 col-md-12 col-xs-12  col-sm-12 ">
+        <div  class="col-lg-6 col-md-12 col-xs-12  col-sm-12 ">
             <div><img class="centerImg paypal-image" src="images/paypal-verified.jpg"></div>
 
         </div>
 
-        <div class="copyrights col-lg-3 col-md-12 col-xs-12  col-sm-12 signature ">
+        <div class="copyrights col-lg-3 col-md-12 col-xs-12  col-sm-12 signature  background-opacity">
             <div>Copyright© 2016 </div>
             <div>beSmartbeSimple.com</div>
             <div >All rights reserved</div>
