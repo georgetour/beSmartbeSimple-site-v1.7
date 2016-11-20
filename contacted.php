@@ -10,7 +10,16 @@
     <link type="text/css" rel="stylesheet" href="stylesheets/customStyle.css">
     <script src="javascript/indexJS.js" ></script>
 
+    <script>
+        //Add footer id dynamic so it responds to page
+        $(document).ready(function () {
 
+            $('.footerContainer').attr('id','footerMain');
+
+        });
+
+
+    </script>
 </head>
 <body>
 <!--Top menu bar-->
