@@ -498,6 +498,9 @@ div> .myProgress{
     font-size: small;
     background: rgba(0, 0, 0, 0.5);
 }
+#footerAwards,#footerAbout{
+    margin-top: 200px;
+}
 
 
 
@@ -918,17 +921,17 @@ footer{
     }
 }
 
-@media (min-width: 1280px)and(min-height: 600px){
+@media (min-width: 1280px)and(min-height: 600px)and (max-width:1365px){
     #footerAwards{
-        position: absolute;
-        bottom: 0;
+        position: relative;
+        margin-top: 300px;
     }
     #footerAbout{
         position: relative;
         margin-top: 100px;
     }
 }
-@media (min-width: 1025px)and (min-height: 720px)and (max-width: 1365px){
+@media (min-width: 1025px)and (min-height: 720px)and (max-width: 1279px){
     #footerAwards {
         position: relative;
         margin-top: 400px;
@@ -952,7 +955,10 @@ footer{
         bottom: 0;
 
     }
-
+    #footerAwards {
+        position: relative;
+        margin-top: 400px;
+    }
 }
 
 
