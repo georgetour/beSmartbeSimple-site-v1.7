@@ -35,6 +35,22 @@
         </div>
         <!--End first row-->
 
+        <!--Farmaparnassou Row -->
+        <div style="margin-bottom:10px " class="imageRow row alignCenter ">
+            <!--Left column-->
+            <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   showEffect2 ">
+                <img class="img-responsive borderPortfolio" src="images/portfolio/famarparnassou-final-compressor.jpg" alt="Farmaparnassou.gr">
+            </div>
+            <!--Right Column-->
+            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect4 ">
+                <h4 class="bold"> <a href="http://www.farmaparnassou.gr" target="_blank">www.farmaparnassou.gr</a> </h4>
+                <p> A site for a Greek company that has farms with high quality food products like meat, cheese and many more...
+                </p>
+                <img class="img-responsive imagesShadows phonePortfolio" src="images/portfolio/farmaparnassou-trimmed-compressor.png" alt="Farmaparnassou.gr mobile">
+            </div>
+
+        </div><!--Farmaparnassou Row -->
+
         <!--Wikipedia project row-->
         <div class="row alignCenter ">
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12  showEffect3">
@@ -173,22 +189,7 @@
         </div>
         <!--Cinemagic Row end-->
 
-        <!--Farmaparnassou Row -->
-        <div style="margin-bottom:10px " class="imageRow row alignCenter ">
-            <!--Left column-->
-            <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   showEffect2 ">
-                <img class="img-responsive borderPortfolio" src="images/portfolio/farma-main-4-compressor.jpg" alt="Farmaparnassou.gr">
-            </div>
-            <!--Right Column-->
-            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect4 ">
-                <h4 class="bold"> <a href="http://www.farmaparnassou.gr" target="_blank">www.farmaparnassou.gr</a> </h4>
-                <p> Currently UNDER CONSTRUCTION page for a local shop with high quality
-                    Greek products like meat, wine and many more...
-                </p>
 
-            </div>
-
-        </div><!--Farmaparnassou Row -->
 
 
 
