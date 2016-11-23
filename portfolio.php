@@ -36,7 +36,7 @@
         <!--End first row-->
 
         <!--Farmaparnassou Row -->
-        <div style="margin-bottom:10px " class="imageRow row alignCenter ">
+        <div class=" row alignCenter ">
             <!--Left column-->
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   showEffect2 ">
                 <img class="img-responsive borderPortfolio" src="images/portfolio/famarparnassou-final-compressor.jpg" alt="Farmaparnassou.gr">
@@ -52,7 +52,7 @@
         </div><!--Farmaparnassou Row -->
 
         <!--Wikipedia project row-->
-        <div class="row alignCenter ">
+        <div class="imageRow row alignCenter ">
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12  showEffect3">
                 <a href="wikipediaProject/wikipediaProject.php">
                     <img class="img-responsive borderPortfolio" src="images/portfolio/wikiProject-compressor.jpg" alt="Wikipedia Project">
