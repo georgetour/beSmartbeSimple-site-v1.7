@@ -18,7 +18,6 @@ if(isset($_POST['makeContact'])&&(($flag==0))){
     $message = $_POST['description'];
 
     // create email headers
-    $headers = 'From: '.$from."\r\n".
 
         'Reply-To: '.$from."\r\n" .
 
