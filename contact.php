@@ -33,7 +33,7 @@
     <div class="container contactMe showEffect3">
         <h1>Get quote in some minutes!</h1>
         <p >
-            If you would like to contact me for a project or anything I can do for you send me an email at
+            If you would like to contact me for anything I can do for you send me an email at
             <cite class="contactInfo"><a href="mailto:george@besmartbesimple.com">george@besmartbesimple.com</a></cite>
             or fill the form below.
         </p>

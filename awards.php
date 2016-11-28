@@ -38,7 +38,7 @@
 
             <!--Column 2-->
             <div class="col-lg-6  col-md-6 col-sm-12 col-xs-12 alignCenter ">
-                <h2 class="bold awardsTitle">Best Photoshop editing by IEK AKMI</h2>
+                <h2 class="bold awardsTitle">Best Photoshop editing by AKMI education</h2>
 
             </div>
             <!--Column 3-->
