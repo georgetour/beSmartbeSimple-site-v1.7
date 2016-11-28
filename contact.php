@@ -43,7 +43,7 @@
 
             <div >
                 <label  class=" ">Subject : </label>
-                <input id="gameTitle" class="form-control" pattern=".{5,}" placeholder="Minimum 5 characters" type="text" name="emailSubject"maxlength="25" required>
+                <input id="gameTitle" class="form-control" pattern=".{5,}" placeholder="Minimum 5 characters" type="text" name="emailSubject" maxlength="25" required>
             </div>
 
             <div class=" formRow  ">

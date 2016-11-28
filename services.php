@@ -39,7 +39,7 @@
             </div>
             <!--Column 3-->
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
-                <h2></h2>
+
             </div>
             
         </div>
@@ -51,9 +51,9 @@
         <!--Second row-->
         <div class="container  showEffect2  ">
 
-            <div class="text-center"><a class="servicesTags">Responsive <span>,</span></a><a class="servicesTags">Ultra Fast</a></div>
-            <div class="text-center"><a class="servicesTags">Search Engine Optimized <span>,</span></a><a class="servicesTags">Easy to Navigate</a></div>
-            <div class="text-center"><a class="servicesTags"><a class="servicesTags">Customizable</a></div>
+            <div class="text-center servicesTags">Responsive , Ultra Fast</div>
+            <div class="text-center servicesTags">Search Engine Optimized , Easy to Navigate</div>
+            <div class="text-center servicesTags">Customizable</div>
 
             <!--Speed Row-->
             <div class="row imageRowServices alignCenter ">
@@ -120,7 +120,7 @@
                         <p>The power of a cloud Virtual Private Server will host your site.
                             That means that your site will NOT drop or disappoint anyone with its speed and availability.
 
-                        </p></br>
+                        </p><br>
                     </div>
 
                     
@@ -141,6 +141,7 @@
 
             </div>
        
+  </div>
 </div>
 
     <!--footer-->

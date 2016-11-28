@@ -112,7 +112,7 @@
             <!--Left column-->
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   showEffect4 ">
                 <a href="Atypon-project/atypon-project.html" target="_blank">
-                    <img class="img-responsive borderPortfolio"src="images/portfolio/atypon-compressor.png" alt="Atypon.com project">
+                    <img class="img-responsive borderPortfolio" src="images/portfolio/atypon-compressor.png" alt="Atypon.com project">
                 </a>
             </div>
             <!--Right Column-->
@@ -133,7 +133,7 @@
             <!--Left column-->
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   showEffect5 ">
                 <a href="https://github.com/georgetour/TestWordpress" target="_blank">
-                    <img class="img-responsive borderPortfolio"src="images/portfolio/test-wordpress-compressor.png" alt="Test Wordpress">
+                    <img class="img-responsive borderPortfolio" src="images/portfolio/test-wordpress-compressor.png" alt="Test Wordpress">
                 </a>
             </div>
             <!--Right Column-->

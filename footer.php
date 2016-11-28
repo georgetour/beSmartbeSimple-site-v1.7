@@ -15,7 +15,7 @@
 
         </div>
         <div  class="col-lg-6 col-md-12 col-xs-12  col-sm-12 ">
-            <div><img class="centerImg paypal-image" src="images/paypal-verified.jpg"></div>
+            <div><img class="centerImg paypal-image" src="images/paypal-verified.jpg" alt="Paypal verified"></div>
 
         </div>
 
