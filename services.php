@@ -113,6 +113,18 @@
                 <div class="row imageRowServices alignCenter ">
 
                     <!--Left column-->
+                    <div class="col-lg-6 col-md-6  col-md-12 col-sm-12 col-xs-12 borderTest outsideHeight ">
+                        <h3>Custom Wordpress themes</h3>
+                        <div class=""><img alt="Wordpress logo" class="img-responsive picturesIcons " src="images/wordpressLogo.png">  </div>
+                        <h4 class="bold">1/3 of world sites use Wordpress</h4>
+                        <p>Wordpress is a very powerful Custom Management System that will give you the ability
+                            to dynamically add content to your site and update it without any programming.
+
+
+                        </p>
+                    </div>
+
+                    <!--Right Column-->
                     <div class="col-lg-6 col-md-6  col-md-12 col-sm-12 col-xs-12 borderTest outsideHeight">
                         <h3>High uptime with Cloud Private Hosting </h3>
                         <div class=""><img alt="Cloud Computing"  class="img-responsive picturesIcons " src="images/Cloud_computing.png">  </div>
@@ -122,21 +134,6 @@
 
                         </p><br>
                     </div>
-
-                    
-                    <!--Right Column-->
-                    <div class="col-lg-6 col-md-6  col-md-12 col-sm-12 col-xs-12 borderTest outsideHeight ">
-                        <h3>Customizable by You </h3>
-                        <div class=""><img alt="Wordpress logo" class="img-responsive picturesIcons " src="images/wordpressLogo.png">  </div>
-                        <h4 class="bold">1/3 of world sites use Wordpress</h4>
-                        <p>Wordpress is a very powerful Custom Management System that will give you the ability
-                            to dynamically add content to your site and update it without any programming.
-                            Currently,I'm working with some extra features and I'm not able to provide you with a Wordpress site.
-
-
-                        </p>
-                    </div>
-
                 </div>
 
             </div>

@@ -54,7 +54,7 @@
     <div   class="col-lg-3 col-md-3 col-sm-12 col-xs-12 weCreate alignCenter ">
         <div class="mainHeader">
         <h1   class=" weCreate "><span class="fadeIn1 ">I create</span> <span class="fadeIn2 ">smart websites</span>
-        <span class="fadeIn3 ">with beautiful simple <br>design.</span></h1>
+        <span class="fadeIn3 ">with beautiful design.</span></h1>
         </div>
     </div>
     <div class="col-lg-6  col-md-6 col-sm-12 col-xs-12  alignCenter everything">
@@ -62,7 +62,7 @@
         <img class="iphone" src="images/iphoneTrimmedNoText.png" alt="Holding responsive mobile">
             <div class="centeredPhoneText bold col-sm12">
                 <div class="weCreate"><span class="fadeIn1 ">I create</span> <span class="fadeIn2 ">smart websites</span>
-                    <span class="fadeIn3 ">with beautiful simple design.</span></div>
+                    <span class="fadeIn3 ">with beautiful <br>design.</span></div>
             </div>
         </div>
 
