@@ -70,7 +70,7 @@
 
     <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
         <div class=" buttonsRow">
-            <button onclick="location.href='contact.php';" class="buttonsMain">Get quote in some minutes >>>></button>
+            <button onclick="location.href='contact.php';" class="buttonsMain">Get free quote in minutes >>>></button>
         </div>
     </div>
 
