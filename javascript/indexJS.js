@@ -60,7 +60,7 @@ $(document).ready(function () {
     $('#error').hide();
 
     //Creating empty string variable to use in error id  message below
-    var errorMessage = "";
+    var errorMessage ;
 
     //Flag variuable to cntrol when form wil be submitted
     var flag = 0;
@@ -80,17 +80,9 @@ $(document).ready(function () {
             return pattern.test(emailAddress);
         }
 
+        //Recaptcha front end validation
+        var response = grecaptcha.getResponse();
 
-
-
-        if (!validation($('#gameTitle').val())||(!validation($('#suggestedBy').val()))) {
-            event.preventDefault();
-            errorMessage = 'Only letters and numbers please';
-            $('#error').html(errorMessage);
-            $('#error').show();
-            $('#error').fadeOut(3000);
-            flag = 1;
-        }
         if (!isValidEmailAddress($('#email').val())) {
             event.preventDefault();
             errorMessage = 'Give correct email';
@@ -101,14 +93,30 @@ $(document).ready(function () {
         }
 
 
-        else if(flag==0){
-            $('#subscribeForm').submit();
+
+        if(response.length == 0){
+            event.preventDefault();
+            errorMessagebot = 'You are not a bor are you?';
+            $('#error').html(errorMessagebot);
+            $('#error').show();
+            $('#error').fadeOut(3000);
+            flag = 2;
+
+        }
+        else{
+            flag=0;
+        }
+        if(flag==2){
+            event.preventDefault();
         }
 
 
 
     })
-  
+
+
+
+
 
 
 });

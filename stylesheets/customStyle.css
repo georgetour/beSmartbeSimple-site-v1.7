@@ -798,10 +798,9 @@ footer{
         width: 100%;
     }
 
-    #footerContact {
-        position: absolute;
-        bottom: 0;
-    }
+
+
+
 }
 
 
@@ -820,7 +819,15 @@ footer{
     .signature{
        line-height:  35px;
     }
+    #footerContact{
+        position:absolute;
+        bottom: 0;
+
+    }
+
 }
+
+
 
 #footerStatic{
     position: relative;
@@ -882,20 +889,14 @@ footer{
 
 @media (min-width:480px)and (max-width: 719px){
     #footerContact{
+        position: relative;
         margin-top: 250px;
 
     }
 
 
 }
-@media (min-width:720px){
-    #footerContact{
-        margin-top: 150px;
 
-    }
-
-
-}
 
 
 @media (min-width: 720px)and (min-height:1024px) {
@@ -908,7 +909,7 @@ footer{
 
     #footerContact{
         position:absolute;
-        bottom: 0;;
+        bottom: 0;
 
 
     }
@@ -943,9 +944,15 @@ footer{
         position: relative;
         margin-top: 100px;
     }
+
+    #footerContact{
+        position: absolute;
+        bottom: 0;
+
+    }
 }
 @media (min-width: 1025px)and (min-height: 720px)and (max-width: 1279px){
-    #footerAwards,#footerContact {
+    #footerAwards {
         position: relative;
         margin-top: 400px;
     }
@@ -959,6 +966,21 @@ footer{
         bottom: 0;
     }
 
+        #footerContact{
+            position: relative;
+            margin-top: 200px;
+
+    }
+
+
+}
+
+@media (min-width: 900px)and (max-width: 1200px){
+    #footerContact{
+        position: relative;
+        margin-top: 200px;
+
+    }
 }
 
 @media (min-width: 1369px){
@@ -968,13 +990,19 @@ footer{
         bottom: 0;
 
     }
-    #footerAwards,#footerContact {
+    #footerAwards {
         position: relative;
         margin-top: 400px;
     }
+    #footerContact{
+        position: absolute;
+        bottom: 0;
 
+    }
 
 }
+
+
 
 
 

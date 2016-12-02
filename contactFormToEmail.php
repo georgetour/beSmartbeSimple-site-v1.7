@@ -30,10 +30,27 @@ if(isset($_POST['makeContact'])&&(($flag==0))){
         $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
         $flag=1;
     }
-    else{
-        $flag = 0;
-        mail($to, $subject, $message, $headers);
+
+    if(isset($_POST['g-recaptcha-response'])&&!empty($_POST['g-recaptcha-response'])){
+        //your site secret key
+        $secret = '6LeQqA0UAAAAAELllZSW_opknjsoMJNrV19nDJU7';
+        $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
+        $responseData = json_decode($verifyResponse);
+
+        if($responseData->success){
+            $flag=0;
+            mail($to, $subject, $message, $headers);
+        }
+        else{
+            echo $error_message .= 'Click captcha.<br />';
+            $flag=1;
+        }
+
+
     }
+
+
+
 
 }
 
