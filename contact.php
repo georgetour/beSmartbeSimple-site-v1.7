@@ -23,6 +23,7 @@
 
     </script>
 
+    <script defer src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
 
@@ -30,7 +31,7 @@
 
 <!--Contact Page-->
 <div id="showContactUs" class=" textColor">
-    <div class="container contactMe showEffect3">
+    <div class="container contactMe showEffect3 ">
         <h1>Get free quote in some minutes!</h1>
         <p >
             If you would like to contact me for anything I can do for you send me an email at
@@ -38,34 +39,30 @@
             or fill the form below.
         </p>
 
-        <form id="contact" class=" col-lg-4 col-md-4 col-xs-12  col-sm-12" method="post" action="contactFormToEmail.php">
 
 
-            <div >
-                <label  class=" ">Subject : </label>
-                <input id="gameTitle" class="form-control" pattern=".{5,}" placeholder="Minimum 5 characters" type="text" name="emailSubject" maxlength="25" required>
+        <form id="contact"  method="post" action="contactFormToEmail.php">
+
+            <div class="">
+                <div><label>Subject : </label></div>
+                <input id="gameTitle" class="formInput"  pattern=".{5,}" placeholder="Minimum 5 characters" type="text" name="emailSubject" maxlength="30" required>
+
+                <div><label  class="descriptionLabel">Email : </label></div>
+                <input id="email" class="formInput"  placeholder="Your email" type="email" name="email" required>
+
+                <div ><label  class="des ">Message :</label></div>
+                <textarea id="description"  class="formInput"  placeholder="ex I have this idea for a site can you create something like that ?"  rows="5" name="description" required></textarea>
+
+                <div  class="g-recaptcha alignCenter" data-sitekey="6LeQqA0UAAAAAOQUXyjk-vIQslxpklwJRC0H1Bz0"></div>
+                <div><input name="makeContact" class="submitButton" type="submit" value="Get free quote now!"></div>
+                <div id="error">Error to display</div>
             </div>
-
-            <div class=" formRow  ">
-                <label  class="descriptionLabel">Email : </label>
-                <input id="email" class="form-control"  placeholder="Your email" type="email" name="email" required>
-            </div>
-
-            <div class="formRow">
-                <label  class="des ">Message :</label>
-                <textarea id="description" placeholder="ex I have this idea for a site can you create something like that ?" class="form-control " rows="5" name="description" required></textarea>
-
-            </div>
-
-            <div class="alignCenter"><input name="makeContact" class="submitButton" type="submit" value="Get free quote now!"></div>
-            <div id="error">Error to display</div>
-
         </form>
-
     </div>
+</div>
     <?php include "footer.php" ?>
 
-</div><!--End contact  container -->
+
 
 
 
