@@ -123,7 +123,7 @@
             <!--Right Column-->
             <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12 showEffect6  everything ">
                 <h4 class="bold whiteBackPortfolio"><a href="http://www.oldtimesclassic.com">www.oldtimesclassic.com</a></h4>
-                <p class="whiteBackPortfolio">A blog for oldTimesClassic games .It contains unique games from all genres
+                <p class="whiteBackPortfolio">A blog for oldTimesClassic games. It contains unique games from all genres
                     that everyone should play  and people can suggest games.
                 </p>
                 <img class="img-responsive imagesShadows phonePortfolio" src="images/portfolio/blogTrimmed2.png" alt="Old Times Classic blog at mobile">

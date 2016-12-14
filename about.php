@@ -68,7 +68,7 @@
 
                 <p>
                     I believe websites must be smart and simple. That's why I have chosen
-                    this domain name. Smart means that sites must look nice in all devices, easily customizable,scalable and finally
+                    this domain name. Smart means that sites must look nice in all devices, easily customizable, scalable and finally
                     search engine optimized.
 
                 </p>
