@@ -296,6 +296,7 @@ height: 170px;
 
 .phonePortfolio {
     height:250px;
+    margin-top: 15px;
 }
 
 .borderPortfolio{
@@ -803,6 +804,11 @@ footer{
 
 }
 
+.whiteBackPortfolio{
+    background-color: white;
+    padding: 10px;
+    border-radius:20px ;
+}
 
 
 
