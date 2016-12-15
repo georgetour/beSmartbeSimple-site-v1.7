@@ -27,7 +27,7 @@
             <!--Column 2-->
             <div class=" col-lg-6  col-md-6 col-sm-12 col-xs-12 showEffect2  ">
                 <h3 class="bold">Some of my projects </h3>
-                <strong>Click any image or the link right to see the project</strong>
+                <strong>Click any image or the link to see the project</strong>
             </div>
             <!--Column 3-->
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">

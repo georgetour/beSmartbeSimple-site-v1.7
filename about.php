@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>George Tourtsinakis - Web Designer & Developer</title>
-    <meta name="description" content="George Tourtsinakis" >
+    <meta name="description" content="George Tourtsinakis a web designer and developer with many years of experience in IT industry." >
     <meta name="keywords" content=" developer skills,web developer key skills,george tourtsinakis, designer skills,george tourtsinakis skills,responsive web design,fast sites,responsive,easy to navigate,responsive web design,responsive web developement,front end developer,full stack developer,front end skills,front end key skills,">
     <meta name="author" content="George Tourtsinakis">
     <link type="text/css" rel="stylesheet" href="stylesheets/aboutCSSAnimationMini.css">
