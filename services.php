@@ -61,7 +61,7 @@
                 <div class=" col-lg-12  col-md-12  col-sm-12 col-xs-12  borderTest">
                     <h3>Speed, Speed, Speed ! </h3>
                     <div class=""> <img alt="Compass" class="img-responsive  " src="images/services/speed-babe-compressor.jpg">  </div>
-                    <h4 class="bold">Numbers don't lie</h4>
+                    <h4 class="bold"><a href="http://www.bitcatcha.com/my-report/?r=MTIwMjQyMzg=" target="_blank">Numbers don't lie</a></h4>
                     <p>You will have  one of the worlds fastest sites. Google wants that, your visitors want that, YOU want that. I use the best
                         techniques and technologies available to make that possible.
                     </p>
