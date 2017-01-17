@@ -42,7 +42,7 @@
     <?php include_once("analyticstracking.php") ?>
     <!--<script src="javascript/indexCompressed.js" ></script>-->
 </head>
-<body class="backgroundImage">
+<body >
 
 
 <?php include_once 'navbar.php'?>

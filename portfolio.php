@@ -19,7 +19,7 @@
 
     <?php include_once("analyticstracking.php") ?>
 </head>
-<body class="backgroundImage">
+<body >
 <?php include 'navbar.php'?>
 <!--Portfolio page-->
 <div id="showPortfolio"  class="textColor">

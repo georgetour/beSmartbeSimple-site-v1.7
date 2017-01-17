@@ -12,20 +12,11 @@
 
     <?php include_once("analyticstracking.php") ?>
 
-    <script>
-        //Add footer id dynamic so it responds to page
-        $(document).ready(function () {
 
-            $('.footerContainer').attr('id','footerContact');
-
-        });
-
-
-    </script>
 
     <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
-<body class="backgroundImage">
+<body >
 
 <?php include 'navbar.php'?>
 
@@ -66,7 +57,16 @@
 
 
 
+<script>
+    //Add footer id dynamic so it responds to page
+    $(document).ready(function () {
 
+        $('.footerContainer').attr('id','footerContact');
+
+    });
+
+
+</script>
 </body>
 </html>
 

@@ -5,6 +5,6 @@
     <!--<link type="text/css" rel="stylesheet" href="stylesheets/customStyle.css">-->
     <link type="text/css" rel="stylesheet" href="stylesheets/customStyle.min.css">
     
-    <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">   </script>
+    <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">   </script>
    <!-- <script async  src="javascript/indexJS.js" ></script>-->
-    <script async  src="javascript/indexJS.min.js" ></script>
+    <script defer src="javascript/indexJS.min.js" ></script>
