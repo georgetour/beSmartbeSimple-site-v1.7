@@ -11,7 +11,7 @@
 
     <?php include 'head.php'?>
 
-    <script async src="javascript/progressBar.js"></script>
+    <script defer src="javascript/progressBar.js"></script>
     <?php include_once("analyticstracking.php") ?>
     <script>
         //Add footer id dynamic so it responds to page
@@ -22,7 +22,7 @@
         });
     </script>
 </head>
-<body>
+<body class="backgroundImage">
 <?php include 'navbar.php'?>
 
 <!--About-->

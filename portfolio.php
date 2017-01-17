@@ -10,9 +10,16 @@
 
     <?php include 'head.php' ?>
 
+    <script>
+        //Add footer id dynamic so it responds to page
+        $(document).ready(function () {
+            $('.footerContainer').attr('id','footerStatic');
+        });
+    </script>
+
     <?php include_once("analyticstracking.php") ?>
 </head>
-<body>
+<body class="backgroundImage">
 <?php include 'navbar.php'?>
 <!--Portfolio page-->
 <div id="showPortfolio"  class="textColor">
@@ -237,12 +244,7 @@
 
 </div><!--End container portfolio page -->
 
-<script>
-    //Add footer id dynamic so it responds to page
-    $(document).ready(function () {
-        $('.footerContainer').attr('id','footerStatic');
-    });
-</script>
+
 </body>
 </html>
 

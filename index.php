@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 
 <head>
     <meta charset="UTF-8">
@@ -42,7 +42,7 @@
     <?php include_once("analyticstracking.php") ?>
     <!--<script src="javascript/indexCompressed.js" ></script>-->
 </head>
-<body>
+<body class="backgroundImage">
 
 
 <?php include_once 'navbar.php'?>

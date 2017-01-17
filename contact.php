@@ -25,7 +25,7 @@
 
     <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
-<body>
+<body class="backgroundImage">
 
 <?php include 'navbar.php'?>
 

@@ -22,7 +22,7 @@
 
     </script>
 </head>
-<body>
+<body class="backgroundImage">
 
 <?php include 'navbar.php'?>
 
