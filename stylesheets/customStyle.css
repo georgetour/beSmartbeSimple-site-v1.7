@@ -3,14 +3,18 @@ html{
 
 }
 
-.backgroundImage{
-    background: url("../images/reach-the-sun-compressor.jpg") no-repeat center center  fixed ;
+body{
+
+    background: url("../images/reach-the-sun-compressor.jpg") no-repeat center center  fixed;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     overflow-x:hidden;
-    min-height:100%;
+
+
 }
+
 
 
 
@@ -818,9 +822,6 @@ footer{
 }
 
 @media (min-width: 1200px){
-    .footerContainer{
-        height: 35px;
-    }
     .signature{
        line-height:  35px;
     }
