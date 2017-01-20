@@ -4,7 +4,6 @@ html{
 }
 
 body{
-
     background: url("../images/reach-the-sun-compressor.jpg") no-repeat center center  fixed;
     background-size: cover;
     -webkit-background-size: cover;
@@ -12,7 +11,11 @@ body{
     -o-background-size: cover;
     overflow-x:hidden;
 
+}
 
+.active{
+    border-left: 2px solid #95d6e9;
+    border-right: 2px solid #95d6e9;
 }
 
 
@@ -233,7 +236,7 @@ height: 170px;
 }
 
 .imageRow{
-    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .imageRowServices{
@@ -299,7 +302,7 @@ height: 170px;
 
 .phonePortfolio {
     height:250px;
-    margin-top: 15px;
+
 }
 
 .borderPortfolio{
@@ -308,9 +311,8 @@ height: 170px;
 }
 
 .imagesShadows{
-    box-shadow:-4px 5px 5px  #f2f2f2;
-    border-radius: 30px;
-    background-color: white;
+
+
 
 }
 
