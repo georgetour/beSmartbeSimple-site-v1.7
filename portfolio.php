@@ -43,7 +43,7 @@
             <div class="col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect1 ">
                 <h3>Description</h3>
                 <div class="whiteBackPortfolio">
-                    <h4> <a href="http://www.farmaparnassou.gr" target="_blank">Farmaparnassou.gr</a> </h4>
+                    <h4 class="bold"> <a href="http://www.farmaparnassou.gr" target="_blank">Farmaparnassou.gr</a> </h4>
                     <p > A site for a Greek company that has farms with high quality food products like meat, cheese and many more...</p>
                     <p>The client needed every page to look different and of course we achieved that.</p>
                     <h4>Technologies used :</h4>
@@ -84,7 +84,7 @@
             <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect6 ">
                 <h3>Description</h3>
                 <div class="whiteBackPortfolio">
-                    <h4> <a href="http://www.mywordpress.gr" target="_blank">MyWordpress.gr</a> </h4>
+                    <h4 class="bold"> <a href="http://www.mywordpress.gr" target="_blank">MyWordpress.gr</a> </h4>
                     <p> This is a project that uses Wordpress and Bootstrap custom theme creation.
                     <p>I can create custom themes in Wordpress at your needs as you can see. </p>
                     <h4>Technologies used :</h4>
@@ -198,14 +198,14 @@
             <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect4 ">
                 <h3>Description</h3>
                 <div class="whiteBackPortfolio">
-                    <h4 class="bold whiteBackPortfolio"> <a href="Sass/mastering-sass.php" target="_blank">Mastering SASS</a> </h4>
-                    <div class="whiteBackPortfolio">
+                    <h4 class="bold"> <a href="Sass/mastering-sass.php" target="_blank">Mastering SASS</a> </h4>
+
                         <p> A guide for SASS that you will be able to understand everything about SASS.
                         </p>
                         <p>It has everything you want from simple explanation, installation and basic to advanced categories.</p>
                          <h4>Technologies used :</h4>
                         <p>HTML5/CSS3, SASS, Bootstrap, Javascript/Jquery, </p>
-                    </div>
+
                 </div>
 
             </div>
@@ -261,7 +261,7 @@
                         through a Paypal verified system.
                     </p>
                     <h4>Technologies used :</h4>
-                    <p>HTML5/CSS3, Javascript/Jquery, PHP, MySql</p>
+                    <p>HTML/CSS, Javascript/Jquery, PHP, MySql ,Paypal</p>
                 </div>
             </div>
 

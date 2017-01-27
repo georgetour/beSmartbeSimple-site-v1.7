@@ -17,7 +17,7 @@
                 <li><a id="portfolio" href="portfolio.php">Portfolio</a></li>
                 <li><a id="awards" href="awards.php">Awards</a></li>
                 <li><a id="about" href="about.php">About Me</a></li>
-                <li><a id="contactUs" href="contact.php">Contact</a></li>
+                <li><a id="contactUs"  href="contact.php">Contact</a></li>
             </ul>
         </div>
 
