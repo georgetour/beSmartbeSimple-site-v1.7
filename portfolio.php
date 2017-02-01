@@ -29,7 +29,7 @@
             <div class="row alignCenter">
                 <header>
                     <h1 class="showEffect1 text-center">George Tourtsinakis portfolio</h1>
-                    <h2 class="showEffect2">Websites</h2>
+                    <h2 class="whiteBackPortfolio showEffect2">Websites</h2>
                     <p class="showEffect3"><strong>Click the image or the title to see the project</strong></p>
                 </header>
             </div>
@@ -39,6 +39,9 @@
 
         <!--Farmaparnassou Row -->
         <section class="imageRow row alignCenter ">
+
+
+
             <!--Left column-->
             <div class="col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect1 ">
                 <h3>Description</h3>
@@ -256,7 +259,7 @@
                 <h3>Description</h3>
                 <div class="whiteBackPortfolio">
                     <h4 class="bold">www.cinemagic.gr</h4>
-                    <p> This was an e-shop in 2010-2012 for a Greek company that sold and made smart home installations or home theaters.</p>
+                    <p> This was an e-shop for a Greek company that sold and made smart home installations or home theaters.</p>
                     <p>It had more than 1000 unique visitors per month and high security transactions
                         through a Paypal verified system.
                     </p>
@@ -269,14 +272,17 @@
         <!--Cinemagic Row end-->
 
 
-        <header>
-            <h2 class="showEffect1 text-center">Applications</h2>
-            <p class="showEffect2 text-center">These are some of my  applications that you can find the source code in github
-            </p>
-        </header>
+
 
         <!--Applications row-->
         <section class="imageRow row alignCenter" >
+            <header>
+                <h2 class="whiteBackPortfolio showEffect1 text-center">Applications</h2>
+                <p class="showEffect2 text-center">These are some of my  applications that you can find the source code in github
+                </p>
+            </header>
+
+
             <!--Left columt-->
             <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12  showEffect1  ">
                 <h3>Description</h3>
@@ -321,9 +327,6 @@
                 <h3>The app</h3>
                 <img class="img-responsive centerImg phonePortfolio" src="images/portfolio/chat-app.png" alt="Chat application at mobile">
             </div>
-
-
-
         </section><!--Applications row-->
 
 
@@ -360,6 +363,48 @@
 
         </section><!--Image share Row-->
 
+
+        <!--Custom CMS row-->
+        <section class="imageRow row alignCenter ">
+
+            <header>
+                <header>
+                    <h2 class="whiteBackPortfolio showEffect1 text-center">Custom CMS</h2>
+                    <p class="showEffect2 text-center">I have created totally custom made CMS
+                    </p>
+                </header>
+            </header>
+
+            <!--Left column-->
+            <div class="col-lg-7  col-md-7 col-sm-12 col-xs-12   showEffect1 ">
+                <h3>NormaL view</h3>
+                <a href="https://github.com/georgetour/Custom-CMS-like-Wordpress"><img class="img-responsive borderPortfolio" src="images/portfolio/custom%20CMS.jpg" alt="Custom CMS like Wordpress"></a>
+            </div>
+
+            <!--Right Column-->
+            <div class=" col-lg-2  col-md-2 col-sm-12 col-xs-12  showEffect2 ">
+                <h3>Responsive</h3>
+                <img class="img-responsive centerImg phonePortfolio" src="images/portfolio/custom-cms-trimmed.png" alt="Custom CMS like Wordpress at mobile">
+
+            </div>
+
+
+            <!--Right Column-->
+            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect3 ">
+                <h3>Description</h3>
+                <div class="whiteBackPortfolio">
+                    <h4 class="bold"><a href="https://github.com/georgetour/Custom-CMS-like-Wordpress">Custom CMS like Wordpress</a></h4>
+                    <p> This is a custom made Content Management System like Wordpress but with more scalability.</p>
+                    <p>You can add posts, comments, users, categories and edit everything as admin.
+                    </p>
+                    <p>It uses also google charts that show dynamically different info.</p>
+                    <h4>Technologies used :</h4>
+                    <p>HTML5/CSS3, Javascript/Jquery, PHP, MySql , Google Charts</p>
+                </div>
+            </div>
+
+        </section>
+        <!--Custom CMS Row end-->
 
 
 
