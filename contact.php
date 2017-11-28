@@ -29,7 +29,7 @@
 
 
 
-        <form id="contact"  method="post" action="contactFormToEmail.php">
+        <form id="contact"  method="post" action="contactFormToEmail">
 
             <div >
                 <div><label>Subject : </label></div>

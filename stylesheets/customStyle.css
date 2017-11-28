@@ -1010,6 +1010,14 @@ footer{
 
 }
 
+@media (min-width:1025px){
+
+    .borderPortfolio{
+        height:380px;
+    }
+
+}
+
 
 
 

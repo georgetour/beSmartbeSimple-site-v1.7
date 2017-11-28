@@ -68,6 +68,132 @@
             </div>
 
         </section><!--Farmaparnassou Row -->
+		
+		
+		<!--Synectics Row -->
+        <section  class="imageRow row alignCenter ">
+            <!--Left column-->
+            <div class="col-lg-7  col-md-7 col-sm-12 col-xs-12   showEffect4 ">
+                <h3>Normal view</h3>
+                <a href="https://www.synectics.gr" target="_blank">
+                    <img class="img-responsive borderPortfolio" src="images/portfolio/synectics-compressor.jpg" alt="Synectics">
+                </a>
+            </div>
+            <!--Right Column-->
+            <div class=" col-lg-2  col-md-2 col-sm-12 col-xs-12  showEffect5 ">
+                <h3>Responsive</h3>
+                <img class="img-responsive centerImg phonePortfolio" src="images/portfolio/synectics-trimmed-compressor.png" alt="Synectics at mobile">
+            </div>
+
+            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect6 ">
+                <h3>Description</h3>
+                <div class="whiteBackPortfolio">
+                    <h4 class="bold"> <a href="https://www.synectics.gr" target="_blank">Synectics.gr</a> </h4>
+                    <p> As an employee in synectics.gr I totally recreated their site.
+                    <p>The website had many problems in different areas that were fixed. Maximized responsiveness and user experience. A lot of customization. </p>
+                    <h4>Technologies used :</h4>
+                    <p>Wordpress custom, HTML5/CSS3, Bootstrap, Javascript/Jquery, PHP, MySql</p>
+                </div>
+            </div>
+
+        </section><!--Synectics End-->
+		
+		
+		<!--Omikron Row -->
+        <section class="imageRow row alignCenter ">
+
+
+
+            <!--Left column-->
+            <div class="col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect1 ">
+                <h3>Description</h3>
+                <div class="whiteBackPortfolio">
+                    <h4 class="bold"> <a href="https://www.omikron.gr" target="_blank">Omikron.gr</a> </h4>
+                    <p > As an employee in synectics.gr we created the e-commerce site of omikron.gr</p>
+                    <p>The client needed things that weren't supported by the theme so we made them custom.</p>
+                    <h4>Technologies used :</h4>
+                    <p>Opencart, HTML5/CSS3, Bootstrap, Javascript/Jquery, PHP, MySql</p>
+                </div>
+            </div>
+            <!--Right Column-->
+            <div class=" col-lg-2  col-md-2 col-sm-12 col-xs-12 showEffect2 ">
+
+                <h3>Responsive</h3>
+                <img class="img-responsive  centerImg phonePortfolio" src="images/portfolio/omikron-trimmed-compressor.png" alt="Omikron.gr mobile">
+            </div>
+
+            <div class="col-lg-7  col-md-7 col-sm-12 col-xs-12   showEffect3 ">
+                <h3>Normal view</h3>
+                <a href="https://www.omikron.gr" target="_blank">
+                    <img class="img-responsive borderPortfolio" src="images/portfolio/omikron-compressor.jpg" alt="Omikron.gr">
+                </a>
+            </div>
+
+        </section><!--Omikron Row -->
+		
+		
+		<!--Serviceworld Row -->
+        <section  class="imageRow row alignCenter ">
+            <!--Left column-->
+            <div class="col-lg-7  col-md-7 col-sm-12 col-xs-12   showEffect4 ">
+                <h3>Normal view</h3>
+                <a href="https://www.serviceword.gr" target="_blank">
+                    <img class="img-responsive borderPortfolio" src="images/portfolio/serviceworld-compressor.jpg" alt="Serviceworld.gr">
+                </a>
+            </div>
+            <!--Right Column-->
+            <div class=" col-lg-2  col-md-2 col-sm-12 col-xs-12  showEffect5 ">
+                <h3>Responsive</h3>
+                <img class="img-responsive centerImg phonePortfolio" src="images/portfolio/serviceworld-trimmed-compressor.png" alt="Serviceworld.gr at mobile">
+            </div>
+
+            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect6 ">
+                <h3>Description</h3>
+                <div class="whiteBackPortfolio">
+                    <h4 class="bold"> <a href="https://www.serviceworld.gr" target="_blank">Serviceworld.gr</a> </h4>
+                    <p> As an employee in synectics.gr we created the site for serviceworld.gr which is the support for philco.gr.
+                    <p>The website is modern and user friendly. The clients can make appointments online and see their RMA progress.  </p>
+                    <h4>Technologies used :</h4>
+                    <p>Wordpress, HTML5/CSS3, Javascript/Jquery, PHP, MySql</p>
+                </div>
+            </div>
+
+        </section><!--Serviceworld End-->
+		
+		
+		<!--Devilperfume Row -->
+        <section class="imageRow row alignCenter ">
+
+
+
+            <!--Left column-->
+            <div class="col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect1 ">
+                <h3>Description</h3>
+                <div class="whiteBackPortfolio">
+                    <h4 class="bold"> <a href="https://www.devilperfume.gr" target="_blank">Devilperfume.gr</a> </h4>
+                    <p > As an employee in synectics.gr we improved and hosted the site of devilperfume.gr.</p>
+                    <p>The speed was improved by 40-50%, created custom affiliate areas, special shipping methods and many other improvements.</p>
+                    <h4>Technologies used :</h4>
+                    <p>Wordpress/WooCommerce, HTML5/CSS3, Javascript/Jquery, PHP, MySql</p>
+                </div>
+            </div>
+            <!--Right Column-->
+            <div class=" col-lg-2  col-md-2 col-sm-12 col-xs-12 showEffect2 ">
+
+                <h3>Responsive</h3>
+                <img class="img-responsive  centerImg phonePortfolio" src="images/portfolio/devileperfume-trimmed.png" alt="Devilperfume.gr mobile">
+            </div>
+
+            <div class="col-lg-7  col-md-7 col-sm-12 col-xs-12   showEffect3 ">
+                <h3>Normal view</h3>
+                <a href="https://www.devilperfume.gr" target="_blank">
+                    <img class="img-responsive borderPortfolio" src="images/portfolio/devilperfume-compressor.jpg" alt="Devilperfume.gr">
+                </a>
+            </div>
+
+        </section><!--Devilperfume Row -->
+		
+		
 
         <!--Test Wordpress Row -->
         <section  class="imageRow row alignCenter ">
