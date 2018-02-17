@@ -18,6 +18,14 @@
     </script>
 
     <?php include_once("analyticstracking.php") ?>
+	<style>
+	@media screen and (min-width: 1024px){ 
+		.borderPortfolio{ 
+			height:360px;
+			width:100%;
+		}
+	}
+	</style>
 </head>
 <body >
 <?php include 'navbar.php'?>
@@ -36,9 +44,39 @@
 
 
         <!--End first row-->
+		
+		
+		<!--CultureFyli Row -->
+        <section  class="imageRow row alignCenter ">
+            <!--Left column-->
+            <div class="col-lg-7  col-md-7 col-sm-12 col-xs-12   showEffect4 ">
+                <h3>Normal view</h3>
+                <a href="http://culturefyli.gr" target="_blank">
+                    <img class="img-responsive borderPortfolio" src="images/portfolio/culturefyli-compressor.jpg" alt="Municipality Of Fyli">
+                </a>
+            </div>
+            <!--Right Column-->
+            <div class=" col-lg-2  col-md-2 col-sm-12 col-xs-12  showEffect5 ">
+                <h3>Responsive</h3>
+                <img class="img-responsive centerImg phonePortfolio" src="images/portfolio/culturefyli-trimmed-small.png" alt="Cultyrefyli at mobile">
+            </div>
+
+            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect6 ">
+                <h3>Description</h3>
+                <div class="whiteBackPortfolio">
+                    <h4 class="bold"> <a href="http://www.culturefyli.gr" target="_blank">Culturefyli.gr</a> </h4>
+                    <p> A site for the municipality of Fyli in Athens which is one the biggest municipalities in Greece. </p>
+					<p>It has many areas for different clubs, stadiums, events calendar, news and online booking system. </p>
+                    <h4>Technologies used :</h4>
+                    <p>Wordpress custom, HTML5/CSS3, Bootstrap, Javascript/Jquery, PHP, MySql</p>
+                </div>
+            </div>
+
+        </section><!--CultureFyli End-->
 
         <!--Farmaparnassou Row -->
         <section class="imageRow row alignCenter ">
+
 
 
 
@@ -234,7 +272,7 @@
                     <p >A prototype project for plaza resort hotel and marinet.gr made with
                     full customized Wordpress.</p>
                     <h4>Technologies used :</h4>
-                    <p>Wordpress, WooCommerce, HTML5/CSS3, Bootstrap, Javascript/Jquery, PHP, MySql</p>
+                    <p>Wordpress/WooCommerce, HTML5/CSS3, Bootstrap, Javascript/Jquery, PHP, MySql</p>
                 </div>
             </div>
 
