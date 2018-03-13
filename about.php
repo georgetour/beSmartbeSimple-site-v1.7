@@ -124,7 +124,7 @@
                     <div class="ninetyPercent ">Adobe&nbsp;Photoshop</div>
                 </div>
             <div class="myProgress ">
-                <div class="seventyPercent">C#</div>
+                <div class="eightyPercent">C#</div>
             </div>
             <div class="myProgress ">
                 <div class="eightyPercent">Meteor js</div>
@@ -145,7 +145,7 @@
         <!--Middle column-->
         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 
-            <div class=" col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
+            
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <div class="myProgress " >
                 <div class="eightyFivePercent">Git</div>
@@ -157,7 +157,14 @@
                 <div class="ninetyPercent">Sass</div>
             </div>
         </div>
-            <div class=" col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
+           
+		<div class=" col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="myProgress ">
+                <div class="eightyPercent">Unity</div>
+            </div>
+        </div>   
+		   
+		   
         </div>
         <!--Right column-->
         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
