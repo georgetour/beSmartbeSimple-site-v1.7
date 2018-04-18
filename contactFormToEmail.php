@@ -17,12 +17,28 @@ if(isset($_POST['makeContact'])&&(($flag==0))){
     $from = $_POST['email'];
     $message = $_POST['description'];
 
-    // create email headers
-    $headers = 'From:'.$from."\r\n".
+    $mail = new PHPMailer();
 
-        'Reply-To: '.$from."\r\n" .
+    $mail->SMTPDebug = 2;                                 // Enable verbose debug output
+    $mail->isSMTP();                                      // Set mailer to use SMTP
+    $mail->Host = 'smtp1.example.com;smtp2.example.com';  // Specify main and backup SMTP servers
+    $mail->SMTPAuth = true;                               // Enable SMTP authentication
+    $mail->Username = 'george@besmartbesimple.com';                 // SMTP username
+    $mail->Password = 'secret';                           // SMTP password
+    $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+    $mail->Port = 587;                                    // TCP port to connect to
 
-        'X-Mailer: PHP/' . phpversion();
+    //Recipients
+    $mail->setFrom($from, 'Mailer');
+    $mail->addAddress($to, 'Joe User');     // Add a recipient
+    $mail->addReplyTo($from,, 'Information');
+
+
+    //Content
+    $mail->isHTML(true);                                  // Set email format to HTML
+    $mail->Subject = $subject;
+    $mail->Body    = $message;
+
 
 
     if(!preg_match($email_exp,$from)) {
@@ -33,13 +49,13 @@ if(isset($_POST['makeContact'])&&(($flag==0))){
 
     if(isset($_POST['g-recaptcha-response'])&&!empty($_POST['g-recaptcha-response'])){
         //your site secret key
-        $secret = '6LeQqA0UAAAAAELllZSW_opknjsoMJNrV19nDJU7';
+        $secret = 'fake';
         $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
         $responseData = json_decode($verifyResponse);
 
         if($responseData->success){
             $flag=0;
-            mail($to, $subject, $message, $headers);
+            $mail->send();
         }
         else{
             echo $error_message .= 'Click captcha.<br />';

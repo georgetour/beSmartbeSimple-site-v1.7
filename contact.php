@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,9 +14,10 @@
     <?php include_once("analyticstracking.php") ?>
     <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
-<body >
+<body>
 
-<?php include 'navbar.php'?>
+<?php include 'navbar.php' ?>
+
 
 <!--Contact Page-->
 <div id="showContactUs" class=" textColor">
@@ -28,7 +30,7 @@
         </p>
 
 
-
+       
         <form id="contact"  method="post" action="contactFormToEmail">
 
             <div >
@@ -41,11 +43,14 @@
                 <div ><label  class="des ">Message :</label></div>
                 <textarea id="description"  class="formInput"  placeholder="ex I have this idea for a site can you create something like that ?"  rows="5" name="description" required></textarea>
                
-                <div  class="g-recaptcha alignCenter" data-sitekey="6LeQqA0UAAAAAOQUXyjk-vIQslxpklwJRC0H1Bz0"></div>
+                <div  class="g-recaptcha alignCenter" data-sitekey="6LcrxFMUAAAAAO2_0bI6I1PWbmF8jNZUUD_bcDk5"></div>
                 <div><input name="makeContact" class="submitButton" type="submit" value="Get free quote now!"></div>
                 <div id="error">Error to display</div>
             </div>
         </form>
+        
+
+
     </div>
 </div>
     <?php include "footer.php" ?>

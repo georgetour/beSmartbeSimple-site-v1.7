@@ -1,3 +1,17 @@
+<?php 
+
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require 'mailHandling/Exception.php';
+require 'mailHandling/PHPMailer.php';
+require 'mailHandling/SMTP.php';
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
