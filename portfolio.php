@@ -25,6 +25,32 @@
 			width:100%;
 		}
 	}
+	
+	@media screen and (max-width:768px){
+		
+		.flex-ordering{
+			display:grid;
+			flex-direction: column;
+			
+		}
+		
+		.flex-ordering div:nth-of-type(1) {
+    order: 3;
+  }
+ 
+  .flex-ordering div:nth-of-type(2) {
+    order: 2;
+  }
+ 
+  .flex-ordering div:nth-of-type(3) {
+    order: 1;
+  }
+ 
+  
+	}
+	
+	
+	
 	</style>
 </head>
 <body >
@@ -75,7 +101,7 @@
         </section><!--CultureFyli End-->
 
         <!--Farmaparnassou Row -->
-        <section class="imageRow row alignCenter ">
+        <section class="imageRow row alignCenter flex-ordering">
 
 
 
@@ -138,7 +164,7 @@
 		
 		
 		<!--Omikron Row -->
-        <section class="imageRow row alignCenter ">
+        <section class="imageRow row alignCenter flex-ordering">
 
 
 
@@ -200,7 +226,7 @@
 		
 		
 		<!--Devilperfume Row -->
-        <section class="imageRow row alignCenter ">
+        <section class="imageRow row alignCenter flex-ordering">
 
 
 
@@ -262,7 +288,7 @@
         </section><!--Test Wordpress End-->
 
         <!--Plazaresort project row-->
-        <section class="imageRow row alignCenter ">
+        <section class="imageRow row alignCenter flex-ordering">
 
 
             <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12  showEffect1" >
@@ -293,7 +319,7 @@
         <!--End Plazaresort row-->
 
         <!--Wikipedia project row-->
-        <section class="imageRow row alignCenter ">
+        <section class="imageRow row alignCenter flex-ordering">
             <div class="col-lg-7  col-md-7 col-sm-12 col-xs-12  showEffect4">
                 <h3>Normal view</h3>
                 <a href="wikipediaProject/wikipediaProject.php">
@@ -529,7 +555,7 @@
 
 
         <!--Custom CMS row-->
-        <section class="imageRow row alignCenter ">
+        <section class="imageRow row alignCenter flex-ordering">
 
             <header>
                 <header>
