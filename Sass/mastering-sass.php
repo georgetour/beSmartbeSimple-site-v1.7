@@ -137,7 +137,7 @@ $text-color : white;</code>
 <!-- Partial -->
 <div  class="featureBorder">
 	<span id="partial" class="anchor"></span>
-	<h3>Partial</h3>
+	<h3>Partial(separating content into smaller files)</h3>
 	<p>Also we can use partial and get content from another underscored  scss file .We just put @import rule what to get.</p>
 	We create a file that will hold all variables called : _variables.scss
 	<p class="sublimeColor"> </p>
@@ -941,7 +941,7 @@ body {
 <!--Maps-->
 <div  class="featureBorder">
     <span  id="maps" class="anchor"></span>
-    <h3>Maps with each loop</h3>
+    <h3>Maps with each loop(they are like associative arrays/dictionaries)</h3>
     <p>After version 3 SASS was added map data structure. In simple words map is
         a box, container whatever you want to call it that you have keys in it with
         values.
