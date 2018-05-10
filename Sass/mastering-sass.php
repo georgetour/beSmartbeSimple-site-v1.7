@@ -179,6 +179,13 @@ $text-color : white;</code>
 }</code>
 </pre>
 
+<p>Another powerful feature is that you nest a class/tag inside class instead of :</p>
+
+<pre><code class="language-scss">.navigation h2{
+	color:white;
+}</code>
+</pre>
+
 </div>
 <!--End Mixin-->
 
