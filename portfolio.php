@@ -19,39 +19,34 @@
 
     <?php include_once("analyticstracking.php") ?>
 	<style>
-	@media screen and (min-width: 1024px){ 
-		.borderPortfolio{ 
+	@media screen and (min-width: 1024px){
+		.borderPortfolio{
 			height:360px;
 			width:100%;
 		}
 	}
-	
+
 	@media screen and (max-width:768px){
-		
+
 		.flex-ordering{
 			display:grid;
 			flex-direction: column;
-			
+
 		}
-		
+
 		.flex-ordering div:nth-of-type(1) {
     order: 3;
   }
- 
+
   .flex-ordering div:nth-of-type(2) {
     order: 2;
   }
- 
+
   .flex-ordering div:nth-of-type(3) {
     order: 1;
   }
- 
-  
-	}
-	
-	
-	
-	</style>
+}
+</style>
 </head>
 <body >
 <?php include 'navbar.php'?>
@@ -70,70 +65,93 @@
 
 
         <!--End first row-->
-		
-		
-		<!--CultureFyli Row -->
-        <section  class="imageRow row alignCenter ">
-            <!--Left column-->
-            <div class="col-lg-7  col-md-7 col-sm-12 col-xs-12   showEffect4 ">
-                <h3>Normal view</h3>
-                <a href="http://culturefyli.gr" target="_blank">
-                    <img class="img-responsive borderPortfolio" src="images/portfolio/culturefyli-compressor.jpg" alt="Municipality Of Fyli">
-                </a>
-            </div>
-            <!--Right Column-->
-            <div class=" col-lg-2  col-md-2 col-sm-12 col-xs-12  showEffect5 ">
-                <h3>Responsive</h3>
-                <img class="img-responsive centerImg phonePortfolio" src="images/portfolio/culturefyli-trimmed-small.png" alt="Cultyrefyli at mobile">
-            </div>
 
-            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect6 ">
+        <!--CultureFyli Row -->
+        <section class="imageRow row alignCenter flex-ordering">
+           <!--Left column-->
+            <div class="col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect1 ">
                 <h3>Description</h3>
                 <div class="whiteBackPortfolio">
                     <h4 class="bold"> <a href="http://www.culturefyli.gr" target="_blank">Culturefyli.gr</a> </h4>
                     <p> A site for the municipality of Fyli in Athens which is one the biggest municipalities in Greece. </p>
-					<p>It has many areas for different clubs, stadiums, events calendar, news and online booking system. </p>
+					          <p>It has many areas for different clubs, stadiums, events calendar, news and online booking system. </p>
                     <h4>Technologies used :</h4>
                     <p>Wordpress custom, HTML5/CSS3, Bootstrap, Javascript/Jquery, PHP, MySql</p>
-                </div>
-            </div>
-
-        </section><!--CultureFyli End-->
-
-        <!--Farmaparnassou Row -->
-        <section class="imageRow row alignCenter flex-ordering">
-
-
-
-
-            <!--Left column-->
-            <div class="col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect1 ">
-                <h3>Description</h3>
-                <div class="whiteBackPortfolio">
-                    <h4 class="bold"> <a href="http://www.farmaparnassou.gr" target="_blank">Farmaparnassou.gr</a> </h4>
-                    <p > A site for a Greek company that has farms with high quality food products like meat, cheese and many more...</p>
-                    <p>The client needed every page to look different and of course we achieved that.</p>
-                    <h4>Technologies used :</h4>
-                    <p>HTML5/CSS3, Bootstrap, Javascript/Jquery, PHP</p>
                 </div>
             </div>
             <!--Right Column-->
             <div class=" col-lg-2  col-md-2 col-sm-12 col-xs-12 showEffect2 ">
 
                 <h3>Responsive</h3>
-                <img class="img-responsive  centerImg phonePortfolio" src="images/portfolio/farmaparnassou-trimmed-compressor.png" alt="Farmaparnassou.gr mobile">
+                <img class="img-responsive centerImg phonePortfolio" src="images/portfolio/culturefyli-trimmed-small.png" alt="Cultyrefyli at mobile">
             </div>
 
             <div class="col-lg-7  col-md-7 col-sm-12 col-xs-12   showEffect3 ">
                 <h3>Normal view</h3>
-                <a href="http://www.farmaparnassou.gr" target="_blank">
-                    <img class="img-responsive borderPortfolio" src="images/portfolio/famarparnassou-final-compressor.jpg" alt="Farmaparnassou.gr">
+                <a href="http://culturefyli.gr" target="_blank">
+                    <img class="img-responsive borderPortfolio" src="images/portfolio/culturefyli-compressor.jpg" alt="Municipality Of Fyli">
                 </a>
             </div>
 
-        </section><!--Farmaparnassou Row -->
-		
-		
+        </section><!--CultureFyli Row end-->
+
+
+		<!--Farmaparnassou Row -->
+        <section  class="imageRow row alignCenter ">
+            <!--Left column-->
+            <div class="col-lg-7  col-md-7 col-sm-12 col-xs-12   showEffect4 ">
+              <h3>Normal view</h3>
+              <a href="http://www.farmaparnassou.gr" target="_blank">
+                  <img class="img-responsive borderPortfolio" src="images/portfolio/famarparnassou-final-compressor.jpg" alt="Farmaparnassou.gr">
+              </a>            </div>
+            <!--Right Column-->
+            <div class=" col-lg-2  col-md-2 col-sm-12 col-xs-12  showEffect5 ">
+                <h3>Responsive</h3>
+                <img class="img-responsive  centerImg phonePortfolio" src="images/portfolio/farmaparnassou-trimmed-compressor.png" alt="Farmaparnassou.gr mobile">
+            </div>
+
+            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect6 ">
+                <h3>Description</h3>
+                <div class="whiteBackPortfolio">
+                  <h4 class="bold"> <a href="http://www.farmaparnassou.gr" target="_blank">Farmaparnassou.gr</a> </h4>
+                  <p > A site for a Greek company that has farms with high quality food products like meat, cheese and many more...</p>
+                  <p>The client needed every page to look different and of course we achieved that.</p>
+                  <h4>Technologies used :</h4>
+                  <p>HTML5/CSS3, Bootstrap, Javascript/Jquery, PHP</p>
+                </div>
+            </div>
+
+        </section><!--Farmaparnassou End-->
+
+        <!--Orthodontikos-peiraias Row -->
+        <section class="imageRow row alignCenter flex-ordering">
+           <!--Left column-->
+            <div class="col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect3">
+                <h3>Description</h3>
+                <div class="whiteBackPortfolio">
+                    <h4 class="bold"> <a href="https://www.orthodontikos-peiraias.gr" target="_blank">Orthodontikos-peiraias.gr</a> </h4>
+                    <p>A site for an orthodontist in Piraeus. The client needed online presence since she couldn't be found at google.</p>
+                    <p>She was found in first day of deployment. We will have an appointment application that will sync with the website.</p>
+                    <h4>Technologies used :</h4>
+                    <p>Wordpress, HTML5/CSS3, Bootstrap, Javascript/Jquery, PHP, MySql</p>
+                </div>
+            </div>
+            <!--Right Column-->
+            <div class=" col-lg-2  col-md-2 col-sm-12 col-xs-12 showEffect4">
+                <h3>Responsive</h3>
+                <img class="img-responsive  centerImg phonePortfolio" src="images/portfolio/orthodontikos-peiraias-trimmed-small.png" alt="orthodontikos-peiraias.gr mobile">
+            </div>
+
+            <div class="col-lg-7  col-md-7 col-sm-12 col-xs-12   showEffect5">
+                <h3>Normal view</h3>
+                <a href="https://www.orthodontikos-peiraias.gr" target="_blank">
+                    <img class="img-responsive borderPortfolio" src="images/portfolio/orthodontikos-peiraias-compressed.jpg" alt="orthodontikos-peiraias.gr">
+                </a>
+            </div>
+
+        </section><!--Orthodontikos-peiraias Row -->
+
+
 		<!--Synectics Row -->
         <section  class="imageRow row alignCenter ">
             <!--Left column-->
@@ -161,8 +179,8 @@
             </div>
 
         </section><!--Synectics End-->
-		
-		
+
+
 		<!--Omikron Row -->
         <section class="imageRow row alignCenter flex-ordering">
 
@@ -194,8 +212,8 @@
             </div>
 
         </section><!--Omikron Row -->
-		
-		
+
+
 		<!--Serviceworld Row -->
         <section  class="imageRow row alignCenter ">
             <!--Left column-->
@@ -223,8 +241,8 @@
             </div>
 
         </section><!--Serviceworld End-->
-		
-		
+
+
 		<!--Devilperfume Row -->
         <section class="imageRow row alignCenter flex-ordering">
 
@@ -256,8 +274,8 @@
             </div>
 
         </section><!--Devilperfume Row -->
-		
-		
+
+
 
         <!--Test Wordpress Row -->
         <section  class="imageRow row alignCenter ">
@@ -614,8 +632,3 @@
 
 </body>
 </html>
-
-
-
-
-
