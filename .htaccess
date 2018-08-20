@@ -1,12 +1,11 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^besmartbesimple.com [NC]
-RewriteRule ^(.*)$ http://www.besmartbesimple.com/$1 [L,R=301,NC]
-
-<IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /
-RewriteRule ^index.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
-</IfModule>
+RewriteCond %{HTTP:X-Forwarded-Proto} !https [OR]
+RewriteCond %{HTTP_HOST} !^www. [NC]
+RewriteRule ^(.*)$ https://www.besmartbesimple.com/$1 [L,R=301]
+#RewriteEngine On
+#RewriteCond %{HTTP_HOST} ^[^.]+\.[^.]+$
+#RewriteCond %{HTTPS}s ^on(s)|
+#RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Resolve .php file for extensionless php urls
+RewriteRule ^([^/.]+)$ $1.php [L]

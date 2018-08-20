@@ -60,7 +60,7 @@
             <div   class=" col-lg-3 col-md-3 col-sm-12 col-xs-12  ">
             </div>
             <div style="margin-top: 10px" class="col-lg-6 col-md-6 col-sm-12 col-xs-12 alignCenter ">
-               <div><img class="img-responsive centerImg" src="images/awards/atlassian-logo-correct.png" alt="Atlassian sponsorship for studies"></div>
+               <div><img class="img-responsive centerImg" src="images/awards/atlassian-logo-small.png" alt="Atlassian sponsorship for studies"></div>
                <p style="font-size:1.5em;">I was awarded a sponsorship from Atlassian for my last two months in University for Responsive Website Development and Design Specialization. This sponsorship
                 was given only to a few students that had high grades.
                </p>
