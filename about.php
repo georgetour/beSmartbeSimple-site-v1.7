@@ -16,11 +16,10 @@
     <script>
         //Add footer id dynamic so it responds to page
         $(document).ready(function () {
-
             $('.footerContainer').attr('id','footerAbout');
-
         });
     </script>
+    <style>.maxedSkill, .eightyPercent, .ninetyPercent, .seventyPercent, .eightyFivePercent{padding:5px;}</style>
 </head>
 <body >
 <?php include 'navbar.php'?>
@@ -104,6 +103,9 @@
             <div class="myProgress ">
                 <div class="eightyPercent">PHP/MySQL</div>
             </div>
+            <div class="myProgress " >
+                <div class="eightyFivePercent">Git</div>
+            </div>
             </div>
 
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -115,6 +117,12 @@
             </div>
             <div class="myProgress ">
                 <div class="ninetyPercent">Wordpress</div>
+            </div>
+            <div class="myProgress ">
+                <div class="ninetyPercent">Sass</div>
+            </div>
+            <div class="myProgress ">
+                <div class="eightyPercent">Drupal 8</div>
             </div>
             </div>
 
@@ -129,48 +137,15 @@
             <div class="myProgress ">
                 <div class="eightyPercent">Meteor js</div>
             </div>
-            </div>
-        </div>
-
-        <!--Right column-->
-        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
-
-
-    </div>
-
-    <div class="container "><!--Skill row 2x1-->
-        <!--Left column-->
-        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
-
-        <!--Middle column-->
-        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-
-            
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <div class="myProgress " >
-                <div class="eightyFivePercent">Git</div>
-            </div>
-        </div>
-
-        <div class=" col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <div class="myProgress ">
-                <div class="ninetyPercent">Sass</div>
-            </div>
-        </div>
-           
-		<div class=" col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <div class="myProgress ">
                 <div class="eightyPercent">Unity</div>
             </div>
-        </div>   
-		   
-		   
+            </div>
         </div>
+
         <!--Right column-->
         <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
-
-
-    </div><!--Skill row 2x1 End -->
+    </div>
 
     <div style="margin-top: 10px" class="container-fluid">
     <div class="findMeAlso alignCenter">Find me also at
