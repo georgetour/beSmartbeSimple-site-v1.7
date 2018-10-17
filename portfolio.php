@@ -31,21 +31,20 @@
 		.flex-ordering{
 			display:grid;
 			flex-direction: column;
-
 		}
 
-		.flex-ordering div:nth-of-type(1) {
-    order: 3;
-  }
+        .flex-ordering div:nth-of-type(1) {
+        order: 3;
+        }
 
-  .flex-ordering div:nth-of-type(2) {
-    order: 2;
-  }
+        .flex-ordering div:nth-of-type(2) {
+            order: 2;
+        }
 
-  .flex-ordering div:nth-of-type(3) {
-    order: 1;
-  }
-}
+        .flex-ordering div:nth-of-type(3) {
+            order: 1;
+        }
+    }
 </style>
 </head>
 <body >
@@ -180,56 +179,10 @@
 
         </section><!--Synectics End-->
 
-
-		<!--Omikron Row -->
-        <section class="imageRow row alignCenter flex-ordering">
-
-
-
-            <!--Left column-->
-            <div class="col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect1 ">
-                <h3>Description</h3>
-                <div class="whiteBackPortfolio">
-                    <h4 class="bold"> <a href="https://www.omikron.gr" target="_blank">Omikron.gr</a> </h4>
-                    <p > As an employee in synectics.gr we created the e-commerce site of omikron.gr</p>
-                    <p>The client needed things that weren't supported by the theme so we made them custom.</p>
-                    <h4>Technologies used :</h4>
-                    <p>Opencart, HTML5/CSS3, Bootstrap, Javascript/Jquery, PHP, MySql</p>
-                </div>
-            </div>
-            <!--Right Column-->
-            <div class=" col-lg-2  col-md-2 col-sm-12 col-xs-12 showEffect2 ">
-
-                <h3>Responsive</h3>
-                <img class="img-responsive  centerImg phonePortfolio" src="images/portfolio/omikron-trimmed-compressor.png" alt="Omikron.gr mobile">
-            </div>
-
-            <div class="col-lg-7  col-md-7 col-sm-12 col-xs-12   showEffect3 ">
-                <h3>Normal view</h3>
-                <a href="https://www.omikron.gr" target="_blank">
-                    <img class="img-responsive borderPortfolio" src="images/portfolio/omikron-compressor.jpg" alt="Omikron.gr">
-                </a>
-            </div>
-
-        </section><!--Omikron Row -->
-
-
 		<!--Serviceworld Row -->
-        <section  class="imageRow row alignCenter ">
+        <section  class="imageRow row alignCenter flex-ordering">
             <!--Left column-->
-            <div class="col-lg-7  col-md-7 col-sm-12 col-xs-12   showEffect4 ">
-                <h3>Normal view</h3>
-                <a href="https://www.serviceword.gr" target="_blank">
-                    <img class="img-responsive borderPortfolio" src="images/portfolio/serviceworld-compressor.jpg" alt="Serviceworld.gr">
-                </a>
-            </div>
-            <!--Right Column-->
-            <div class=" col-lg-2  col-md-2 col-sm-12 col-xs-12  showEffect5 ">
-                <h3>Responsive</h3>
-                <img class="img-responsive centerImg phonePortfolio" src="images/portfolio/serviceworld-trimmed-compressor.png" alt="Serviceworld.gr at mobile">
-            </div>
-
-            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect6 ">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 showEffect4 ">
                 <h3>Description</h3>
                 <div class="whiteBackPortfolio">
                     <h4 class="bold"> <a href="https://www.serviceworld.gr" target="_blank">Serviceworld.gr</a> </h4>
@@ -239,43 +192,19 @@
                     <p>Wordpress, HTML5/CSS3, Javascript/Jquery, PHP, MySql</p>
                 </div>
             </div>
-
-        </section><!--Serviceworld End-->
-
-
-		<!--Devilperfume Row -->
-        <section class="imageRow row alignCenter flex-ordering">
-
-
-
-            <!--Left column-->
-            <div class="col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect1 ">
-                <h3>Description</h3>
-                <div class="whiteBackPortfolio">
-                    <h4 class="bold"> <a href="https://www.devilperfume.gr" target="_blank">Devilperfume.gr</a> </h4>
-                    <p > As an employee in synectics.gr we improved and hosted the site of devilperfume.gr.</p>
-                    <p>The speed was improved by 40-50%, created custom affiliate areas, special shipping methods and many other improvements.</p>
-                    <h4>Technologies used :</h4>
-                    <p>Wordpress/WooCommerce, HTML5/CSS3, Javascript/Jquery, PHP, MySql</p>
-                </div>
-            </div>
             <!--Right Column-->
-            <div class=" col-lg-2  col-md-2 col-sm-12 col-xs-12 showEffect2 ">
-
+            <div class=" col-lg-2  col-md-2 col-sm-12 col-xs-12  showEffect5 ">
                 <h3>Responsive</h3>
-                <img class="img-responsive  centerImg phonePortfolio" src="images/portfolio/devileperfume-trimmed.png" alt="Devilperfume.gr mobile">
+                <img class="img-responsive centerImg phonePortfolio" src="images/portfolio/serviceworld-trimmed-compressor.png" alt="Serviceworld.gr at mobile">
             </div>
-
-            <div class="col-lg-7  col-md-7 col-sm-12 col-xs-12   showEffect3 ">
+            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12  showEffect6 ">
                 <h3>Normal view</h3>
-                <a href="https://www.devilperfume.gr" target="_blank">
-                    <img class="img-responsive borderPortfolio" src="images/portfolio/devilperfume-compressor.jpg" alt="Devilperfume.gr">
+                <a href="https://www.serviceworld.gr" target="_blank">
+                    <img class="img-responsive borderPortfolio" src="images/portfolio/serviceworld-compressor.jpg" alt="Serviceworld.gr">
                 </a>
             </div>
 
-        </section><!--Devilperfume Row -->
-
-
+        </section><!--Serviceworld End-->
 
         <!--Test Wordpress Row -->
         <section  class="imageRow row alignCenter ">
@@ -312,7 +241,7 @@
             <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12  showEffect1" >
                 <h3>Description</h3>
                 <div class="whiteBackPortfolio">
-                    <h4 class="bold"><a href="http://www.myprototype.eu">Plaza Resort Hotel</a></h4>
+                    <h4 class="bold"><a href="http://plazaresort.myprototype.eu/" target="_blank">Plaza Resort Hotel</a></h4>
                     <p >A prototype project for plaza resort hotel and marinet.gr made with
                     full customized Wordpress.</p>
                     <h4>Technologies used :</h4>
@@ -329,7 +258,7 @@
 
             <div class="col-lg-7  col-md-7 col-sm-12 col-xs-12  showEffect3">
                 <h3>Normal view</h3>
-                <a href="http://www.myprototype.eu">
+                <a href="http://plazaresort.myprototype.eu/" target="_blank">
                 <img class="img-responsive borderPortfolio" src="images/portfolio/plazaresort-compressor.jpg" alt="Plaza Resort Project">
             </a>
         </div>
@@ -337,7 +266,7 @@
         <!--End Plazaresort row-->
 
         <!--Wikipedia project row-->
-        <section class="imageRow row alignCenter flex-ordering">
+        <section class="imageRow row alignCenter ">
             <div class="col-lg-7  col-md-7 col-sm-12 col-xs-12  showEffect4">
                 <h3>Normal view</h3>
                 <a href="wikipediaProject/wikipediaProject.php">
@@ -367,7 +296,7 @@
         <!--Wikipedia project row-->
 
         <!--OldTimesClassic Row -->
-        <section  class="imageRow row alignCenter ">
+        <section  class="imageRow row alignCenter flex-ordering">
             <!--Left column-->
             <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12 showEffect4">
                 <h3>Description</h3>
@@ -424,7 +353,7 @@
         </section><!--Mastering SASS Row End-->
 
         <!--Atypon Assignment Row -->
-        <section class="imageRow row alignCenter ">
+        <section class="imageRow row alignCenter flex-ordering">
             <!--Left column-->
             <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12  showEffect4">
                 <h3>Description</h3>
@@ -455,8 +384,99 @@
             </div>
         </section><!--Atypon Row End-->
 
-        <!--Cinemagic Row-->
+        <!--Eshops Row-->
         <section class="imageRow row alignCenter ">
+            <header>
+                <h2 class="whiteBackPortfolio showEffect1 text-center">E-shops</h2>
+                <p class="showEffect2 text-center">These are some of the e-shops I have created with various technologies.
+                </p>
+            </header>
+            
+           <!--Omikron Row -->
+           <section class="imageRow row alignCenter flex-ordering">
+            <!--Left column-->
+            <div class="col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect1 ">
+                <h3>Description</h3>
+                <div class="whiteBackPortfolio">
+                    <h4 class="bold"> <a href="https://www.omikron.gr" target="_blank">Omikron.gr</a> </h4>
+                    <p > As an employee in synectics.gr we created the e-commerce site of omikron.gr</p>
+                    <p>The client needed things that weren't supported by the theme so we made them custom.</p>
+                    <h4>Technologies used :</h4>
+                    <p>Opencart, HTML5/CSS3, Bootstrap, Javascript/Jquery, PHP, MySql</p>
+                </div>
+            </div>
+            <!--Right Column-->
+            <div class=" col-lg-2  col-md-2 col-sm-12 col-xs-12 showEffect2 ">
+
+                <h3>Responsive</h3>
+                <img class="img-responsive  centerImg phonePortfolio" src="images/portfolio/omikron-trimmed-compressor.png" alt="Omikron.gr mobile">
+            </div>
+
+            <div class="col-lg-7  col-md-7 col-sm-12 col-xs-12   showEffect3 ">
+                <h3>Normal view</h3>
+                <a href="https://www.omikron.gr" target="_blank">
+                    <img class="img-responsive borderPortfolio" src="images/portfolio/omikron-compressor.jpg" alt="Omikron.gr">
+                </a>
+            </div>
+            </section><!--Omikron Row -->
+
+            <!--E-coach-->
+            <section class="imageRow row alignCenter">
+                <div class="col-lg-7  col-md-7 col-sm-12 col-xs-12  showEffect4">
+                    <h3>Normal view</h3>
+                    <a href="http://e-coach.gr" target="_blank">
+                        <img class="img-responsive borderPortfolio" src="images/portfolio/e-coach-resized.jpg" alt="Wikipedia Project">
+                    </a>
+                </div>
+
+                <!--Right Column-->
+                <div class=" col-lg-2  col-md-2 col-sm-12 col-xs-12  showEffect5 ">
+                    <h3>Responsive</h3>
+                    <img class="img-responsive centerImg phonePortfolio" src="images/portfolio/ecoach-trimmed.png" alt="Wipipedia Project at mobile">
+
+                </div>
+
+                <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12  showEffect6">
+                    <h3>Description</h3>
+                    <div class="whiteBackPortfolio">
+                        <h4 class="bold "><a href="http://e-coach.gr" target="_blank">E-coach.gr</a></h4>
+                        <p >An e-shop for marketing and sales strategies. Users can buy videos and watch them.</p>
+                        <h4>Technologies used:</h4>
+                        <p>Wordpress/Woocommerce, HTML5/CSS3, Javascript/Jquery, PHP, Mysql </p>
+                    </div>
+                </div>
+            </section>
+            <!--End E-coach -->
+
+            <!--Devilperfume Row -->
+            <section class="imageRow row alignCenter flex-ordering">
+                <!--Left column-->
+                <div class="col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect1 ">
+                    <h3>Description</h3>
+                    <div class="whiteBackPortfolio">
+                        <h4 class="bold"> <a href="https://www.devilperfume.gr" target="_blank">Devilperfume.gr</a> </h4>
+                        <p > As an employee in synectics.gr we improved and hosted the site of devilperfume.gr.</p>
+                        <p>The speed was improved by 40-50%, created custom affiliate areas, special shipping methods and many other improvements.</p>
+                        <h4>Technologies used :</h4>
+                        <p>Wordpress/WooCommerce, HTML5/CSS3, Javascript/Jquery, PHP, MySql</p>
+                    </div>
+                </div>
+                <!--Right Column-->
+                <div class=" col-lg-2  col-md-2 col-sm-12 col-xs-12 showEffect2 ">
+
+                    <h3>Responsive</h3>
+                    <img class="img-responsive  centerImg phonePortfolio" src="images/portfolio/devileperfume-trimmed.png" alt="Devilperfume.gr mobile">
+                </div>
+
+                <div class="col-lg-7  col-md-7 col-sm-12 col-xs-12   showEffect3 ">
+                    <h3>Normal view</h3>
+                    <a href="https://www.devilperfume.gr" target="_blank">
+                        <img class="img-responsive borderPortfolio" src="images/portfolio/devilperfume-compressor.jpg" alt="Devilperfume.gr">
+                    </a>
+                </div>
+
+            </section><!--Devilperfume Row -->
+
             <!--Left column-->
             <div class="col-lg-9  col-md-9 col-sm-12 col-xs-12   showEffect1 ">
                 <h3>NormaL view</h3>
@@ -477,10 +497,7 @@
             </div>
 
         </section>
-        <!--Cinemagic Row end-->
-
-
-
+        <!--Eshops Row end-->
 
         <!--Applications row-->
         <section class="imageRow row alignCenter" >
@@ -535,7 +552,7 @@
                 <h3>The app</h3>
                 <img class="img-responsive centerImg phonePortfolio" src="images/portfolio/chat-app.png" alt="Chat application at mobile">
             </div>
-        </section><!--Applications row-->
+        </section><!--End Applications row-->
 
 
         <!--Image share Row-->
@@ -576,11 +593,8 @@
         <section class="imageRow row alignCenter flex-ordering">
 
             <header>
-                <header>
-                    <h2 class="whiteBackPortfolio showEffect1 text-center">Custom CMS</h2>
-                    <p class="showEffect2 text-center">I have created totally custom made CMS
-                    </p>
-                </header>
+                <h2 class="whiteBackPortfolio showEffect1 text-center">Custom CMS</h2>
+                <p class="showEffect2 text-center">I have created totally custom made CMS</p>
             </header>
 
             <!--Left column-->
@@ -613,11 +627,6 @@
 
         </section>
         <!--Custom CMS Row end-->
-
-
-
-
-
     </article><!--End portfolio container main-->
 
 <div style="color: white" class="alignCenter">Also you can check source code and projects <a href="https://github.com/georgetour" target="_blank">here in Github</a>
@@ -626,9 +635,5 @@
 
     <!--Footer-->
     <?php include "footer.php" ?>
-
-
-
-
 </body>
 </html>

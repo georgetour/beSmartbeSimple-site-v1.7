@@ -60,10 +60,10 @@
 
 
         <!--Second row-->
-        <div class="container  showEffect2  ">
+        <div class="container showEffect2  ">
 
-            <div class="text-center servicesTags">Responsive , Ultra Fast</div>
-            <div class="text-center servicesTags">Search Engine Optimized , Easy to Navigate</div>
+            <div class="text-center servicesTags">Responsive, Ultra Fast</div>
+            <div class="text-center servicesTags">Search Engine Optimized, Easy to Navigate</div>
             <div class="text-center servicesTags">Customizable</div>
 
             <!--Speed Row-->
@@ -125,14 +125,12 @@
 
                     <!--Left column-->
                     <div class="col-lg-6 col-md-6  col-md-12 col-sm-12 col-xs-12 borderTest outsideHeight ">
-                        <h3>Custom Wordpress themes</h3>
-                        <div class=""><img alt="Wordpress logo" class="img-responsive picturesIcons " src="images/wordpressLogo.png">  </div>
-                        <h4 class="bold">1/3 of world sites use Wordpress</h4>
-                        <p>Wordpress is a very powerful Custom Management System that will give you the ability
-                            to dynamically add content to your site and update it without any programming.
+                        <h3>Custom Wordpress/Drupal 8 themes</h3>
+                        <div class=""><img alt="Wordpress logo" class="img-responsive picturesIcons " src="images/wordpress-drupal.png">  </div>
+                        <h4 class="bold">Powerful CMS according to your needs</h4>
+                        <p>Wordpress is a powerful Content Management System used by 1/3 of world sites.</p>
+                        <p>Drupal is also very strong and is used from bigenterprises like NASA.</p>
 
-
-                        </p>
                     </div>
 
                     <!--Right Column-->

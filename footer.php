@@ -1,6 +1,4 @@
 <footer class="footerContainer container">
-
-    <div class="">
         <div  class="col-lg-3 col-md-12 col-xs-12  col-sm-12  ">
             <div class="signature col-lg-3 col-md-4 col-xs-4 col-sm-4 alignCenter">
                 <a href="about.php">About</a>
@@ -26,6 +24,4 @@
 
             </div>
         </div>
-
-
 </footer>
