@@ -129,7 +129,7 @@
                         <div class=""><img alt="Wordpress logo" class="img-responsive picturesIcons " src="images/wordpress-drupal.png">  </div>
                         <h4 class="bold">Powerful CMS according to your needs</h4>
                         <p>Wordpress is a powerful Content Management System used by 1/3 of world sites.</p>
-                        <p>Drupal is also very strong and is used from bigenterprises like NASA.</p>
+                        <p>Drupal is also very strong and is used from big enterprises like NASA.</p>
 
                     </div>
 
