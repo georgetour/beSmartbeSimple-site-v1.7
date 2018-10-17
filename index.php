@@ -23,10 +23,10 @@
     </script>
 
     <style>
-        @media (max-width:732px ){
+        @media (max-width:732px){
             h1{
                 font-size: 23px;
-                margin-top:-2%;!important;
+                margin-top:-2%!important;
             }
             .buttonsMain{
                 font-size: 13px;
@@ -37,7 +37,6 @@
                 margin-top: 0.8%;
             }
         }
-
     </style>
     <?php include_once("analyticstracking.php") ?>
     <!--<script src="javascript/indexCompressed.js" ></script>-->

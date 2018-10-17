@@ -16,7 +16,7 @@
         </div>
 
         <div class="copyrights col-lg-9 col-md-9 col-xs-12  col-sm-12  ">
-            <div href="copyright.php">Copyright© 2016 </div>
+            <div href="copyright.php">Copyright© 2016-2018 </div>
             <div>beSmartbeSimple.com</div>
             <div >All rights reserved</div>
 
