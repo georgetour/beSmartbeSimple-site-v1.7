@@ -65,35 +65,6 @@
 
         <!--End first row-->
 
-        <!--CultureFyli Row -->
-        <section class="imageRow row alignCenter flex-ordering">
-           <!--Left column-->
-            <div class="col-lg-3  col-md-3 col-sm-12 col-xs-12   showEffect1 ">
-                <h3>Description</h3>
-                <div class="whiteBackPortfolio">
-                    <h4 class="bold"> <a href="http://www.culturefyli.gr" target="_blank">Culturefyli.gr</a> </h4>
-                    <p> A site for the municipality of Fyli in Athens which is one the biggest municipalities in Greece. </p>
-					          <p>It has many areas for different clubs, stadiums, events calendar, news and online booking system. </p>
-                    <h4>Technologies used :</h4>
-                    <p>Wordpress custom, HTML5/CSS3, Bootstrap, Javascript/Jquery, PHP, MySql</p>
-                </div>
-            </div>
-            <!--Right Column-->
-            <div class=" col-lg-2  col-md-2 col-sm-12 col-xs-12 showEffect2 ">
-
-                <h3>Responsive</h3>
-                <img class="img-responsive centerImg phonePortfolio" src="images/portfolio/culturefyli-trimmed-small.png" alt="Cultyrefyli at mobile">
-            </div>
-
-            <div class="col-lg-7  col-md-7 col-sm-12 col-xs-12   showEffect3 ">
-                <h3>Normal view</h3>
-                <a href="http://culturefyli.gr" target="_blank">
-                    <img class="img-responsive borderPortfolio" src="images/portfolio/culturefyli-compressor.jpg" alt="Municipality Of Fyli">
-                </a>
-            </div>
-
-        </section><!--CultureFyli Row end-->
-
 
 		<!--Farmaparnassou Row -->
         <section  class="imageRow row alignCenter ">
