@@ -1,16 +1,3 @@
-<?php 
-
-
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-
-require 'mailHandling/Exception.php';
-require 'mailHandling/PHPMailer.php';
-require 'mailHandling/SMTP.php';
-
-
-?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -36,33 +23,8 @@ require 'mailHandling/SMTP.php';
     </script>
 </head>
 <body>
-<!--Top menu bar-->
-<div class="navbar navbar-inverse alignCenter">
-    <div class="">
 
-        <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <div class="navbar-header">
-            <a id="mainPage" class="navbar-brand" href="#mainPage"><img class="logo" src="images/whitelogo.png"></a>
-        </div>
-
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class=" nav navbar-nav">
-                <li><a id="services" href="#services">Services</a></li>
-                <li><a id="portfolio" href="#portfolio">Portfolio</a></li>
-                <li><a id="awards" href="#awards">Awards</a></li>
-                <li><a id="about" href="#about">About</a></li>
-                <li><a id="contactUs" href="#contactUs">Contact</a></li>
-            </ul>
-        </div>
-
-    </div>
-
-</div><!--End Top menu bar-->
+<?php include 'navbar.php' ?>
 
 
 <div class="container"><!--Main container below the navbar-->

@@ -179,19 +179,12 @@ $text-color : white;</code>
 }</code>
 </pre>
 
-<p>Another powerful feature is that you nest a class/tag inside class instead of :</p>
-
-<pre><code class="language-scss">.navigation h2{
-	color:white;
-}</code>
-</pre>
-
 </div>
 <!--End Mixin-->
 
 <!--Nested Mixin-->
 <div class="featureBorder">
-    <h3>Nested mixins</h3>
+    <h3>Nested mixins and classes/tags</h3>
     <p>We can nest a mixin or multiple mixing inside other mixins.</p>
 
 <pre><code class="language-scss">@mixin rounded{
@@ -204,6 +197,40 @@ $text-color : white;</code>
 }</code>
 </pre>
 
+<p>Another powerful feature is that you nest a class/tag inside class instead of :</p>
+
+<pre><code class="language-scss">.navigation h2{
+	color:white;
+}</code>
+</pre>
+
+<p>You write :</p>
+<pre><code class="language-scss">.navigation {
+	h2 {
+		color:white;
+	}
+}</code>
+</pre>
+<p>Also you can use &. for the direct class the tag has :</p>
+<pre><code class="language-scss">
+.navigation{
+  padding:10px;
+  background-color: $nav-bg-color;
+  color:$white;
+
+  h2{
+    text-align: left;
+    margin: 0;
+    color:$white;
+
+    &.site-name{
+      display:none;
+    }
+    &.nav-title{
+      display:block;
+    }
+  }</code>
+</pre>
 </div>
 <!--End Nested mixin-->
 

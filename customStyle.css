@@ -795,10 +795,6 @@ footer{
 
 
     .footerAwards {
-        position: absolute;
-        max-height: 20px;
-        bottom: 0;
-
         font-size: small;
         opacity: 0.7;
         width: 100%;
@@ -841,14 +837,7 @@ footer{
     position: relative;
 }
 
-
-
-
 @media (min-height: 260px) and (max-width:600px){
-    #footerAwards{
-        position: absolute;
-        bottom: 0;
-    }
     #footerAbout{
         position: relative;
         margin-top: 25%;
@@ -856,10 +845,6 @@ footer{
     #footerContact{
         position: relative;
     }
-
-
-
-
 }
 
 @media (min-width: 411px)and (max-height: 340px){
@@ -870,8 +855,6 @@ footer{
     }
     #footerContact{
         position: relative;
-
-
     }
 
     #footerAwards{
@@ -987,20 +970,14 @@ footer{
     #footerContact{
         position: relative;
         margin-top: 200px;
-
     }
 }
 
 @media (min-width: 1369px){
-
     #footerAbout{
         position: absolute;
         bottom: 0;
 
-    }
-    #footerAwards {
-        position: relative;
-        margin-top: 400px;
     }
     #footerContact{
         position: absolute;
@@ -1010,16 +987,10 @@ footer{
 
 }
 
-@media(min-width:1025px)
-{
+@media (min-width:1025px){
 
-    .border-portfolio{
+    .borderPortfolio{
         height:380px;
     }
 
 }
-
-
-
-
-

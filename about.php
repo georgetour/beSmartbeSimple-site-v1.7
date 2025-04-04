@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>George Tourtsinakis - Web Designer & Developer</title>
+    <title>George Tourtsinakis - Software Engineer & Architect</title>
     <meta name="description" content="George Tourtsinakis a web designer and developer with many years of experience in IT industry." >
     <meta name="keywords" content=" developer skills,web developer key skills,george tourtsinakis, designer skills,george tourtsinakis skills,responsive web design,fast sites,responsive,easy to navigate,responsive web design,responsive web developement,front end developer,full stack developer,front end skills,front end key skills,">
     <meta name="author" content="George Tourtsinakis">
@@ -52,28 +52,27 @@
                     <img class="aboutImg img-responsive alignCenter" src="images/about/me_smiling-compressor.jpg" alt="George Tourtsinakis developer">
                     <figcaption class="  alignCenter">George Tourtsinakis
                         <br>
-                        Wed Designer & Developer
+                        Senior Software Engineer and Architect
                     </figcaption>
                 </figure>
             </div>
             <div style="margin-top: 10px" class="col-lg-6  col-md-6 col-sm-12 col-xs-12 ">
 
                 <p>
-                    I' am a web designer and developer with many years
+                    I' am a software engineer and architect with many years
                     of experience in IT industry.<br>I also have degrees in Website Development and
                     Software Engineering.
 
                 </p>
 
                 <p>
-                    I believe websites must be smart and simple. That's why I have chosen
-                    this domain name. Smart means that sites must look nice in all devices, easily customizable, scalable and finally
-                    search engine optimized.
+                    I believe websites and applications must be smart and simple. That's why I have chosen
+                    this domain name. Smart means that either we have a website or an application it must be secure, look nice in all devices, easily customizable, scalable and fast.
 
                 </p>
 
                 <p>
-                    Users don't like complicated things, neither do I. The visitor must understand what your site does and find it easily.
+                    Users don't like complicated things, neither do I. Users must find anything and do things easily. Either being a webisite either an application.
                 </p>
                 <p>
                     Simple == Beautiful, Powerful and Fast.
@@ -84,68 +83,7 @@
         </div>
     </div>
 
-    <div class="container "><!--Skill row 3x3-->
-        <h3 class="alignCenter bold showEffect7">Some of my key skills include :</h3>
-
-        <!--Left column-->
-        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
-
-        <!--Middle column-->
-        <div class=" col-lg-8 col-md-8 col-sm-12 col-xs-12">
-
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <div class=" myProgress ">
-                <div  class=" maxedSkill">HTML5/CSS3</div>
-            </div>
-            <div class="myProgress ">
-                <div class="eightyFivePercent">Javascript/jQuery</div>
-            </div>
-            <div class="myProgress ">
-                <div class="eightyPercent">PHP/MySQL</div>
-            </div>
-            <div class="myProgress " >
-                <div class="eightyFivePercent">Git</div>
-            </div>
-            </div>
-
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <div class="myProgress ">
-                <div class="maxedSkill ">Responsive Web Design</div>
-            </div>
-            <div class="myProgress ">
-                <div class="ninetyPercent">SEO/Adwords/Analytics</div>
-            </div>
-            <div class="myProgress ">
-                <div class="ninetyPercent">Wordpress</div>
-            </div>
-            <div class="myProgress ">
-                <div class="ninetyPercent">Sass</div>
-            </div>
-            <div class="myProgress ">
-                <div class="eightyPercent">Drupal 8</div>
-            </div>
-            </div>
-
-
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <div class="myProgress">
-                    <div class="ninetyPercent ">Adobe&nbsp;Photoshop</div>
-                </div>
-            <div class="myProgress ">
-                <div class="eightyPercent">C#</div>
-            </div>
-            <div class="myProgress ">
-                <div class="eightyPercent">Meteor js</div>
-            </div>
-            <div class="myProgress ">
-                <div class="eightyPercent">Unity</div>
-            </div>
-            </div>
-        </div>
-
-        <!--Right column-->
-        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
-    </div>
+ 
 
     <div style="margin-top: 10px" class="container-fluid">
     <div class="findMeAlso alignCenter">Find me also at

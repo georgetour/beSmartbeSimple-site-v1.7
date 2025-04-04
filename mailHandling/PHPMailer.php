@@ -38,7 +38,7 @@ class PHPMailer
      * @var int
      */
 
-    public $message_error = "hello";
+   
 
     public $Priority;
 

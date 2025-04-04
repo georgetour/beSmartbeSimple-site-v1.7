@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>George Tourtsinakis portfolio </title>
     <meta name="description" content="Web developer portfolio" >
-    <meta name="keywords" content="web developer portfolio, developer portfolio, designer portfolio,george tourtsinakis portfolio,responsive web design portfolio,fast sites,responsive,easy to navigate,responsive web design,responsive web development,personal portfolio">
+    <meta name="keywords" content="george tourtsinakis portfolio, george tourtsinakis">
     <meta name="author" content="George Tourtsinakis">
 
     <?php include 'head.php' ?>
@@ -53,10 +53,86 @@
 <section id="showPortfolio"  class="textColor">
 
     <article class="container">
+	<h1 class="showEffect1 text-center">George Tourtsinakis portfolio</h1>
+	
+       <!--Highlights row-->
+        <section class="imageRow row alignCenter" >
+            <header>
+                <h2 class="whiteBackPortfolio showEffect1 text-center">Highlights</h2>
+                <p class="showEffect2 text-center">Some of my highlights. Name of projects or teams can't be provided because of respect to their owners or copyright reasons.
+                </p>
+            </header>
+
+            <!--Left columt-->
+            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12  showEffect1  ">
+                <h3><img src="images/portfolio/european-union-logo.jpg"></h3>
+                <div class="whiteBackPortfolio">
+                    <h4 class="bold">3 European union projects</h4>
+                    <p class="whiteBackPortfolio"> In my career I have participated in teams that were responsible for big European projects.
+                        
+                    </p>
+                    <p>Various technologies were used and the projects were very demanding. 
+                    </p>
+                    
+                    <p>I was either a developer or software architect (different role per project).</p>
+
+                </div>
+            </div>
+            <!--Left columt-->
+            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12  showEffect1  ">
+                <h3><img style="background-color:#1b6d85;" src="images/portfolio/ibills-logo.png"></h3>
+                <div class="whiteBackPortfolio">
+                    <h4 class="bold">ibills.app ®</h4>
+                    <p class="whiteBackPortfolio"> This is an application created with C# and ASP.NET Core.
+                        
+                    </p>
+                    <p>You will be able to manage your expenses or income. The application will create many automations.
+                    </p>
+                    
+                    <p>It has a free plan and subscription based plans.</p>
+
+                </div>
+            </div>
+
+            <!--Left columt-->
+            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12  showEffect1  ">
+                <h3><img src="images/portfolio/european-union-logo.jpg"></h3>
+                <div class="whiteBackPortfolio">
+                    <h4 class="bold">Online European election system</h4>
+                    <p class="whiteBackPortfolio"> In my career I have participated in teams that were responsible for an online election system.
+                        
+                    </p>
+                    <p>Various technologies were used and the project was very demanding. 
+                    </p>
+                    
+                    <p>I was a Senior full stack developer.</p>
+
+                </div>
+            </div>
+
+             <!--Left columt-->
+            <div class=" col-lg-3  col-md-3 col-sm-12 col-xs-12  showEffect1  ">
+                <h3><img src="images/portfolio/hundred-points.png"></h3>
+                <div class="whiteBackPortfolio">
+                    <h4 class="bold">100+ projects</h4>
+                    <p class="whiteBackPortfolio"> I have the honor and joy of being part to more than 100+ projects.
+                        
+                    </p>
+                    <p>The sectors include Healthcare, Hotels, Education, Retail, Politics and many many more.
+                    </p>
+                    
+                    <p>I was either a developer or a software architect (different role per project).</p>
+
+                </div>
+            </div>
+        </section><!--End highlights row-->
+	
+	
+	
         <!--First row-->
             <div class="row alignCenter">
                 <header>
-                    <h1 class="showEffect1 text-center">George Tourtsinakis portfolio</h1>
+                    
                     <h2 class="whiteBackPortfolio showEffect2">Websites</h2>
                     <p class="showEffect3"><strong>Click the image or the title to see the project</strong></p>
                 </header>
@@ -64,7 +140,7 @@
 
 
         <!--End first row-->
-
+		
 
 		<!--Farmaparnassou Row -->
         <section  class="imageRow row alignCenter ">
@@ -362,7 +438,7 @@
                 <p class="showEffect2 text-center">These are some of the e-shops I have created with various technologies.
                 </p>
             </header>
-            
+
            <!--Omikron Row -->
            <section class="imageRow row alignCenter flex-ordering">
             <!--Left column-->

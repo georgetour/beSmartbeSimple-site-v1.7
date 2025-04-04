@@ -52,25 +52,19 @@
 
     <div   class="col-lg-3 col-md-3 col-sm-12 col-xs-12 weCreate alignCenter ">
         <div class="mainHeader">
-        <h1   class=" weCreate "><span class="fadeIn1 ">I create</span> <span class="fadeIn2 ">smart websites</span>
-        <span class="fadeIn3 ">with beautiful design.</span></h1>
+        <h1   class=" weCreate "><span class="fadeIn1 ">I create</span> <span class="fadeIn2 ">smart websites and applications.</span>
+        </h1>
         </div>
     </div>
     <div class="col-lg-6  col-md-6 col-sm-12 col-xs-12  alignCenter everything">
         <div class="phoneDiv">
         <img class="iphone" src="images/iphoneTrimmedNoText.png" alt="Holding responsive mobile">
             <div class="centeredPhoneText bold col-sm12">
-                <div class="weCreate"><span class="fadeIn1 ">I create</span> <span class="fadeIn2 ">smart websites</span>
-                    <span class="fadeIn3 ">with beautiful <br>design.</span></div>
+                <div class="weCreate"><span class="fadeIn1 ">I create</span> <span class="fadeIn2 ">smart websites and applications.</span>
+                   </div>
             </div>
         </div>
 
-    </div>
-
-    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
-        <div class=" buttonsRow">
-            <button onclick="location.href='contact.php';" class="buttonsMain">Get free quote in minutes >>>></button>
-        </div>
     </div>
 
 
